@@ -81,6 +81,32 @@ wspólnego z ocenami.
 
 </div>
 
+
+<!-- zadania6:start -->
+
+## Zadania na ocenę celującą
+
+Każdy dział ma w Dzienniku VULCAN własne zadanie **„Zadanie na ocenę celującą:
+Dział …”**. Wybierasz **jedno** zadanie z listy poniżej i odsyłasz je tam
+w ciągu **dwóch tygodni od zakończenia działu**. Zadanie da się wykonać po
+przerobieniu tematu, przy którym stoi — dlatego cała lista jest widoczna
+od początku działu, a nie dopiero na jego końcu.
+
+Pełne zasady (co zostaje w karcie pracy, jak nazwać plik, co jest oceniane)
+opisuje strona [wymagań edukacyjnych](wymagania-i-bhp.md).
+
+??? example "Dział II. Rozwiązywanie problemów z wykorzystaniem dynamicznych struktur danych"
+
+    | Zadanie | Z tematu |
+    | --- | --- |
+    | **A.** Kalkulator z kontrolą błędów | [Odwrotna notacja polska (ONP)](onp.md) |
+    | **B.** Notacja prefiksowa | [Odwrotna notacja polska (ONP)](onp.md) |
+    | **C.** Drzewo wyrażenia | [Odwrotna notacja polska (ONP)](onp.md) |
+    | **A.** Labirynt z ważonymi przejściami | [Znajdowanie drogi wyjścia z labiryntu](labirynt.md) |
+    | **B.** Wszystkie drogi bez powtórzeń | [Znajdowanie drogi wyjścia z labiryntu](labirynt.md) |
+    | **C.** Generator labiryntów | [Znajdowanie drogi wyjścia z labiryntu](labirynt.md) |
+
+<!-- zadania6:end -->
 ---
 
 *Podstawa: rozkład materiału nauczania informatyki w zakresie rozszerzonym dla

@@ -94,6 +94,37 @@ wspólnego z ocenami.
 
 </div>
 
+
+<!-- zadania6:start -->
+
+## Zadania na ocenę celującą
+
+Każdy dział ma w Dzienniku VULCAN własne zadanie **„Zadanie na ocenę celującą:
+Dział …”**. Wybierasz **jedno** zadanie z listy poniżej i odsyłasz je tam
+w ciągu **dwóch tygodni od zakończenia działu**. Zadanie da się wykonać po
+przerobieniu tematu, przy którym stoi — dlatego cała lista jest widoczna
+od początku działu, a nie dopiero na jego końcu.
+
+Pełne zasady (co zostaje w karcie pracy, jak nazwać plik, co jest oceniane)
+opisuje strona [wymagań edukacyjnych](wymagania-i-bhp.md).
+
+??? example "Dział I. Urządzenia komputerowe w sieci"
+
+    | Zadanie | Z tematu |
+    | --- | --- |
+    | **1.** Porównaj systemy plików NTFS i ext4 | [Systemy operacyjne w środowisku sieciowym](systemy-operacyjne.md) |
+    | **2.** Zbadaj czas rozruchu swojego komputera | [Systemy operacyjne w środowisku sieciowym](systemy-operacyjne.md) |
+    | **3.** Uruchom dowolną dystrybucję Linuksa z pendrive'a | [Systemy operacyjne w środowisku sieciowym](systemy-operacyjne.md) |
+    | **4.** Napisz skrypt w PowerShellu | [Systemy operacyjne w środowisku sieciowym](systemy-operacyjne.md) |
+    | **1.** Technologia, która nie wypaliła | [Nowe technologie i oprogramowanie](nowe-technologie.md) |
+    | **2.** Własne zastosowanie | [Nowe technologie i oprogramowanie](nowe-technologie.md) |
+    | **3.** Porównanie licencji | [Nowe technologie i oprogramowanie](nowe-technologie.md) |
+    | **1.** Projekt sieci dla pracowni z podziałem na podsieci | [Sieci komputerowe – budowa i usługi](sieci-komputerowe.md) |
+    | **2.** Zmierz sieć, w której pracujesz | [Sieci komputerowe – budowa i usługi](sieci-komputerowe.md) |
+    | **3.** `tracert` do trzech kontynentów | [Sieci komputerowe – budowa i usługi](sieci-komputerowe.md) |
+    | **4.** Zadanie maturalne o podsieciach | [Sieci komputerowe – budowa i usługi](sieci-komputerowe.md) |
+
+<!-- zadania6:end -->
 ---
 
 *Podstawa: rozkład materiału nauczania informatyki w zakresie rozszerzonym dla
