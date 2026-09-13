@@ -337,6 +337,11 @@ go przez **Zadania domowe w dzienniku VULCAN**.
     zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN w zadaniu
     *Zadanie na ocenę celującą: Odwrotna notacja polska (ONP)*, w ciągu **dwóch tygodni** od
     omówienia tematu.
+
+    Wykonane i oddane w terminie zadanie liczy się jako „inne, porównywalne
+    osiągnięcie” w rozumieniu § 29 ust. 1 pkt 1 lit. c statutu — do oceny
+    celującej nie trzeba startować w konkursie.
+
 Wybierz jedno zadanie i opisz wyniki w karcie pracy.
 
 **A. Kalkulator z kontrolą błędów.** Rozbuduj `oblicz_onp` tak, żeby rozpoznawał

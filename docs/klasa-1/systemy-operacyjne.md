@@ -683,6 +683,11 @@ rozwiń odpowiedź i porównaj.
     zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN w zadaniu
     *Zadanie na ocenę celującą: Systemy operacyjne w środowisku sieciowym*, w ciągu **dwóch tygodni** od
     omówienia tematu.
+
+    Wykonane i oddane w terminie zadanie liczy się jako „inne, porównywalne
+    osiągnięcie” w rozumieniu § 29 ust. 1 pkt 1 lit. c statutu — do oceny
+    celującej nie trzeba startować w konkursie.
+
 Zadania wykraczające poza program. Wybierz jedno i przygotuj krótkie omówienie.
 
 1. **Porównaj systemy plików NTFS i ext4** pod kątem sposobu zapisu metadanych

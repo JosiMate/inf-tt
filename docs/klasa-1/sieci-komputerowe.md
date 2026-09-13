@@ -503,6 +503,11 @@ przez **Zadania domowe w dzienniku VULCAN**.
     zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN w zadaniu
     *Zadanie na ocenę celującą: Sieci komputerowe – budowa i usługi*, w ciągu **dwóch tygodni** od
     omówienia tematu.
+
+    Wykonane i oddane w terminie zadanie liczy się jako „inne, porównywalne
+    osiągnięcie” w rozumieniu § 29 ust. 1 pkt 1 lit. c statutu — do oceny
+    celującej nie trzeba startować w konkursie.
+
 Wybierz jedno zadanie i przygotuj dokumentację wyników.
 
 1. **Projekt sieci dla pracowni z podziałem na podsieci.** Zaprojektuj adresację
