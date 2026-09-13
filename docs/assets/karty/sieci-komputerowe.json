@@ -119,7 +119,7 @@
       "nr": 7,
       "tytul": "Zgłoszenie zadania na ocenę celującą",
       "poziom": "wymagania wykraczające · ocena 6",
-      "polecenie": "Wypełnij to zgłoszenie, jeśli wykonujesz zadanie dodatkowe. <strong>Samą pracę oddajesz osobno</strong> — w Dzienniku VULCAN, w zadaniu „Zadanie na ocenę celującą”, w ciągu dwóch tygodni od omówienia tematu. W karcie zostaje zgłoszenie i wnioski.",
+      "polecenie": "Wypełnij to zgłoszenie, jeśli wykonujesz zadanie dodatkowe. <strong>Samą pracę oddajesz osobno</strong> — w Dzienniku VULCAN, w zadaniu „Zadanie na ocenę celującą” założonym do tego działu, w ciągu dwóch tygodni od zakończenia działu. W karcie zostaje zgłoszenie i wnioski.",
       "pola": [
         { "typ": "wybor", "id": "z7_wybor", "pytanie": "Wybieram zadanie",
           "opcje": [
@@ -132,7 +132,7 @@
           "pytanie": "Co zrobiłeś i co z tego wyszło? Kilka zdań: na czym polegało zadanie, jak je wykonałeś i jaki jest wynik albo wniosek.",
           "podpowiedz": "Zadanie polegało na … . Zrobiłem … . Wyszło mi, że …" },
         { "typ": "tabela", "wiersze": [
-          ["z7_plik", "Nazwa pliku oddanego w VULCAN-ie", "dokładnie tak, jak go wysłałeś"],
+          ["z7_plik", "Nazwa pliku oddanego w VULCAN-ie", "nr<numer w dzienniku>-<skrót tematu>"],
           ["z7_data", "Data wysłania", ""]
         ]}
       ]
