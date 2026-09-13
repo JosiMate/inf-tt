@@ -77,13 +77,23 @@
     },
     {
       "nr": 5,
-      "tytul": "Do wyboru — na ocenę wyższą",
-      "poziom": "wymagania dopełniające i wykraczające · oceny 5–6",
-      "polecenie": "Wykonaj jedno zadanie z trzech.<br><strong>A.</strong> Zaprojektuj kopię zapasową swoich danych według zasady 3-2-1: co kopiujesz, na jakie nośniki, jak często i która kopia jest poza domem.<br><strong>B.</strong> Wyjaśnij, dlaczego błąd w sterowniku wywraca cały system, a błąd w przeglądarce zamyka tylko ją. Odwołaj się do trybu jądra i trybu użytkownika.<br><strong>C.</strong> Zmierz czas rozruchu komputera i wskaż trzy programy najbardziej opóźniające start (Menedżer zadań → Uruchamianie). Podaj konkretne liczby.",
+      "tytul": "Zgłoszenie zadania na ocenę celującą",
+      "poziom": "wymagania wykraczające · ocena 6",
+      "polecenie": "Wypełnij to zgłoszenie, jeśli wykonujesz zadanie dodatkowe. <strong>Samą pracę oddajesz osobno</strong> — w Dzienniku VULCAN, w zadaniu „Zadanie na ocenę celującą”, w ciągu dwóch tygodni od omówienia tematu. W karcie zostaje zgłoszenie i wnioski.",
       "pola": [
         { "typ": "wybor", "id": "z5_wybor", "pytanie": "Wybieram zadanie",
-          "opcje": ["A — kopia zapasowa 3-2-1", "B — tryb jądra a tryb użytkownika", "C — czas rozruchu"] },
-        { "typ": "tekst", "id": "z5_odp", "wiersze": 8, "pytanie": "Rozwiązanie" }
+          "opcje": [
+            "A — kopia zapasowa 3-2-1",
+            "B — tryb jądra a tryb użytkownika",
+            "C — czas rozruchu"
+          ] },
+        { "typ": "tekst", "id": "z5_opis", "wiersze": 6,
+          "pytanie": "Co zrobiłeś i co z tego wyszło? Kilka zdań: na czym polegało zadanie, jak je wykonałeś i jaki jest wynik albo wniosek.",
+          "podpowiedz": "Zadanie polegało na … . Zrobiłem … . Wyszło mi, że …" },
+        { "typ": "tabela", "wiersze": [
+          ["z5_plik", "Nazwa pliku oddanego w VULCAN-ie", "dokładnie tak, jak go wysłałeś"],
+          ["z5_data", "Data wysłania", ""]
+        ]}
       ]
     }
   ]

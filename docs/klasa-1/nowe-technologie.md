@@ -427,6 +427,14 @@ przez **Zadania domowe w dzienniku VULCAN**.
 
 ## Na ocenę celującą
 
+
+!!! info "Jak oddajesz zadanie na ocenę celującą"
+
+    W karcie pracy zaznaczasz tylko, **które zadanie wybrałeś**, i opisujesz
+    w kilku zdaniach, co z niego wyszło. Samą pracę — plik, kod, witrynę albo
+    zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN w zadaniu
+    *Zadanie na ocenę celującą: Nowe technologie i oprogramowanie*, w ciągu **dwóch tygodni** od
+    omówienia tematu.
 Wybierz jedno zadanie i przygotuj krótkie omówienie dla klasy.
 
 1. **Opracowanie o wybranej nowej technologii na podstawie źródeł branżowych,

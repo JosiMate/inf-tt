@@ -181,31 +181,23 @@
     },
     {
       "nr": 7,
-      "tytul": "Do wyboru — na ocenę wyższą",
-      "poziom": "wymagania dopełniające i wykraczające · oceny 5–6",
-      "polecenie": "Wykonaj jedno z trzech zadań opisanych w sekcji „Na ocenę celującą” na stronie materiału.",
+      "tytul": "Zgłoszenie zadania na ocenę celującą",
+      "poziom": "wymagania wykraczające · ocena 6",
+      "polecenie": "Wypełnij to zgłoszenie, jeśli wykonujesz zadanie dodatkowe. <strong>Samą pracę oddajesz osobno</strong> — w Dzienniku VULCAN, w zadaniu „Zadanie na ocenę celującą”, w ciągu dwóch tygodni od omówienia tematu. W karcie zostaje zgłoszenie i wnioski.",
       "pola": [
-        {
-          "typ": "wybor",
-          "id": "z7_wybor",
-          "pytanie": "Wybieram zadanie",
+        { "typ": "wybor", "id": "z7_wybor", "pytanie": "Wybieram zadanie",
           "opcje": [
             "A — labirynt z ważonymi przejściami",
             "B — wszystkie drogi bez powtórzeń",
             "C — generator labiryntów"
-          ]
-        },
-        {
-          "typ": "tekst",
-          "id": "z7_odp",
-          "wiersze": 14,
-          "pytanie": "Rozwiązanie wraz z wnioskami"
-        },
-        {
-          "typ": "zrzut",
-          "id": "z7_zrzut",
-          "opis": "wynik działania programu"
-        }
+          ] },
+        { "typ": "tekst", "id": "z7_opis", "wiersze": 6,
+          "pytanie": "Co zrobiłeś i co z tego wyszło? Kilka zdań: na czym polegało zadanie, jak je wykonałeś i jaki jest wynik albo wniosek.",
+          "podpowiedz": "Zadanie polegało na … . Zrobiłem … . Wyszło mi, że …" },
+        { "typ": "tabela", "wiersze": [
+          ["z7_plik", "Nazwa pliku oddanego w VULCAN-ie", "dokładnie tak, jak go wysłałeś"],
+          ["z7_data", "Data wysłania", ""]
+        ]}
       ]
     }
   ]

@@ -675,6 +675,14 @@ rozwiń odpowiedź i porównaj.
 
 ## Na ocenę celującą
 
+
+!!! info "Jak oddajesz zadanie na ocenę celującą"
+
+    W karcie pracy zaznaczasz tylko, **które zadanie wybrałeś**, i opisujesz
+    w kilku zdaniach, co z niego wyszło. Samą pracę — plik, kod, witrynę albo
+    zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN w zadaniu
+    *Zadanie na ocenę celującą: Systemy operacyjne w środowisku sieciowym*, w ciągu **dwóch tygodni** od
+    omówienia tematu.
 Zadania wykraczające poza program. Wybierz jedno i przygotuj krótkie omówienie.
 
 1. **Porównaj systemy plików NTFS i ext4** pod kątem sposobu zapisu metadanych
