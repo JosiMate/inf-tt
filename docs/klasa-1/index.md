@@ -99,30 +99,55 @@ wspólnego z ocenami.
 
 ## Zadania na ocenę celującą
 
-Każdy dział ma w Dzienniku VULCAN własne zadanie **„Zadanie na ocenę celującą:
-Dział …”**. Wybierasz **jedno** zadanie z listy poniżej i odsyłasz je tam
-w ciągu **dwóch tygodni od zakończenia działu**. Zadanie da się wykonać po
-przerobieniu tematu, przy którym stoi — dlatego cała lista jest widoczna
-od początku działu, a nie dopiero na jego końcu.
+Zadania na szóstkę są **działowe, nie tematyczne** — obejmują materiał całego
+działu i wymagają czegoś więcej niż powtórzenia ćwiczenia z lekcji. Wybierasz
+**jedno** z listy poniżej.
 
-Pełne zasady (co zostaje w karcie pracy, jak nazwać plik, co jest oceniane)
-opisuje strona [wymagań edukacyjnych](wymagania-i-bhp.md).
+Pracę oddajesz w Dzienniku VULCAN, w zadaniu **„Zadanie na ocenę celującą:
+Dział …”** założonym do tego działu, w ciągu **dwóch tygodni od zakończenia
+działu**. Plik nazwij `nr<numer w dzienniku>-<litera zadania>`, a w treści
+zadania dopisz 3–5 zdań o tym, co zrobiłeś i co z tego wyszło. Karty pracy
+do tematów są od tego niezależne — tam zadań na szóstkę nie ma.
 
-??? example "Dział I. Urządzenia komputerowe w sieci"
+Cała lista jest widoczna **od początku działu**, żebyś miał czas wybrać
+i popracować. Przy każdym zadaniu jest napisane, po którym temacie da się
+je wykonać. Pełne zasady opisuje strona [wymagań edukacyjnych](wymagania-i-bhp.md).
 
-    | Zadanie | Z tematu |
-    | --- | --- |
-    | **1.** Porównaj systemy plików NTFS i ext4 | [Systemy operacyjne w środowisku sieciowym](systemy-operacyjne.md) |
-    | **2.** Zbadaj czas rozruchu swojego komputera | [Systemy operacyjne w środowisku sieciowym](systemy-operacyjne.md) |
-    | **3.** Uruchom dowolną dystrybucję Linuksa z pendrive'a | [Systemy operacyjne w środowisku sieciowym](systemy-operacyjne.md) |
-    | **4.** Napisz skrypt w PowerShellu | [Systemy operacyjne w środowisku sieciowym](systemy-operacyjne.md) |
-    | **1.** Technologia, która nie wypaliła | [Nowe technologie i oprogramowanie](nowe-technologie.md) |
-    | **2.** Własne zastosowanie | [Nowe technologie i oprogramowanie](nowe-technologie.md) |
-    | **3.** Porównanie licencji | [Nowe technologie i oprogramowanie](nowe-technologie.md) |
-    | **1.** Projekt sieci dla pracowni z podziałem na podsieci | [Sieci komputerowe – budowa i usługi](sieci-komputerowe.md) |
-    | **2.** Zmierz sieć, w której pracujesz | [Sieci komputerowe – budowa i usługi](sieci-komputerowe.md) |
-    | **3.** `tracert` do trzech kontynentów | [Sieci komputerowe – budowa i usługi](sieci-komputerowe.md) |
-    | **4.** Zadanie maturalne o podsieciach | [Sieci komputerowe – budowa i usługi](sieci-komputerowe.md) |
+??? example "Dział I. Urządzenia komputerowe w sieci — 3 zadania do wyboru"
+
+    **A. Projekt sieci dla całego piętra — z dokumentacją**
+
+    *Do wykonania po temacie „Sieci komputerowe – budowa i usługi”.*
+
+    Zaprojektuj adresację dla czterech grup: pracownia uczniowska (30 stanowisk), komputery nauczycielskie i drukarki (8), sieć dla gości (20) oraz urządzenia zarządzane — kamery i punkty dostępowe (12).
+
+    Dla każdej podsieci podaj adres sieci, maskę, zakres użyteczny, adres rozgłoszeniowy i bramę. Uzasadnij dobór masek i policz, **ile adresów marnujesz**. Dodaj schemat połączeń i wskaż, które urządzenie zadecyduje o wydajności tej sieci.
+
+    **Oddajesz:** dokumentację w jednym pliku: tabelę adresacji, schemat i uzasadnienia
+
+    ---
+
+    **B. Nowa technologia z pierwszej ręki**
+
+    *Do wykonania po temacie „Nowe technologie i oprogramowanie”.*
+
+    Wybierz technologię, która weszła do użytku w ciągu ostatnich trzech lat — Wi-Fi 7, DDR5, PCIe 5.0, USB4, pamięci QLC. Opracuj ją **wyłącznie na podstawie źródeł anglojęzycznych**: specyfikacji organizacji standaryzującej, dokumentacji producenta i co najmniej jednego niezależnego testu z pomiarami.
+
+    Odpowiedz na trzy pytania: co konkretnie zmieniło się wobec poprzedniej generacji, ile z obiecywanego zysku widać w pomiarach i co musi mieć użytkownik, żeby ten zysk w ogóle zobaczyć. Podaj pełne odsyłacze do źródeł.
+
+    **Oddajesz:** opracowanie na 1–2 strony oraz pięciominutowe wystąpienie dla klasy
+
+    ---
+
+    **C. Zestaw maturalny o sieciach i systemach**
+
+    *Do wykonania po całym dziale.*
+
+    Znajdź w arkuszach maturalnych z informatyki i w zadaniach konkursowych trzy zadania dotyczące tego działu: jedno o adresacji IP, jedno o systemach plików albo uprawnieniach, jedno o wydajności lub diagnostyce sieci.
+
+    Rozwiąż każde, zapisując **tok rozumowania krok po kroku**, nie samą odpowiedź. Przy każdym wskaż miejsce, w którym najłatwiej się pomylić.
+
+    **Oddajesz:** treści zadań ze wskazaniem źródła, pełne rozwiązania i uwagi o pułapkach
 
 <!-- zadania6:end -->
 ---

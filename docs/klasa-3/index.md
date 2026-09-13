@@ -86,25 +86,55 @@ wspólnego z ocenami.
 
 ## Zadania na ocenę celującą
 
-Każdy dział ma w Dzienniku VULCAN własne zadanie **„Zadanie na ocenę celującą:
-Dział …”**. Wybierasz **jedno** zadanie z listy poniżej i odsyłasz je tam
-w ciągu **dwóch tygodni od zakończenia działu**. Zadanie da się wykonać po
-przerobieniu tematu, przy którym stoi — dlatego cała lista jest widoczna
-od początku działu, a nie dopiero na jego końcu.
+Zadania na szóstkę są **działowe, nie tematyczne** — obejmują materiał całego
+działu i wymagają czegoś więcej niż powtórzenia ćwiczenia z lekcji. Wybierasz
+**jedno** z listy poniżej.
 
-Pełne zasady (co zostaje w karcie pracy, jak nazwać plik, co jest oceniane)
-opisuje strona [wymagań edukacyjnych](wymagania-i-bhp.md).
+Pracę oddajesz w Dzienniku VULCAN, w zadaniu **„Zadanie na ocenę celującą:
+Dział …”** założonym do tego działu, w ciągu **dwóch tygodni od zakończenia
+działu**. Plik nazwij `nr<numer w dzienniku>-<litera zadania>`, a w treści
+zadania dopisz 3–5 zdań o tym, co zrobiłeś i co z tego wyszło. Karty pracy
+do tematów są od tego niezależne — tam zadań na szóstkę nie ma.
 
-??? example "Dział II. Rozwiązywanie problemów z wykorzystaniem dynamicznych struktur danych"
+Cała lista jest widoczna **od początku działu**, żebyś miał czas wybrać
+i popracować. Przy każdym zadaniu jest napisane, po którym temacie da się
+je wykonać. Pełne zasady opisuje strona [wymagań edukacyjnych](wymagania-i-bhp.md).
 
-    | Zadanie | Z tematu |
-    | --- | --- |
-    | **A.** Kalkulator z kontrolą błędów | [Odwrotna notacja polska (ONP)](onp.md) |
-    | **B.** Notacja prefiksowa | [Odwrotna notacja polska (ONP)](onp.md) |
-    | **C.** Drzewo wyrażenia | [Odwrotna notacja polska (ONP)](onp.md) |
-    | **A.** Labirynt z ważonymi przejściami | [Znajdowanie drogi wyjścia z labiryntu](labirynt.md) |
-    | **B.** Wszystkie drogi bez powtórzeń | [Znajdowanie drogi wyjścia z labiryntu](labirynt.md) |
-    | **C.** Generator labiryntów | [Znajdowanie drogi wyjścia z labiryntu](labirynt.md) |
+??? example "Dział II. Rozwiązywanie problemów z wykorzystaniem dynamicznych struktur danych — 3 zadania do wyboru"
+
+    **A. Kalkulator wyrażeń kompletny**
+
+    *Do wykonania po temacie „Odwrotna notacja polska (ONP)”.*
+
+    Rozbuduj kalkulator ONP tak, żeby przyjmował wyrażenie w zapisie zwykłym (infiksowym) z nawiasami, zamieniał je algorytmem stacji rozrządowej na ONP, obliczał wynik i zgłaszał **sensowny komunikat przy błędzie**: niezrównoważone nawiasy, dzielenie przez zero, nieznany symbol.
+
+    Dodaj obsługę potęgowania i jednej funkcji jednoargumentowej. Dla jednego przykładu pokaż zawartość stosu na każdym kroku.
+
+    **Oddajesz:** kod, co najmniej 10 przypadków testowych z oczekiwanymi wynikami i wydruk śladu dla jednego wyrażenia
+
+    ---
+
+    **B. Labirynt: trzy strategie, jeden pomiar**
+
+    *Do wykonania po temacie „Znajdowanie drogi wyjścia z labiryntu”.*
+
+    Zaimplementuj przeszukiwanie wszerz, w głąb oraz algorytm A* dla tego samego labiryntu. Wygeneruj co najmniej pięć labiryntów różnej wielkości.
+
+    Dla każdego zmierz trzy rzeczy: długość znalezionej drogi, liczbę odwiedzonych pól i czas. Odpowiedz, **kiedy przewaga A* znika** i dlaczego.
+
+    **Oddajesz:** kod, tabelę pomiarów, wykres i wnioski
+
+    ---
+
+    **C. Zestaw maturalny na strukturach dynamicznych**
+
+    *Do wykonania po obu tematach działu.*
+
+    Wybierz trzy zadania z arkuszy maturalnych na poziomie rozszerzonym albo ze zbioru zadań CKE, które wymagają stosu, kolejki lub listy. Rozwiąż każde w Pythonie.
+
+    Dla jednego z nich napisz **dwa** rozwiązania: naiwne i wykorzystujące odpowiednią strukturę danych — i pokaż pomiarem, ile na tym zyskujesz przy dużych danych wejściowych.
+
+    **Oddajesz:** rozwiązania z komentarzem, wskazanie źródła zadań i pomiar dla pary rozwiązań
 
 <!-- zadania6:end -->
 ---

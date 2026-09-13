@@ -673,46 +673,6 @@ rozwiń odpowiedź i porównaj.
 
 ---
 
-## Na ocenę celującą
-
-
-!!! info "Jak oddajesz zadanie na ocenę celującą"
-
-    W karcie pracy zaznaczasz tylko, **które zadanie wybrałeś**, i opisujesz
-    w kilku zdaniach, co z niego wyszło. Samą pracę — plik, kod, witrynę albo
-    zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN, w zadaniu
-    *Zadanie na ocenę celującą* założonym do tego działu. Termin: **dwa tygodnie
-    od zakończenia działu**.
-
-    Plik nazwij `nr<numer w dzienniku>-<skrót tematu>`, a w treści zadania dopisz
-    3–5 zdań: którego tematu i zadania dotyczy, co zrobiłeś i jaki jest wynik.
-
-    Wykonane i oddane w terminie zadanie liczy się jako „inne, porównywalne
-    osiągnięcie” w rozumieniu § 29 ust. 1 pkt 1 lit. c statutu — do oceny
-    celującej nie trzeba startować w konkursie. Pełne zasady opisuje strona
-    *Wymagania edukacyjne i bhp*.
-
-Zadania wykraczające poza program. Wybierz jedno i przygotuj krótkie omówienie.
-
-1. **Porównaj systemy plików NTFS i ext4** pod kątem sposobu zapisu metadanych
-   i mechanizmu księgowania (*journaling*). Który i dlaczego lepiej znosi nagłą
-   utratę zasilania?
-
-2. **Zbadaj czas rozruchu swojego komputera.** Użyj `systeminfo` oraz Menedżera
-   zadań (zakładka *Uruchamianie*), zidentyfikuj programy najbardziej opóźniające
-   start i zmierz różnicę po ich wyłączeniu. Przedstaw wynik jako pomiar
-   z liczbami, nie jako wrażenie.
-
-3. **Uruchom dowolną dystrybucję Linuksa z pendrive'a** w trybie *live* i porównaj
-   z Windowsem: sposób zarządzania kontami, instalacji oprogramowania i strukturę
-   katalogów. Czym różni się `/home` od `C:\Users`?
-
-4. **Napisz skrypt w PowerShellu**, który zbiera informacje o systemie (wersja,
-   RAM, dyski, system plików każdego wolumenu) i zapisuje je do pliku tekstowego
-   opatrzonego datą.
-
----
-
 !!! info "Źródła i materiały uzupełniające"
 
     - Aktualne zalecenia dotyczące haseł: [NIST SP 800-63 — FAQ](https://pages.nist.gov/800-63-FAQ/)

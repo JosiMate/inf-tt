@@ -493,48 +493,6 @@ przez **Zadania domowe w dzienniku VULCAN**.
 
 ---
 
-## Na ocenę celującą
-
-
-!!! info "Jak oddajesz zadanie na ocenę celującą"
-
-    W karcie pracy zaznaczasz tylko, **które zadanie wybrałeś**, i opisujesz
-    w kilku zdaniach, co z niego wyszło. Samą pracę — plik, kod, witrynę albo
-    zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN, w zadaniu
-    *Zadanie na ocenę celującą* założonym do tego działu. Termin: **dwa tygodnie
-    od zakończenia działu**.
-
-    Plik nazwij `nr<numer w dzienniku>-<skrót tematu>`, a w treści zadania dopisz
-    3–5 zdań: którego tematu i zadania dotyczy, co zrobiłeś i jaki jest wynik.
-
-    Wykonane i oddane w terminie zadanie liczy się jako „inne, porównywalne
-    osiągnięcie” w rozumieniu § 29 ust. 1 pkt 1 lit. c statutu — do oceny
-    celującej nie trzeba startować w konkursie. Pełne zasady opisuje strona
-    *Wymagania edukacyjne i bhp*.
-
-Wybierz jedno zadanie i przygotuj dokumentację wyników.
-
-1. **Projekt sieci dla pracowni z podziałem na podsieci.** Zaprojektuj adresację
-   dla trzech grup: stanowiska uczniowskie (30 urządzeń), sprzęt nauczyciela
-   i drukarki (8 urządzeń), sieć dla gości (20 urządzeń). Dla każdej podaj adres
-   sieci, maskę, zakres adresów dla urządzeń i adres rozgłoszeniowy oraz uzasadnij
-   dobór masek.
-
-2. **Zmierz sieć, w której pracujesz.** Wykonaj serię testów prędkości i pingu
-   o różnych porach dnia (minimum trzy pomiary), zestaw wyniki w tabeli i opisz,
-   co się zmienia i dlaczego. Wynik ma być pomiarem z liczbami, nie wrażeniem.
-
-3. **`tracert` do trzech kontynentów.** Prześledź trasę do serwera w Polsce,
-   w Stanach Zjednoczonych i w Azji. Porównaj liczbę przeskoków i opóźnienia,
-   a potem oszacuj, ile z tego czasu wynika z samej odległości — przyjmij, że
-   sygnał w światłowodzie pokonuje około 200 000 km/s.
-
-4. **Zadanie maturalne o podsieciach.** Znajdź w arkuszach maturalnych
-   z informatyki zadanie dotyczące adresacji IP, rozwiąż je i zapisz tok
-   rozumowania krok po kroku.
-
----
-
 !!! info "Źródła i materiały uzupełniające"
 
     - Adresy prywatne: [RFC 1918 — Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918)

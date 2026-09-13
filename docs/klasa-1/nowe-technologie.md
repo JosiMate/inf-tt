@@ -425,48 +425,6 @@ przez **Zadania domowe w dzienniku VULCAN**.
 
 ---
 
-## Na ocenę celującą
-
-
-!!! info "Jak oddajesz zadanie na ocenę celującą"
-
-    W karcie pracy zaznaczasz tylko, **które zadanie wybrałeś**, i opisujesz
-    w kilku zdaniach, co z niego wyszło. Samą pracę — plik, kod, witrynę albo
-    zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN, w zadaniu
-    *Zadanie na ocenę celującą* założonym do tego działu. Termin: **dwa tygodnie
-    od zakończenia działu**.
-
-    Plik nazwij `nr<numer w dzienniku>-<skrót tematu>`, a w treści zadania dopisz
-    3–5 zdań: którego tematu i zadania dotyczy, co zrobiłeś i jaki jest wynik.
-
-    Wykonane i oddane w terminie zadanie liczy się jako „inne, porównywalne
-    osiągnięcie” w rozumieniu § 29 ust. 1 pkt 1 lit. c statutu — do oceny
-    celującej nie trzeba startować w konkursie. Pełne zasady opisuje strona
-    *Wymagania edukacyjne i bhp*.
-
-Wybierz jedno zadanie i przygotuj krótkie omówienie dla klasy.
-
-1. **Opracowanie o wybranej nowej technologii na podstawie źródeł branżowych,
-   w tym anglojęzycznych.** Wymagane: co to rozwiązuje, jak działa w zarysie
-   technicznym, stan wdrożeń, koszty, ograniczenia. Minimum trzy źródła,
-   z czego jedno anglojęzyczne i jedno starsze niż dwa lata — po to, by pokazać,
-   co z zapowiedzi sprzed dwóch lat rzeczywiście się wydarzyło.
-
-2. **Technologia, która nie wypaliła.** Wybierz rozwiązanie ogłaszane jako
-   przełom, które nie weszło do powszechnego użytku (np. 3D w telewizorach,
-   okulary Google Glass w pierwszej odsłonie, blockchain w handlu detalicznym).
-   Ustal, co konkretnie zawiodło: technika, cena, prawo czy brak realnej potrzeby.
-
-3. **Własne zastosowanie.** Zaproponuj sposób wykorzystania jednej z omawianych
-   technologii w naszej szkole albo w gminie. Opisz: problem, rozwiązanie,
-   potrzebny sprzęt i oprogramowanie, szacowany koszt oraz największe ryzyko.
-
-4. **Porównanie licencji.** Zestaw GNU GPL v3 z licencją MIT: czym różnią się
-   obowiązki osoby, która buduje na cudzym kodzie program komercyjny? Podaj po
-   jednym znanym projekcie na każdej z licencji.
-
----
-
 !!! info "Źródła i materiały uzupełniające"
 
     - Terminy stosowania AI Act: [Ministerstwo Cyfryzacji — AI Act, co się zmieniło 2 sierpnia 2026](https://www.gov.pl/web/cyfryzacja/ai-act--co-sie-zmienilo-2-sierpnia-2026-roku)

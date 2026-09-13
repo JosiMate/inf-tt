@@ -327,41 +327,6 @@ go przez **Zadania domowe w dzienniku VULCAN**.
 
 <div class="karta-pracy" data-karta="onp"></div>
 
-## Na ocenę celującą
-
-
-!!! info "Jak oddajesz zadanie na ocenę celującą"
-
-    W karcie pracy zaznaczasz tylko, **które zadanie wybrałeś**, i opisujesz
-    w kilku zdaniach, co z niego wyszło. Samą pracę — plik, kod, witrynę albo
-    zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN, w zadaniu
-    *Zadanie na ocenę celującą* założonym do tego działu. Termin: **dwa tygodnie
-    od zakończenia działu**.
-
-    Plik nazwij `nr<numer w dzienniku>-<skrót tematu>`, a w treści zadania dopisz
-    3–5 zdań: którego tematu i zadania dotyczy, co zrobiłeś i jaki jest wynik.
-
-    Wykonane i oddane w terminie zadanie liczy się jako „inne, porównywalne
-    osiągnięcie” w rozumieniu § 29 ust. 1 pkt 1 lit. c statutu — do oceny
-    celującej nie trzeba startować w konkursie. Pełne zasady opisuje strona
-    *Wymagania edukacyjne i bhp*.
-
-Wybierz jedno zadanie i opisz wyniki w karcie pracy.
-
-**A. Kalkulator z kontrolą błędów.** Rozbuduj `oblicz_onp` tak, żeby rozpoznawał
-niepoprawne wyrażenia i mówił, co jest nie tak: za mało argumentów dla operatora,
-nadmiarowa liczba na stosie po zakończeniu, dzielenie przez zero, nieznany symbol.
-Dla każdego przypadku podaj wyrażenie testowe i komunikat, który zwraca program.
-
-**B. Notacja prefiksowa.** Napisz funkcję obliczającą wyrażenie w **notacji
-polskiej** (`* + 2 3 4`). Wyjaśnij, dlaczego wygodnie jest czytać wejście
-od prawej do lewej, i czym różni się obsługa argumentów w porównaniu z ONP.
-
-**C. Drzewo wyrażenia.** Napisz funkcję, która z zapisu w ONP buduje drzewo
-wyrażenia (na przykład jako zagnieżdżone krotki), a potem odtwarza z niego zapis
-infiksowy z minimalną liczbą nawiasów — takich, bez których wyrażenie zmieniłoby
-wartość. Pokaż to na `2 3 + 4 *` i na `2 3 4 * +`.
-
 ---
 
 *Historia notacji: notację prefiksową wprowadził Jan Łukasiewicz w 1924 r.;
