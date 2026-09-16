@@ -1,0 +1,105 @@
+{
+  "id": "listy",
+  "tytul": "Wykorzystanie list w rozwiązywaniu problemów",
+  "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony · klasa 3",
+  "klasa": "3TT",
+  "sufiks": "LISTY",
+  "zadania": [
+    {
+      "nr": 1,
+      "tytul": "Rodzaje list i po co je rozróżniać",
+      "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+      "polecenie": "Pytania o samą strukturę, jeszcze bez kodu. Odpowiadaj własnymi słowami — na sprawdzianie nie będzie strony z materiałem.",
+      "pola": [
+        { "typ": "tabela", "wiersze": [
+          ["z1_wezel", "Z czego składa się węzeł listy jednokierunkowej", ""],
+          ["z1_koniec", "Po czym poznajesz ostatni węzeł", ""],
+          ["z1_glowa", "Co trzeba zapamiętać, żeby mieć dostęp do całej listy", ""]
+        ]},
+        { "typ": "tekst", "id": "z1_sekwencyjny", "wiersze": 3,
+          "pytanie": "Wyjaśnij, co znaczy sekwencyjny dostęp do danych i dlaczego lista dowiązana inaczej niż tablica nie pozwala od razu sięgnąć po element numer 100." },
+        { "typ": "tekst", "id": "z1_rodzaje", "wiersze": 4,
+          "pytanie": "Opisz krótko trzy rodzaje list: jednokierunkową, dwukierunkową i cykliczną. Przy każdej napisz, czym różni się od poprzedniej." }
+      ]
+    },
+    {
+      "nr": 2,
+      "tytul": "Lista jednokierunkowa w Pythonie",
+      "poziom": "wymagania podstawowe · ocena 3",
+      "polecenie": "Uzupełnij w szkielecie klasę <code>ListaJednokierunkowa</code> — ćwiczenie 1. Osiem testów tej części ma przechodzić.",
+      "pola": [
+        { "typ": "tekst", "id": "z2_usun", "wiersze": 12,
+          "pytanie": "Wklej treść metody usun." },
+        { "typ": "tabela", "wiersze": [
+          ["z2_testy", "Liczba zaliczonych testów zadania 1", "z ośmiu"],
+          ["z2_glowa", "Co dokładnie zmienia się w liście, gdy usuwasz głowę", ""]
+        ]},
+        { "typ": "zrzut", "id": "z2_zrzut",
+          "opis": "wynik uruchomienia szkieletu — widoczna lista testów zadania 1" },
+        { "typ": "tekst", "id": "z2_poprzednik", "wiersze": 4,
+          "pytanie": "Dlaczego do usunięcia węzła potrzebne jest odwołanie do jego poprzednika? Co się stanie, jeśli w pętli będziesz trzymać tylko bieżący węzeł?" }
+      ]
+    },
+    {
+      "nr": 3,
+      "tytul": "Kolejka do okienka",
+      "poziom": "wymagania podstawowe i rozszerzające · oceny 3–4",
+      "polecenie": "Uzupełnij funkcję <code>symuluj_kolejke</code> — ćwiczenie 2. Potem prześledź na kartce, co dzieje się z listą przy każdym zdarzeniu.",
+      "pola": [
+        { "typ": "tekst", "id": "z3_kod", "wiersze": 10,
+          "pytanie": "Wklej treść funkcji symuluj_kolejke." },
+        { "typ": "tabela", "wiersze": [
+          ["z3_slad", "Stan kolejki po kolejnych zdarzeniach +Anna, +Bartek, -, +Cela, -", "np. [Anna] [Anna,Bartek] …"],
+          ["z3_obsluzeni", "Kto został obsłużony i w jakiej kolejności", ""],
+          ["z3_pozostali", "Kto został w kolejce", ""]
+        ]},
+        { "typ": "tekst", "id": "z3_fifo", "wiersze": 3,
+          "pytanie": "Kolejka działa według zasady FIFO. Wskaż w swoim kodzie miejsce, w którym ta zasada jest widoczna, i wyjaśnij, co trzeba by zmienić, żeby powstał stos." },
+        { "typ": "tekst", "id": "z3_koszt", "wiersze": 3,
+          "pytanie": "Która z dwóch operacji — dopisanie na koniec czy obsługa z początku — jest w tej implementacji droższa i dlaczego? Jak można to naprawić, nie zmieniając rodzaju listy?" }
+      ]
+    },
+    {
+      "nr": 4,
+      "tytul": "Lista kontra tablica — pomiar",
+      "poziom": "wymagania rozszerzające · ocena 4",
+      "polecenie": "Wykonaj ćwiczenie 4: zmierz czas 2000 wstawień na początek wbudowanej listy Pythona dla trzech różnych długości początkowych, a potem powtórz pomiar dla <code>append</code>.",
+      "pola": [
+        { "typ": "tabela", "wiersze": [
+          ["z4_insert_10", "insert(0, x), n = 10 000 — czas", "w ms"],
+          ["z4_insert_50", "insert(0, x), n = 50 000 — czas", "w ms"],
+          ["z4_insert_100", "insert(0, x), n = 100 000 — czas", "w ms"],
+          ["z4_append_100", "append(x), n = 100 000 — czas", "w ms"]
+        ]},
+        { "typ": "tekst", "id": "z4_wniosek", "wiersze": 4,
+          "pytanie": "Na podstawie własnych liczb: która operacja zachowuje się jak O(1), a która jak O(n)? Uzasadnij, odwołując się do tego, jak zmieniał się czas przy zwiększaniu n.",
+          "podpowiedz": "Przy liście … razy dłuższej czas wstawiania wzrósł około … razy, więc …" },
+        { "typ": "tekst", "id": "z4_wybor", "wiersze": 4,
+          "pytanie": "Podaj dwa zadania z życia: jedno, w którym wybrałbyś listę dowiązaną, i jedno, w którym tablicę. Przy każdym napisz, która operacja przeważyła o wyborze." }
+      ]
+    },
+    {
+      "nr": 5,
+      "tytul": "Zadanie Flawiusza na liście cyklicznej",
+      "poziom": "wymagania dopełniające · ocena 5",
+      "polecenie": "Uzupełnij funkcję <code>josephus</code> — ćwiczenie 3. Wszystkie pięć testów ma przechodzić, łącznie z n = 41 i k = 3.",
+      "pola": [
+        { "typ": "tekst", "id": "z5_kod", "wiersze": 14,
+          "pytanie": "Wklej treść funkcji josephus." },
+        { "typ": "tabela", "wiersze": [
+          ["z5_kolejnosc", "n = 7, k = 3 — kolejność odpadania, policzona na kartce", ""],
+          ["z5_zostaje", "n = 7, k = 3 — kto zostaje", ""],
+          ["z5_41", "n = 41, k = 3 — kto zostaje", ""]
+        ]},
+        { "typ": "zrzut", "id": "z5_zrzut",
+          "opis": "wynik uruchomienia szkieletu — komplet piętnastu testów" },
+        { "typ": "tekst", "id": "z5_domkniecie", "wiersze": 3,
+          "pytanie": "Który wiersz twojego kodu domyka listę w koło i co by się stało, gdyby go zabrakło?" },
+        { "typ": "tekst", "id": "z5_k1", "wiersze": 3,
+          "pytanie": "Dlaczego w pętli wykonujesz k−1 kroków, a nie k? Odpowiedz, odwołując się do tego, na czym trzeba stać, żeby usunąć węzeł." },
+        { "typ": "tekst", "id": "z5_warunek", "wiersze": 3,
+          "pytanie": "Lista cykliczna nie ma końca, więc nie da się zakończyć pętli warunkiem „doszliśmy do None”. Jakiego warunku użyłeś i dlaczego on wystarcza?" }
+      ]
+    }
+  ]
+}
