@@ -325,7 +325,31 @@ i od razu widzisz, co przechodzi.
 Wypełnij kartę na tej stronie, a potem pobierz gotowy dokument Worda i oddaj
 go przez **Zadania domowe w dzienniku VULCAN**.
 
-<div class="karta-pracy" data-karta="onp"></div>
+<div class="kp-podsumowanie" data-karta="onp"></div>
+
+<span id="karta" class="kp-kotwica"></span>
+
+???+ karta "Rozwiń kartę pracy"
+
+    <div class="karta-pracy" data-karta="onp"></div>
+
+## Na ocenę celującą
+
+Wybierz jedno zadanie i opisz wyniki w karcie pracy.
+
+**A. Kalkulator z kontrolą błędów.** Rozbuduj `oblicz_onp` tak, żeby rozpoznawał
+niepoprawne wyrażenia i mówił, co jest nie tak: za mało argumentów dla operatora,
+nadmiarowa liczba na stosie po zakończeniu, dzielenie przez zero, nieznany symbol.
+Dla każdego przypadku podaj wyrażenie testowe i komunikat, który zwraca program.
+
+**B. Notacja prefiksowa.** Napisz funkcję obliczającą wyrażenie w **notacji
+polskiej** (`* + 2 3 4`). Wyjaśnij, dlaczego wygodnie jest czytać wejście
+od prawej do lewej, i czym różni się obsługa argumentów w porównaniu z ONP.
+
+**C. Drzewo wyrażenia.** Napisz funkcję, która z zapisu w ONP buduje drzewo
+wyrażenia (na przykład jako zagnieżdżone krotki), a potem odtwarza z niego zapis
+infiksowy z minimalną liczbą nawiasów — takich, bez których wyrażenie zmieniłoby
+wartość. Pokaż to na `2 3 + 4 *` i na `2 3 4 * +`.
 
 ---
 

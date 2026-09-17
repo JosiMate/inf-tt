@@ -507,30 +507,36 @@ fsutil fsinfo volumeinfo C:
 
 ---
 
-## Praca do oddania
+## Karta pracy
 
 Z tego tematu oddajesz **kartę pracy** — wypełniasz ją na komputerze, nie
 w zeszycie. Karta zbiera to, co robiłeś w ćwiczeniach 1 i 2, plus pytania
 o polecenia tekstowe, konta i hasła. Na końcu jest jedno zadanie do wyboru na
 ocenę wyższą.
 
-Masz dwie drogi. **Wypełnij kartę tutaj, na stronie** — odpowiedzi zapisują się
-w twojej przeglądarce, więc możesz przerwać i wrócić na drugiej lekcji, a na
-końcu jednym przyciskiem pobierasz gotowy plik Worda z właściwą nazwą. Albo
-pobierz pustą kartę i wypełnij ją w Wordzie.
+<div class="kp-podsumowanie" data-karta="systemy-operacyjne"></div>
 
-!!! info "Twoje odpowiedzi zostają na twoim komputerze"
+<span id="karta" class="kp-kotwica"></span>
 
-    Formularz niczego nie wysyła — ani do mnie, ani nigdzie indziej. Wszystko
-    dzieje się w przeglądarce, a plik Worda powstaje dopiero w momencie
-    kliknięcia przycisku. Jedyny moment, w którym praca do mnie trafia, to
-    dołączenie pliku w Dzienniku VULCAN.
+???+ karta "Rozwiń kartę pracy"
 
-    Odwrotna strona tej samej monety: skoro odpowiedzi siedzą w przeglądarce,
-    to **wyczyszczenie danych przeglądania je usunie** i na cudzym komputerze
-    ich nie znajdziesz. Kiedy skończysz — pobierz plik.
+    Masz dwie drogi. **Wypełnij kartę tutaj, na stronie** — odpowiedzi zapisują się
+    w twojej przeglądarce, więc możesz przerwać i wrócić na drugiej lekcji, a na
+    końcu jednym przyciskiem pobierasz gotowy plik Worda z właściwą nazwą. Albo
+    pobierz pustą kartę i wypełnij ją w Wordzie.
 
-<div class="karta-pracy" data-karta="systemy-operacyjne"></div>
+    !!! info "Twoje odpowiedzi zostają na twoim komputerze"
+
+        Formularz niczego nie wysyła — ani do mnie, ani nigdzie indziej. Wszystko
+        dzieje się w przeglądarce, a plik Worda powstaje dopiero w momencie
+        kliknięcia przycisku. Jedyny moment, w którym praca do mnie trafia, to
+        dołączenie pliku w Dzienniku VULCAN.
+
+        Odwrotna strona tej samej monety: skoro odpowiedzi siedzą w przeglądarce,
+        to **wyczyszczenie danych przeglądania je usunie** i na cudzym komputerze
+        ich nie znajdziesz. Kiedy skończysz — pobierz plik.
+
+    <div class="karta-pracy" data-karta="systemy-operacyjne"></div>
 
 ### Jeśli wolisz wypełnić w Wordzie
 
@@ -670,6 +676,29 @@ rozwiń odpowiedź i porównaj.
     awaryjnym nie: najczęściej w sterowniku lub programie autostartu. Zaczynam od
     przypomnienia sobie, co ostatnio instalowałem, i odinstalowuję to w trybie
     awaryjnym; sprawdzam też datę ostatniej aktualizacji sterowników.
+
+---
+
+## Na ocenę celującą
+
+Zadania wykraczające poza program. Wybierz jedno i przygotuj krótkie omówienie.
+
+1. **Porównaj systemy plików NTFS i ext4** pod kątem sposobu zapisu metadanych
+   i mechanizmu księgowania (*journaling*). Który i dlaczego lepiej znosi nagłą
+   utratę zasilania?
+
+2. **Zbadaj czas rozruchu swojego komputera.** Użyj `systeminfo` oraz Menedżera
+   zadań (zakładka *Uruchamianie*), zidentyfikuj programy najbardziej opóźniające
+   start i zmierz różnicę po ich wyłączeniu. Przedstaw wynik jako pomiar
+   z liczbami, nie jako wrażenie.
+
+3. **Uruchom dowolną dystrybucję Linuksa z pendrive'a** w trybie *live* i porównaj
+   z Windowsem: sposób zarządzania kontami, instalacji oprogramowania i strukturę
+   katalogów. Czym różni się `/home` od `C:\Users`?
+
+4. **Napisz skrypt w PowerShellu**, który zbiera informacje o systemie (wersja,
+   RAM, dyski, system plików każdego wolumenu) i zapisuje je do pliku tekstowego
+   opatrzonego datą.
 
 ---
 
