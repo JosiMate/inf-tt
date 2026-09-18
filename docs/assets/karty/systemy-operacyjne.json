@@ -179,30 +179,6 @@
      "pytanie": "Czy na koncie, z którego korzystasz najczęściej, masz włączone uwierzytelnianie dwuskładnikowe? Jeśli tak — jaką metodą. Jeśli nie — opisz, gdzie się je włącza."
     }
    ]
-  },
-  {
-   "nr": 5,
-   "tytul": "Do wyboru — na ocenę wyższą",
-   "poziom": "wymagania dopełniające i wykraczające · oceny 5–6",
-   "polecenie": "Wykonaj jedno zadanie z trzech.<br><strong>A.</strong> Zaprojektuj kopię zapasową swoich danych według zasady 3-2-1: co kopiujesz, na jakie nośniki, jak często i która kopia jest poza domem.<br><strong>B.</strong> Wyjaśnij, dlaczego błąd w sterowniku wywraca cały system, a błąd w przeglądarce zamyka tylko ją. Odwołaj się do trybu jądra i trybu użytkownika.<br><strong>C.</strong> Zmierz czas rozruchu komputera i wskaż trzy programy najbardziej opóźniające start (Menedżer zadań → Uruchamianie). Podaj konkretne liczby.",
-   "pola": [
-    {
-     "typ": "wybor",
-     "id": "z5_wybor",
-     "pytanie": "Wybieram zadanie",
-     "opcje": [
-      "A — kopia zapasowa 3-2-1",
-      "B — tryb jądra a tryb użytkownika",
-      "C — czas rozruchu"
-     ]
-    },
-    {
-     "typ": "tekst",
-     "id": "z5_odp",
-     "wiersze": 8,
-     "pytanie": "Rozwiązanie"
-    }
-   ]
   }
  ],
  "idPoprzedni": "systemy-operacyjne"

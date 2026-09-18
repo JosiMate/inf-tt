@@ -254,35 +254,6 @@
      "pytanie": "Dlaczego podniesienie limitu rekurencji nie jest dobrym rozwiązaniem tego problemu?"
     }
    ]
-  },
-  {
-   "nr": 7,
-   "tytul": "Do wyboru — na ocenę wyższą",
-   "poziom": "wymagania dopełniające i wykraczające · oceny 5–6",
-   "polecenie": "Wykonaj jedno z trzech zadań opisanych w sekcji „Na ocenę celującą” na stronie materiału.",
-   "pola": [
-    {
-     "typ": "wybor",
-     "id": "z7_wybor",
-     "pytanie": "Wybieram zadanie",
-     "opcje": [
-      "A — labirynt z ważonymi przejściami",
-      "B — wszystkie drogi bez powtórzeń",
-      "C — generator labiryntów"
-     ]
-    },
-    {
-     "typ": "tekst",
-     "id": "z7_odp",
-     "wiersze": 14,
-     "pytanie": "Rozwiązanie wraz z wnioskami"
-    },
-    {
-     "typ": "zrzut",
-     "id": "z7_zrzut",
-     "opis": "wynik działania programu"
-    }
-   ]
   }
  ],
  "idPoprzedni": "labirynt"

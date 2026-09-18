@@ -493,29 +493,6 @@ go przez **Zadania domowe w dzienniku VULCAN**.
 
     <div class="karta-pracy" data-karta="labirynt"></div>
 
-## Na ocenę celującą
-
-Wybierz jedno zadanie i opisz wyniki w karcie pracy.
-
-**A. Labirynt z ważonymi przejściami.** Dołóż do siatki znak `~` oznaczający
-błoto — wejście na takie pole kosztuje 3 ruchy zamiast jednego. Pokaż na
-przykładzie, że BFS przestaje wtedy dawać najtańszą drogę, i popraw algorytm,
-zastępując kolejkę **kolejką priorytetową** (`heapq`). Porównaj wynik obu wersji
-na tym samym labiryncie.
-
-**B. Wszystkie drogi bez powtórzeń.** Napisz funkcję, która wypisuje **wszystkie**
-drogi z `S` do `E` nieodwiedzające żadnego pola dwa razy. Wykorzystaj nawroty
-i zastanów się, czym różni się tu obsługa zbioru odwiedzonych. Sprawdź, ile
-takich dróg ma labirynt z sekcji 4, i wyjaśnij, dlaczego przy większych
-labiryntach ta liczba wybucha.
-
-**C. Generator labiryntów.** Napisz funkcję tworzącą losowy labirynt o zadanych
-wymiarach metodą drążenia korytarzy z nawrotami — tym samym algorytmem, którego
-używasz do szukania drogi, tylko odwróconym: zamiast szukać przejść, wybijasz je
-w litym bloku ścian. Sprawdź, że w tak zbudowanym labiryncie droga z `S` do `E`
-jest **dokładnie jedna**, i wyjaśnij, dlaczego wtedy obie metody zwracają tę samą
-trasę.
-
 ---
 
 *Przeszukiwanie wszerz opisał w 1959 r. **Edward F. Moore**, szukając najkrótszej

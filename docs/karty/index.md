@@ -7,7 +7,9 @@ hide:
 
 **Informatyka · technik informatyk · klasy 1TT i 3TT**
 
-Tu w jednym miejscu widzisz **całą swoją pracę z tego przedmiotu**: ile masz wypełnione w każdej karcie i kiedy ostatnio przy tym siedziałeś. Kartę otwierasz, klikając nazwę tematu.
+Tu w jednym miejscu widzisz **całą swoją pracę z tego przedmiotu**: ile masz
+wypełnione w każdej karcie i kiedy ostatnio przy tym siedziałeś. Kartę
+otwierasz, klikając nazwę tematu.
 
 <div class="kp-przeglad">
 <script type="application/json">
@@ -18,6 +20,16 @@ Tu w jednym miejscu widzisz **całą swoją pracę z tego przedmiotu**: ile masz
     "url": "../klasa-1/systemy-operacyjne/#karta"
   },
   {
+    "plik": "nowe-technologie",
+    "tytul": "Klasa 1 · Nowe technologie i oprogramowanie",
+    "url": "../klasa-1/nowe-technologie/#karta"
+  },
+  {
+    "plik": "sieci-komputerowe",
+    "tytul": "Klasa 1 · Sieci komputerowe – budowa i usługi",
+    "url": "../klasa-1/sieci-komputerowe/#karta"
+  },
+  {
     "plik": "onp",
     "tytul": "Klasa 3 · Odwrotna notacja polska",
     "url": "../klasa-3/onp/#karta"
@@ -26,6 +38,11 @@ Tu w jednym miejscu widzisz **całą swoją pracę z tego przedmiotu**: ile masz
     "plik": "labirynt",
     "tytul": "Klasa 3 · Znajdowanie drogi wyjścia z labiryntu",
     "url": "../klasa-3/labirynt/#karta"
+  },
+  {
+    "plik": "listy",
+    "tytul": "Klasa 3 · Wykorzystanie list w rozwiązywaniu problemów",
+    "url": "../klasa-3/listy/#karta"
   }
 ]
 </script>
@@ -38,7 +55,7 @@ wysyłane do szkoły ani nigdzie indziej. To wygodne, ale ma jeden skutek:
 w pracowni i w domu to są dwa osobne komplety.
 
 Dlatego jest przycisk **Zapisz wszystkie karty do pliku**. Dostajesz jeden plik
-`moje-karty-pracy.json` ze wszystkimi tematami naraz — przenosisz go
+`moje-karty-pracy.json` ze wszystkimi tematach naraz — przenosisz go
 pendrive'em, OneDrive'em albo mailem do siebie i na drugim komputerze klikasz
 **Wczytaj karty z pliku**. Plik z pojedynczej karty też tu zadziała.
 

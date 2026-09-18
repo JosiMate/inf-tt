@@ -421,7 +421,13 @@ zastosujesz w karcie pracy.
 Wypełnij kartę na tej stronie, a potem pobierz gotowy dokument Worda i oddaj go
 przez **Zadania domowe w dzienniku VULCAN**.
 
-<div class="karta-pracy" data-karta="nowe-technologie"></div>
+<div class="kp-podsumowanie" data-karta="nowe-technologie"></div>
+
+<span id="karta" class="kp-kotwica"></span>
+
+???+ karta "Rozwiń kartę pracy"
+
+    <div class="karta-pracy" data-karta="nowe-technologie"></div>
 
 ---
 

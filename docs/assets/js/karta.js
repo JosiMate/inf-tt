@@ -55,7 +55,7 @@
       const stare = localStorage.getItem(KLUCZ(def.idPoprzedni));
       if (!stare) return;
       localStorage.setItem(KLUCZ(def.id), stare);
-    } catch { /* tryb prywatny albo brak miejsca — trudno, karta ruszy pusta */ }
+    } catch { /* tryb prywatny albo brak miejsca — karta ruszy pusta */ }
   }
   /* Zapis może się nie udać z dwóch zupełnie różnych powodów, a uczeń musi
      wiedzieć z którego: w trybie prywatnym nic nie pomoże poza pobraniem
@@ -63,7 +63,7 @@
      Zwracamy więc powód, a nie samo true/false. */
   const zapisz = (id, dane) => {
     try {
-      // Znacznik czasu potrzebny jest przeglądowi kart („ostatnia zmiana”).
+      // Znacznik czasu potrzebny jest przeglądowi kart („ostatnia zmiana").
       // Zapisujemy go w danych, a nie osobno, żeby wędrował razem z plikiem
       // przenoszonym na drugi komputer. Z liczenia wypełnionych pól jest
       // wykluczony — patrz policzWypelnione.
@@ -351,8 +351,10 @@
       if (p) zapiszPole(p, e.target.value);
     });
     host.addEventListener("change", (e) => {
-      if (e.target.type === "radio" && e.target.dataset.pole)
-        zapiszPole(e.target.dataset.pole, e.target.value);
+      const p = e.target.dataset.pole;
+      if (p && e.target.type !== "file") {
+        zapiszPole(p, e.target.value);
+      }
       // Pole na plik obsługujemy tylko wtedy, gdy należy do strefy na zrzut.
       // W stopce jest jeszcze jedno — do wczytywania postępu — i bez tego
       // sprawdzenia trafiało tutaj z pustym „closest", wywracając skrypt.

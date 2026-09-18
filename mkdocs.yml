@@ -120,20 +120,9 @@ plugins:
   # Wyszukiwanie po polsku działa, ale bez odmiany przez przypadki:
   # "wymagania" znajdzie "wymagania", nie znajdzie "wymaganiom".
   - search
-
-nav:
-  - Start: index.md
-  - Klasa 1:
-      - Spis tematów: klasa-1/index.md
-      - Wymagania edukacyjne i bhp: klasa-1/wymagania-i-bhp.md
-      - Systemy operacyjne w środowisku sieciowym: klasa-1/systemy-operacyjne.md
-  - Klasa 3:
-      - Spis tematów: klasa-3/index.md
-      - Wymagania edukacyjne i bhp: klasa-3/wymagania-i-bhp.md
-      - Odwrotna notacja polska: klasa-3/onp.md
-      - Znajdowanie drogi wyjścia z labiryntu: klasa-3/labirynt.md
-
-  - Karty pracy: karty/index.md
+  # Nawigacją rządzą pliki .nav.yml w katalogach docs/ — dzięki temu
+  # dopisanie tematu nie wymaga już zaglądania do tego pliku.
+  - awesome-nav
 
 extra:
   social:
@@ -141,6 +130,3 @@ extra:
       link: https://www.pceikz.pl
       name: PCEiKZ Szczucin
   generator: false
-
-not_in_nav: |
-  /assets/
