@@ -35,6 +35,11 @@ otwierasz, klikając nazwę tematu.
     "url": "../klasa-1/protokoly-ip/#karta"
   },
   {
+    "plik": "e-uslugi",
+    "tytul": "Klasa 1 · E-usługi",
+    "url": "../klasa-1/e-uslugi/#karta"
+  },
+  {
     "plik": "onp",
     "tytul": "Klasa 3 · Odwrotna notacja polska",
     "url": "../klasa-3/onp/#karta"

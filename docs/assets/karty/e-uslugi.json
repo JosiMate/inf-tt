@@ -1,0 +1,155 @@
+{
+ "id": "inf-tt-e-uslugi",
+ "tytul": "E-usługi",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "E-USLUGI",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Inwentaryzacja własnych e-usług",
+   "poziom": "wymagania konieczne · ocena 2",
+   "polecenie": "Ćwiczenie 1. Pięć e-usług, z których korzystasz ty albo twoja rodzina.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z1_u1", "E-usługa 1 — nazwa, dziedzina, co załatwiasz", ""],
+      ["z1_t1", "…jak potwierdza się w niej tożsamość", "hasło / kod SMS / aplikacja / PZ / brak"],
+      ["z1_u2", "E-usługa 2 — nazwa, dziedzina, co załatwiasz", ""],
+      ["z1_t2", "…jak potwierdza się w niej tożsamość", ""],
+      ["z1_u3", "E-usługa 3 — nazwa, dziedzina, co załatwiasz", ""],
+      ["z1_t3", "…jak potwierdza się w niej tożsamość", ""],
+      ["z1_u4", "E-usługa 4 — nazwa, dziedzina, co załatwiasz", ""],
+      ["z1_t4", "…jak potwierdza się w niej tożsamość", ""],
+      ["z1_u5", "E-usługa 5 — nazwa, dziedzina, co załatwiasz", ""],
+      ["z1_t5", "…jak potwierdza się w niej tożsamość", ""]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z1_bez_internetu",
+     "wiersze": 4,
+     "pytanie": "Którą z wypisanych spraw da się załatwić bez internetu, a której nie? Kto traci, gdy droga papierowa znika?"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Strony logowania pod lupą",
+   "poziom": "wymagania podstawowe i rozszerzające · oceny 3–4",
+   "polecenie": "Ćwiczenie 2. Trzy strony logowania, <strong>bez podawania jakichkolwiek danych</strong>. Kłódkę klikasz, żeby odczytać domenę certyfikatu.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z2_gov_sposoby", "login.gov.pl — dostępne sposoby potwierdzenia tożsamości", ""],
+      ["z2_gov_cert", "login.gov.pl — dla jakiej domeny wystawiono certyfikat", ""],
+      ["z2_pac_sposoby", "pacjent.gov.pl — sposoby logowania", ""],
+      ["z2_pac_cert", "pacjent.gov.pl — domena certyfikatu", ""],
+      ["z2_bank_nazwa", "Bank — nazwa i adres strony logowania", ""],
+      ["z2_bank_sposoby", "Bank — czy wymaga drugiego składnika", ""],
+      ["z2_bank_cert", "Bank — domena certyfikatu", ""]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "okno z informacją o certyfikacie jednej z tych stron"
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_porownanie",
+     "wiersze": 4,
+     "pytanie": "Który z trzech serwisów ma najmocniejsze zabezpieczenia i po czym to poznajesz? Czy sama obecność kłódki o czymś przesądza — uzasadnij."
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Rozbiór wyłudzenia",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Ćwiczenie 3. Wiadomość podszywającą się pod e-usługę poda nauczyciel.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z3_nadawca", "Pod kogo podszywa się wiadomość", ""],
+      ["z3_presja", "Element presji czasu — zacytuj", ""],
+      ["z3_domena", "Adres, do którego prowadzi link — co w nim nie pasuje", ""],
+      ["z3_prosba", "O co właściwie wiadomość prosi", ""],
+      ["z3_niezgodnosc", "Co byłoby niezgodne, gdyby porównać ją z prawdziwym SMS-em z banku", ""]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z3_po_kliknieciu",
+     "wiersze": 6,
+     "pytanie": "Co robisz, jeżeli JUŻ kliknąłeś w taki link i podałeś dane? Wypisz kroki w kolejności — od najpilniejszego.",
+     "podpowiedz": "1. … 2. … 3. … (pomyśl: bank, hasła, zgłoszenie, urządzenie)"
+    },
+    {
+     "typ": "tekst",
+     "id": "z3_zglaszanie",
+     "wiersze": 2,
+     "pytanie": "Gdzie w Polsce zgłasza się podejrzaną wiadomość albo stronę?"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Zaprojektuj e-usługę dla szkoły",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ćwiczenie 4. Wybierz sprawę załatwianą dziś na papierze i zaprojektuj dla niej e-usługę.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z4_sprawa",
+     "wiersze": 2,
+     "pytanie": "Jaką sprawę wybierasz i jak wygląda dziś jej papierowa wersja?"
+    },
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z4_pola", "Pola formularza", "wymień"],
+      ["z4_kto", "Kto się loguje i czym potwierdza tożsamość", ""],
+      ["z4_dane", "Gdzie trafiają dane i kto ma do nich dostęp", ""],
+      ["z4_powiadomienie", "Kto dostaje powiadomienie i kiedy", ""],
+      ["z4_potwierdzenie", "Jak wygląda potwierdzenie dla ucznia", ""],
+      ["z4_narzedzie", "Narzędzie, którym dałoby się to zbudować bez programowania", ""]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z4_ryzyka",
+     "wiersze": 4,
+     "pytanie": "Jakie dane osobowe zbiera twoja e-usługa i co trzeba zrobić, żeby ich nie zbierać więcej, niż potrzeba? Kto zostaje wykluczony, jeżeli papierowa droga zniknie?"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "ePUAP, e-Doręczenia i podpisy",
+   "poziom": "wymagania rozszerzające i dopełniające · oceny 4–5",
+   "polecenie": "Bez zaglądania do materiału — sprawdzasz, czy rozumiesz mechanizm, a nie czy pamiętasz nazwy.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z5_upo", "Czym było UPO i jaką pełniło rolę", ""],
+      ["z5_zmiana", "Co zmieniło się 1 stycznia 2026 r.", ""],
+      ["z5_ade", "Czym jest ADE i czym różni się od adresu e-mail", ""],
+      ["z5_pz", "Podpis Profilem Zaufanym — do czego służy", ""],
+      ["z5_kwalifikowany", "Podpis kwalifikowany — czym się różni", ""]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_termin",
+     "wiersze": 4,
+     "pytanie": "Urząd wysłał pismo na twój ADE, a ty go nie odczytałeś. Czy termin na odpowiedź biegnie? Uzasadnij i porównaj z awizowanym listem poleconym."
+    }
+   ]
+  }
+ ]
+}
