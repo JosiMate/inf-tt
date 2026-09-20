@@ -1,0 +1,151 @@
+{
+ "id": "inf-tt-protokoly-ip",
+ "tytul": "Protokoły IPv4 i IPv6",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "IP",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Adresy IPv6 twojego stanowiska",
+   "poziom": "wymagania podstawowe · ocena 3",
+   "polecenie": "Ćwiczenie 1. Wykonaj <code>ipconfig /all</code> i odszukaj wszystkie adresy IPv6 swojej karty sieciowej.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z1_linklocal", "Adres link-local (zaczyna się od fe80::)", ""],
+      ["z1_globalny", "Adres globalny (zaczyna się od 2…)", "wpisz „brak”, jeśli go nie ma"],
+      ["z1_tymczasowy", "Adres tymczasowy", "wpisz „brak”, jeśli go nie ma"],
+      ["z1_brama", "Brama domyślna IPv6", ""],
+      ["z1_ipv4", "Dla porównania: adres IPv4 tego samego stanowiska", ""]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "fragment wyniku ipconfig /all z widocznymi adresami IPv6"
+    },
+    {
+     "typ": "tekst",
+     "id": "z1_wniosek",
+     "wiersze": 3,
+     "pytanie": "Czy twój komputer ma adres IPv6 widoczny w internecie, czy tylko link-local? Po czym to poznajesz i co to mówi o sieci, w której pracujesz?"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Skracanie i rozwijanie zapisu",
+   "poziom": "wymagania podstawowe i rozszerzające · oceny 3–4",
+   "polecenie": "Ćwiczenie 2. Najpierw na kartce, potem sprawdzenie poleceniem <code>ping</code>.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z2_a", "Skróć: 2001:0db8:0000:0000:00a3:0000:0000:1428", ""],
+      ["z2_b", "Skróć: fe80:0000:0000:0000:0204:61ff:fe9d:f156", ""],
+      ["z2_c", "Rozwiń do pełnej postaci: 2001:db8::ff00:42:8329", "osiem grup po cztery znaki"]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_blad",
+     "wiersze": 4,
+     "pytanie": "Dlaczego zapis 2001:db8::1::5 jest błędny? Odpowiedz tak, żeby z odpowiedzi wynikało, co dokładnie oznacza znak ::",
+     "podpowiedz": "Znak :: zastępuje … , ale nie mówi … , więc przy dwóch takich skrótach adres …"
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_sprawdzenie",
+     "wiersze": 2,
+     "pytanie": "Jak sprawdziłeś poprawność swoich zapisów i czy system przyjął wszystkie trzy adresy?"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Czy ta sieć umie IPv6",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Ćwiczenie 3. Pięć sprawdzeń: od własnego systemu, przez DNS, po statystyki wdrożenia.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z3_petla", "Wynik polecenia ping ::1", "działa / nie działa"],
+      ["z3_aaaa", "nslookup -type=AAAA google.com — czy jest rekord AAAA", ""],
+      ["z3_ping6", "ping -6 google.com — średni czas odpowiedzi", ""],
+      ["z3_ping4", "ping -4 google.com — średni czas odpowiedzi", ""],
+      ["z3_test", "Wynik z test-ipv6.com (ocena 0–10)", ""],
+      ["z3_polska", "Udział IPv6 w Polsce wg statystyk Google", "podaj też datę odczytu"]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "wynik z test-ipv6.com albo wykres ze statystyk Google"
+    },
+    {
+     "typ": "tekst",
+     "id": "z3_wnioski",
+     "wiersze": 4,
+     "pytanie": "Co wynika z tych pomiarów o sieci szkolnej? Jeżeli porównywałeś ze swoją siecią domową — czym się różnią i co z tego wynika dla operatora?"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Rozpoznawanie rodzaju adresu",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Bez zaglądania do materiału przypisz każdemu adresowi rodzaj i napisz, po czym go poznałeś.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z4_a", "2001:db8:85a3::8a2e:370:7334", "rodzaj i po czym poznajesz"],
+      ["z4_b", "fe80::1c2b:44ff:fe11:2233", ""],
+      ["z4_c", "fd12:3456:789a::1", ""],
+      ["z4_d", "ff02::1", ""],
+      ["z4_e", "::1", ""]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z4_rozgloszenie",
+     "wiersze": 3,
+     "pytanie": "Którego rodzaju adresu znanego z IPv4 nie ma na tej liście i nie ma go w IPv6 w ogóle? Co go zastąpiło i dlaczego to zmiana na lepsze?"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Porównanie protokołów",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Uzupełnij zestawienie własnymi słowami — nie przepisuj tabeli z materiału.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z5_dlugosc", "Długość adresu: IPv4 / IPv6", ""],
+      ["z5_granica", "Czym wyznacza się granicę sieci w IPv4, a czym w IPv6", ""],
+      ["z5_konfiguracja", "Sposoby uzyskania adresu w IPv6", ""],
+      ["z5_nat", "Czy w IPv6 potrzebny jest NAT i dlaczego", ""]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_dual",
+     "wiersze": 4,
+     "pytanie": "Wyjaśnij, na czym polega dwustosowość i dlaczego nie da się wyznaczyć jednego dnia, w którym świat przejdzie z IPv4 na IPv6."
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_prefiks",
+     "wiersze": 3,
+     "pytanie": "Firma dostała od operatora przydział /56. Ile sieci /64 może z niego zbudować? Pokaż obliczenie.",
+     "podpowiedz": "różnica prefiksów to … bitów, więc sieci jest 2 do potęgi …"
+    }
+   ]
+  }
+ ]
+}

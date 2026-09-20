@@ -30,6 +30,11 @@ otwierasz, klikając nazwę tematu.
     "url": "../klasa-1/sieci-komputerowe/#karta"
   },
   {
+    "plik": "protokoly-ip",
+    "tytul": "Klasa 1 · Protokoły IPv4 i IPv6",
+    "url": "../klasa-1/protokoly-ip/#karta"
+  },
+  {
     "plik": "onp",
     "tytul": "Klasa 3 · Odwrotna notacja polska",
     "url": "../klasa-3/onp/#karta"

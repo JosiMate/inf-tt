@@ -22,7 +22,7 @@ wspólnego z ocenami.
 | **[Systemy operacyjne w środowisku sieciowym](systemy-operacyjne.md)** | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | **[Nowe technologie i oprogramowanie](nowe-technologie.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | **[Sieci komputerowe – budowa i usługi](sieci-komputerowe.md)** | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| Protokoły IPv4 i IPv6 | 2 | *w przygotowaniu* |
+| **[Protokoły IPv4 i IPv6](protokoly-ip.md)** | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | E-usługi | 2 | *w przygotowaniu* |
 | Korzystanie z e-zasobów i współpraca zdalna | 1 | *w przygotowaniu* |
 | *Wiesz, umiesz, zdasz – podsumowanie działu* | 1 | — |
