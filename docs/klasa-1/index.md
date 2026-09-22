@@ -24,8 +24,8 @@ wspólnego z ocenami.
 | **[Sieci komputerowe – budowa i usługi](sieci-komputerowe.md)** | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | **[Protokoły IPv4 i IPv6](protokoly-ip.md)** | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | **[E-usługi](e-uslugi.md)** | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| Korzystanie z e-zasobów i współpraca zdalna | 1 | *w przygotowaniu* |
-| *Wiesz, umiesz, zdasz – podsumowanie działu* | 1 | — |
+| **[Korzystanie z e-zasobów i współpraca zdalna](e-zasoby.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| *[Wiesz, umiesz, zdasz – podsumowanie działu](wiesz-umiesz-zdasz-1.md)* | 1 | :material-clipboard-text-clock:{ title="Zakres sprawdzianu i powtórka" } zakres i powtórka |
 
 ### Dział II. Edytor tekstu i prezentacje
 

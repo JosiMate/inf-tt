@@ -1,0 +1,201 @@
+{
+ "id": "inf-tt-e-zasoby",
+ "tytul": "Korzystanie z e-zasobów i współpraca zdalna",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "E-ZASOBY",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "To samo pytanie, cztery zapytania",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Ćwiczenie 1. Jedno zagadnienie z działu, cztery sposoby zapytania. Zapisuj zapytania <strong>dokładnie tak, jak je wpisałeś</strong>.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z1_temat", "Zagadnienie, którego szukasz", ""],
+      ["z1_q1", "1. Całym zdaniem — treść zapytania", ""],
+      ["z1_w1", "1. …pierwszy trafny wynik (adres)", ""],
+      ["z1_q2", "2. Same słowa kluczowe", ""],
+      ["z1_w2", "2. …pierwszy trafny wynik", ""],
+      ["z1_q3", "3. Z cudzysłowem wokół nazwy własnej", ""],
+      ["z1_w3", "3. …pierwszy trafny wynik", ""],
+      ["z1_q4", "4. Z operatorem site: (gov.pl albo edu.pl)", ""],
+      ["z1_w4", "4. …pierwszy trafny wynik", ""]
+     ]
+    },
+    {
+     "typ": "wybor",
+     "id": "z1_najlepsze",
+     "pytanie": "Które zapytanie najszybciej doprowadziło do trafnej odpowiedzi",
+     "opcje": ["całe zdanie", "same słowa kluczowe", "z cudzysłowem", "z operatorem site:"]
+    },
+    {
+     "typ": "tekst",
+     "id": "z1_wniosek",
+     "wiersze": 3,
+     "pytanie": "Dlaczego akurat to zapytanie wypadło najlepiej? Odnieś się do tego, co operator faktycznie zrobił z wynikami."
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Trzy źródła pod lupą",
+   "poziom": "wymagania podstawowe i rozszerzające · oceny 3–4",
+   "polecenie": "Ćwiczenie 2. Każde źródło przepuść przez pięć pytań z sekcji 3. Ocena od 1 do 5, gdzie 5 znaczy „użyłbym bez wahania”.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z2_a_adres", "Źródło A (instytucja lub dokumentacja) — adres", ""],
+      ["z2_a_autor", "A — kto jest autorem i z jakiej daty jest tekst", ""],
+      ["z2_a_ocena", "A — ocena wiarygodności 1–5", ""],
+      ["z2_b_adres", "Źródło B (serwis branżowy) — adres", ""],
+      ["z2_b_autor", "B — autor i data", ""],
+      ["z2_b_ocena", "B — ocena wiarygodności 1–5", ""],
+      ["z2_c_adres", "Źródło C (dowolny wynik z pierwszej strony) — adres", ""],
+      ["z2_c_autor", "C — autor i data", ""],
+      ["z2_c_ocena", "C — ocena wiarygodności 1–5", ""]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_odrzucone",
+     "wiersze": 4,
+     "pytanie": "Które źródło odrzucasz i na którym z pięciu pytań się wyłożyło? Podaj konkret, nie ogólnik „mało wiarygodne”."
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_interes",
+     "wiersze": 3,
+     "pytanie": "Czy któreś ze źródeł ma interes w tym, żeby przedstawić sprawę w określony sposób? Jaki i po czym to poznajesz?"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Coś z domeny publicznej",
+   "poziom": "wymagania rozszerzające i dopełniające · oceny 4–5",
+   "polecenie": "Ćwiczenie 3. Materiał sprzed 1955 roku z Polony albo Federacji Bibliotek Cyfrowych, związany z techniką, komunikacją lub liczeniem.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z3_tytul", "Tytuł obiektu", ""],
+      ["z3_autor", "Autor", ""],
+      ["z3_rok", "Rok wydania", ""],
+      ["z3_instytucja", "Instytucja udostępniająca", ""],
+      ["z3_prawa", "Informacja o prawach podana przy obiekcie", "przepisz dosłownie"],
+      ["z3_adres", "Adres obiektu", ""]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z3_przypis",
+     "wiersze": 3,
+     "pytanie": "Ułóż przypis w takiej formie, jakiej użyłbyś w pracy — autor, tytuł, miejsce, rok, adres i data dostępu."
+    },
+    {
+     "typ": "tekst",
+     "id": "z3_skad_wiadomo",
+     "wiersze": 4,
+     "pytanie": "Skąd wiadomo, że ten materiał jest już w domenie publicznej? Podaj regułę i policz ją dla swojego obiektu.",
+     "podpowiedz": "art. 36 ustawy — 70 lat od …"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "strona obiektu z widoczną informacją o prawach"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Wspólny dokument",
+   "poziom": "wymagania podstawowe i rozszerzające · oceny 3–4",
+   "polecenie": "Ćwiczenie 4. W parze: jeden dokument w chmurze, udostępniony <strong>do komentowania</strong>, a nie do edycji.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z4_narzedzie", "Użyte narzędzie", ""],
+      ["z4_partner", "Z kim pracowałeś (numer w dzienniku)", ""],
+      ["z4_uprawnienie", "Jakie uprawnienie nadałeś koledze", "odczyt / komentowanie / edycja"],
+      ["z4_komentarz", "Treść komentarza, który zostawiłeś", ""],
+      ["z4_sugestia", "Czego dotyczyła twoja sugestia", ""],
+      ["z4_wersje", "Co pokazuje historia wersji — kto i kiedy", ""]
+     ]
+    },
+    {
+     "typ": "wybor",
+     "id": "z4_tryb",
+     "pytanie": "W jakim trybie nanosiłeś poprawkę w cudzym tekście",
+     "opcje": ["sugerowania", "zwykłej edycji", "komentarza", "nie udało się ustawić"]
+    },
+    {
+     "typ": "tekst",
+     "id": "z4_roznica",
+     "wiersze": 4,
+     "pytanie": "Czym praca na jednym dokumencie w chmurze różni się od odsyłania sobie kolejnych wersji pliku? Podaj dwie różnice i powiedz, która z nich rozwiązuje większy problem."
+    },
+    {
+     "typ": "zrzut",
+     "id": "z4_zrzut",
+     "opis": "dokument z widocznym komentarzem albo otwarta historia wersji"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Zanim założysz konto",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Bez zakładania konta: wejdź na stronę rejestracji dowolnej usługi sieciowej, z której chciałbyś korzystać, i przeczytaj, na co się zgadzasz.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      ["z5_usluga", "Nazwa usługi", ""],
+      ["z5_dane", "Jakich danych wymaga rejestracja", ""],
+      ["z5_zbedne", "Które z nich wydają ci się zbędne do działania usługi", ""],
+      ["z5_2fa", "Czy da się włączyć uwierzytelnianie dwuskładnikowe", "tak / nie / nie znalazłem"],
+      ["z5_usuniecie", "Gdzie w usłudze usuwa się konto", ""],
+      ["z5_dane_po", "Co dzieje się z danymi po usunięciu konta", ""]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_wniosek",
+     "wiersze": 3,
+     "pytanie": "Czy po tym sprawdzeniu nadal założyłbyś to konto? Uzasadnij, odwołując się do tego, co znalazłeś, a nie do tego, jak usługa wygląda."
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "tytul": "Samoocena i przygotowanie do sprawdzianu",
+   "poziom": "",
+   "polecenie": "Ostatni temat działu — za tydzień sprawdzian „Wiesz, umiesz, zdasz”.",
+   "pola": [
+    {
+     "typ": "wybor",
+     "id": "z6_gotowosc",
+     "pytanie": "Jak oceniasz swoje przygotowanie do sprawdzianu z całego działu",
+     "opcje": ["czuję się pewnie w całym materiale", "pewnie, poza jednym–dwoma tematami", "muszę powtórzyć większość", "jeszcze nie zaczynałem"]
+    },
+    {
+     "typ": "tekst",
+     "id": "z6_luki",
+     "wiersze": 3,
+     "pytanie": "Który temat działu idzie ci najgorzej i co konkretnie w nim nie wychodzi? Nazwij umiejętność, nie temat: „nie umiem policzyć liczby hostów”, a nie „sieci”."
+    },
+    {
+     "typ": "tekst",
+     "id": "z6_plan",
+     "wiersze": 2,
+     "pytanie": "Co zrobisz z tą luką przed sprawdzianem?"
+    }
+   ]
+  }
+ ]
+}
