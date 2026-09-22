@@ -27,7 +27,8 @@
 | --- | --- |
 | **Kiedy** | wtorek 29 września 2026 r., cała lekcja |
 | **Forma** | zadania wykonywane przy komputerze, wynik zapisujesz w jednym dokumencie |
-| **Ile zadań** | sześć, na łącznie **40 punktów** |
+| **Ile zadań** | sześć, a w każdym kilka poleceń oznaczonych poziomem wymagań |
+| **Jak liczy się ocena** | **poziomami, nie punktami** — patrz niżej |
 | **Co oddajesz** | jeden plik `nr<numer w dzienniku>-dzial1` przez **Zadania domowe w dzienniku VULCAN**, do końca lekcji |
 | **Czego potrzebujesz** | wiersz poleceń, przeglądarka, kalkulator, edytor tekstu |
 
@@ -55,24 +56,93 @@
 
     Zasady w całości: [wymagania edukacyjne i bhp](wymagania-i-bhp.md).
 
-## Zakres — co dokładnie będzie sprawdzane
+## Jak liczy się ocena
 
-| Obszar | Umiejętność | Poziom | Temat |
-| --- | --- | :---: | --- |
-| Konfiguracja stanowiska | odczytanie adresu, maski, bramy, DNS, MAC i serwera DHCP | 2–3 | [Sieci komputerowe](sieci-komputerowe.md) |
-| Adresacja | rozpoznanie adresu prywatnego, publicznego, APIPA i pętli zwrotnej | 2–3 | [Sieci komputerowe](sieci-komputerowe.md) |
-| Adresacja | obliczenie adresu sieci, rozgłoszeniowego i liczby hostów | 4–5 | [Sieci komputerowe](sieci-komputerowe.md) |
-| Diagnostyka | dobranie polecenia do objawu i odczytanie wyniku | 4 | [Sieci komputerowe](sieci-komputerowe.md) |
-| Diagnostyka | wskazanie, na którym etapie urywa się łączność | 4–5 | [Sieci komputerowe](sieci-komputerowe.md) |
-| Łącze | interpretacja testu prędkości, przeliczenie Mb/s na MB/s | 3–4 | [Sieci komputerowe](sieci-komputerowe.md) |
-| IPv6 | skrócenie i rozwinięcie adresu, rozpoznanie rodzaju adresu | 4–5 | [Protokoły IPv4 i IPv6](protokoly-ip.md) |
-| IPv6 | uzasadnienie potrzeby wdrożenia, porównanie z IPv4 | 5 | [Protokoły IPv4 i IPv6](protokoly-ip.md) |
-| System operacyjny | system plików dysku, poziom fragmentacji, konta i uprawnienia | 3–4 | [Systemy operacyjne](systemy-operacyjne.md) |
-| System operacyjny | kopia zapasowa, nośnik awaryjny, tryb awaryjny | 4–5 | [Systemy operacyjne](systemy-operacyjne.md) |
-| Nowe technologie | chmura, sztuczna inteligencja, IoT, druk 3D, licencje oprogramowania | 2–4 | [Nowe technologie](nowe-technologie.md) |
-| E-usługi | definicja, przykłady, sposoby potwierdzania tożsamości, zabezpieczenia | 2–4 | [E-usługi](e-uslugi.md) |
-| E-zasoby | operatory wyszukiwania, ocena wiarygodności źródła | 2–3 | [Korzystanie z e-zasobów](e-zasoby.md) |
-| E-zasoby | dozwolony użytek, prawo cytatu, licencje CC | 3–5 | [Korzystanie z e-zasobów](e-zasoby.md) |
+Ta praca **nie jest punktowana**. Nie ma progów procentowych i nie ma sytuacji,
+w której brakuje ci jednego punktu do czwórki. Zamiast tego każde polecenie jest
+oznaczone literą — poziomem wymagań, tym samym, który widzisz na
+[stronie wymagań edukacyjnych](wymagania-i-bhp.md) i w etykietach przy treściach
+na stronach tematów.
+
+| Poziom | Wymagania | Daje ocenę |
+| :---: | --- | :---: |
+| **K** | konieczne | 2 |
+| **P** | podstawowe | 3 |
+| **R** | rozszerzające | 4 |
+| **D** | dopełniające | 5 |
+
+Ocenę wyznacza **najwyższy poziom, który zaliczysz w całości — razem ze
+wszystkimi niższymi**. Nie da się dostać czwórki, przeskakując poziom
+podstawowy.
+
+!!! tip "Reguła jednego pudła"
+
+    Poziom jest zaliczony, gdy wykonasz **wszystkie jego polecenia z wyjątkiem
+    najwyżej jednego**. Ta tolerancja istnieje po to, żeby jedna pomyłka albo
+    jedno przeoczone polecenie nie przekreślało całego poziomu.
+
+    Nie obejmuje ona poleceń oznaczonych gwiazdką **★** — to są umiejętności,
+    bez których poziomu po prostu nie ma.
+
+!!! warning "Co z tego wynika dla twojej strategii"
+
+    Opłaca się iść **od dołu**. Domknij najpierw wszystkie polecenia z literą K,
+    potem P, i dopiero wtedy sięgaj wyżej. Trzy efektowne odpowiedzi z poziomu D
+    przy nieodrobionym P nie dadzą ci nic — bo oceny nie sumuje się z kawałków.
+
+    Szóstki na tej pracy nie ma. Ocenę celującą zdobywa się osobno, **zadaniem
+    działowym** ze [spisu tematów](index.md#zadania-na-ocene-celujaca).
+
+    Ocenioną pracę dostaniesz razem z **kartą oceny**: zobaczysz w niej nie
+    liczbę, tylko które konkretnie umiejętności masz zaliczone, a które trzeba
+    domknąć. To jest też lista, od której zaczynasz, jeżeli idziesz na poprawę.
+
+## Zakres — co musisz umieć na daną ocenę
+
+Każdy wiersz to jedno polecenie na sprawdzianie. **★** oznacza umiejętność,
+bez której poziomu nie da się zaliczyć — tolerancja jednego pudła jej nie
+obejmuje.
+
+=== "K — na ocenę 2"
+
+    | Musisz umieć | Powtórz w temacie |
+    | --- | --- |
+    | **★** odczytać adres IPv4 i maskę poleceniem `ipconfig /all` | [Sieci komputerowe](sieci-komputerowe.md) |
+    | rozstrzygnąć, czy adres jest prywatny, publiczny czy APIPA, i wskazać pulę | [Sieci komputerowe](sieci-komputerowe.md) |
+    | **★** sprawdzić łączność poleceniem `ping` i odczytać z wyniku, czy jest odpowiedź | [Sieci komputerowe](sieci-komputerowe.md) |
+    | wypisać konta użytkowników w systemie i wskazać konto administratora | [Systemy operacyjne](systemy-operacyjne.md) |
+    | podać przykład e-usługi i odróżnić ją od zwykłej strony informacyjnej | [E-usługi](e-uslugi.md) |
+
+=== "P — na ocenę 3"
+
+    | Musisz umieć | Powtórz w temacie |
+    | --- | --- |
+    | odczytać bramę domyślną, serwery DNS, adres MAC i serwer DHCP | [Sieci komputerowe](sieci-komputerowe.md) |
+    | **★** wyznaczyć adres sieci i adres rozgłoszeniowy | [Sieci komputerowe](sieci-komputerowe.md) |
+    | wykonać pełną sekwencję sprawdzania — od pętli zwrotnej po nazwę | [Sieci komputerowe](sieci-komputerowe.md) |
+    | odczytać adres IPv6 stanowiska i nazwać jego rodzaj | [Protokoły IPv4 i IPv6](protokoly-ip.md) |
+    | **★** ułożyć zapytanie z operatorem `site:` i podać adres trafnego wyniku | [Korzystanie z e-zasobów](e-zasoby.md) |
+    | wyjaśnić, co obejmuje dozwolony użytek osobisty i gdzie leży jego granica | [Korzystanie z e-zasobów](e-zasoby.md) |
+
+=== "R — na ocenę 4"
+
+    | Musisz umieć | Powtórz w temacie |
+    | --- | --- |
+    | **★** wskazać, na którym etapie urywa się łączność, i nazwać przyczynę | [Sieci komputerowe](sieci-komputerowe.md) |
+    | **★** ustalić system plików dysku systemowego, jego pojemność i wolne miejsce | [Systemy operacyjne](systemy-operacyjne.md) |
+    | rozpoznać typ nośnika i rozstrzygnąć, czy defragmentacja ma sens | [Systemy operacyjne](systemy-operacyjne.md) |
+    | podać polecenie potwierdzające usterkę i sposób jej usunięcia | [Sieci komputerowe](sieci-komputerowe.md) |
+    | zawęzić wyniki operatorem `filetype:` i ocenić wiarygodność dokumentu | [Korzystanie z e-zasobów](e-zasoby.md) |
+
+=== "D — na ocenę 5"
+
+    | Musisz umieć | Powtórz w temacie |
+    | --- | --- |
+    | **★** podać prefiks, zakres adresów hostów i ich liczbę **wraz ze wzorem** | [Sieci komputerowe](sieci-komputerowe.md) |
+    | **★** skrócić i rozwinąć adres IPv6 oraz uzasadnić regułę jednego `::` | [Protokoły IPv4 i IPv6](protokoly-ip.md) |
+    | dobrać najmniejszą wystarczającą maskę do zadanej liczby stanowisk | [Sieci komputerowe](sieci-komputerowe.md) |
+    | uzasadnić potrzebę wdrażania IPv6, porównując go z IPv4 | [Protokoły IPv4 i IPv6](protokoly-ip.md) |
+    | rozstrzygnąć o legalności użycia materiału, powołując się na licencję albo przepis | [Korzystanie z e-zasobów](e-zasoby.md) |
 
 Pełna lista wymagań na każdą ocenę jest na stronie
 [wymagań edukacyjnych](wymagania-i-bhp.md) — rozwiń „Dział I”.
@@ -436,20 +506,41 @@ pytania daje złudzenie, że się umie.
 
 ## Lista kontrolna przed sprawdzianem
 
-Odhacz dopiero wtedy, gdy potrafisz to **zrobić**, a nie „kojarzysz”.
+Odhacz dopiero wtedy, gdy potrafisz to **zrobić**, a nie „kojarzysz”. Idź od
+góry: dopóki blok K nie jest odhaczony w całości, nie ma sensu zaglądać do D.
 
-- [ ] odczytuję `ipconfig /all` i wiem, co znaczy każda linia
-- [ ] z adresu i maski liczę adres sieci, rozgłoszeniowy i liczbę hostów
+**Poziom K — na ocenę 2**
+
+- [ ] ★ odczytuję adres IPv4 i maskę z `ipconfig /all`
 - [ ] rozpoznaję adres prywatny, publiczny, APIPA i pętlę zwrotną
-- [ ] do objawu awarii dobieram polecenie i wiem, co odczytać z wyniku
-- [ ] przeliczam Mb/s na MB/s i wiem, kiedy ważniejsze jest opóźnienie
-- [ ] skracam i rozwijam adres IPv6, znam regułę jednego `::`
-- [ ] wymieniam różnice IPv4 i IPv6 i uzasadniam potrzebę wdrożenia
-- [ ] sprawdzam system plików dysku i wiem, czego nie robi się na SSD
-- [ ] wiem, gdzie w systemie są konta i uprawnienia
-- [ ] podaję przykłady e-usług i sposoby potwierdzania tożsamości
-- [ ] układam zapytanie z `site:` i `filetype:` i oceniam wiarygodność źródła
-- [ ] wiem, co wolno w ramach użytku osobistego i cytatu oraz co znaczą `BY`, `SA`, `NC`, `ND`
+- [ ] ★ sprawdzam łączność `pingiem` i czytam, czy jest odpowiedź
+- [ ] wypisuję konta w systemie i wskazuję administratora
+- [ ] podaję przykład e-usługi i mówię, czym różni się od zwykłej strony
+
+**Poziom P — na ocenę 3**
+
+- [ ] odczytuję bramę, serwery DNS, adres MAC i serwer DHCP
+- [ ] ★ liczę adres sieci i adres rozgłoszeniowy
+- [ ] wykonuję pełną sekwencję diagnostyczną w dobrej kolejności
+- [ ] odczytuję adres IPv6 stanowiska i nazywam jego rodzaj
+- [ ] ★ układam zapytanie z operatorem `site:`
+- [ ] wiem, co obejmuje użytek osobisty i gdzie jest jego granica
+
+**Poziom R — na ocenę 4**
+
+- [ ] ★ wskazuję, na którym etapie urywa się łączność, i nazywam przyczynę
+- [ ] ★ sprawdzam system plików dysku, jego pojemność i wolne miejsce
+- [ ] rozpoznaję HDD i SSD oraz wiem, czego nie robi się na SSD
+- [ ] podaję polecenie potwierdzające usterkę i sposób jej usunięcia
+- [ ] zawężam wyniki przez `filetype:` i oceniam wiarygodność dokumentu
+
+**Poziom D — na ocenę 5**
+
+- [ ] ★ liczę liczbę hostów wraz ze wzorem i podaję zakres adresów
+- [ ] ★ skracam i rozwijam adres IPv6, znam regułę jednego `::`
+- [ ] dobieram maskę do zadanej liczby stanowisk
+- [ ] uzasadniam, po co wdraża się IPv6, porównując go z IPv4
+- [ ] rozstrzygam o licencji i powołuję się na przepis
 
 Jeżeli któryś punkt zostaje nieodhaczony — wracasz do tematu z kolumny po prawej
 w tabeli zakresu, a nie do tej strony. Ta jest streszczeniem, nie materiałem.
