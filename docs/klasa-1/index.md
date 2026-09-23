@@ -33,10 +33,10 @@ wspólnego z ocenami.
 
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
-| Rozbudowane dokumenty tekstowe | 3 | *w przygotowaniu* |
-| Sztuka prezentacji | 2 | *w przygotowaniu* |
-| *Wiesz, umiesz, zdasz – podsumowanie działu* | 1 | — |
-| Nowoczesne technologie w służbie człowiekowi – projekt zespołowy | 4 | *w przygotowaniu* |
+| **[Rozbudowane dokumenty tekstowe](rozbudowane-dokumenty-tekstowe.md)** | 3 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| **[Sztuka prezentacji](sztuka-prezentacji.md)** | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| *[Wiesz, umiesz, zdasz – podsumowanie działu](wiesz-umiesz-zdasz-2.md)* | 1 | :material-clipboard-text-clock:{ title="Zakres sprawdzianu i powtórka" } zakres i powtórka |
+| **[Nowoczesne technologie w służbie człowiekowi – projekt zespołowy](nowoczesne-technologie-w-sluzbie-czlowiekowi-projekt.md)** | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ### Dział III. Społeczeństwo w internecie
 
@@ -44,11 +44,11 @@ wspólnego z ocenami.
 
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
-| Moja cyfrowa tożsamość | 1 | *w przygotowaniu* |
-| Przemiany społeczne a technologie | 1 | *w przygotowaniu* |
-| Cyberbezpieczeństwo | 2 | *w przygotowaniu* |
-| Podstawy kryptografii | 2 | *w przygotowaniu* |
-| *Wiesz, umiesz, zdasz – podsumowanie działu* | 1 | — |
+| **[Moja cyfrowa tożsamość](moja-cyfrowa-tozsamosc.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| **[Przemiany społeczne a technologie](przemiany-spoleczne-a-technologie.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| **[Cyberbezpieczeństwo](cyberbezpieczenstwo.md)** | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| **[Podstawy kryptografii](podstawy-kryptografii.md)** | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| *[Wiesz, umiesz, zdasz – podsumowanie działu](wiesz-umiesz-zdasz-3.md)* | 1 | :material-clipboard-text-clock:{ title="Zakres sprawdzianu i powtórka" } zakres i powtórka |
 
 ### Dział IV. Strony WWW i grafika komputerowa
 
@@ -148,6 +148,54 @@ je wykonać. Pełne zasady opisuje strona [wymagań edukacyjnych](wymagania-i-bh
     Rozwiąż każde, zapisując **tok rozumowania krok po kroku**, nie samą odpowiedź. Przy każdym wskaż miejsce, w którym najłatwiej się pomylić.
 
     **Oddajesz:** treści zadań ze wskazaniem źródła, pełne rozwiązania i uwagi o pułapkach
+
+??? example "Dział II. Edytor tekstu i prezentacje — 2 zadania do wyboru"
+
+    **A. Kompletny szablon pracy dyplomowej / raportu technicznego**
+
+    *Do wykonania po temacie „Rozbudowane dokumenty tekstowe”.*
+
+    Opracuj szablon dokumentu w edytorze tekstu ze zdefiniowanymi autorskimi stylami (Nagłówek 1–3, Tekst Główny, Podpis Ilustracji, Kod), automatycznym podziałem sekcji na stronę tytułową, spis treści, treść główną (odrębna numeracja) oraz załączniki o orientacji poziomej.
+
+    Dodaj makro lub skrypt automatyzujący wstawianie podpisów rysunków oraz upewnij się, że dokument spełnia w 100% wymogi edytorskie (brak sierot, wdów, twarde spacje).
+
+    **Oddajesz:** plik szablonu (.dotx lub .docx) wraz ze szczegółową instrukcją edytorską dla użytkowników
+
+    ---
+
+    **B. Interaktywna prezentacja edukacyjna z własnym wzorcem slajdów**
+
+    *Do wykonania po temacie „Sztuka prezentacji”.*
+
+    Zaprojektuj od zera unikalny wzorzec slajdów (maskę slajdów) i zbuduj na jego podstawie interaktywną prezentację szkoleniową wykorzystującą hiperłącza nawigacyjne, spersonalizowane menu slajdów, zaawansowane wyresy SmartArt i osadzone pliki wideo.
+
+    Przygotuj również kompendium w notatkach prelegenta dla każdego slajdu.
+
+    **Oddajesz:** plik prezentacji (.pptx oraz .ppsx) oraz krótki przewodnik dla zaprezentowania materiału
+
+??? example "Dział III. Społeczeństwo w internecie — 2 zadania do wyboru"
+
+    **A. Audyt cyberbezpieczeństwa i śladu cyfrowego w organizacji**
+
+    *Do wykonania po temacie „Cyberbezpieczeństwo”.*
+
+    Przeprowadź symulowany audyt bezpieczeństwa wybranej fikcyjnej organizacji/szkoły. Zidentyfikuj wektory zagrożeń (phishing, słabe hasła, brak 2FA, wycieki danych w OSINT) oraz opracuj Politykę Bezpieczeństwa Informacji.
+
+    Przygotuj procedurę zgłaszania incydentów do CERT Polska oraz ramowy program szkolenia z cyberhigieny dla pracowników.
+
+    **Oddajesz:** dokument polityki bezpieczeństwa (.docx) oraz materiały szkoleniowe
+
+    ---
+
+    **B. Program do kryptografii i steganografii w Pythonie**
+
+    *Do wykonania po temacie „Podstawy kryptografii”.*
+
+    Napisz aplikację w języku Python obsługującą szyfrowanie symetryczne (np. Szyfr Cezara, Vigenère'a), obliczanie skrótów SHA-256 oraz proste ukrywanie tekstu w plikach obrazowych (steganografia LSB).
+
+    Aplikacja powinna posiadać menu tekstowe lub prosty interfejs graficzny oraz testy jednostkowe.
+
+    **Oddajesz:** kod źródłowy aplikacji w Pythonie z dokumentacją i przykładami użycia
 
 <!-- zadania6:end -->
 ---

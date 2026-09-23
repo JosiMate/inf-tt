@@ -31,6 +31,50 @@
       "oddajesz": "treści zadań ze wskazaniem źródła, pełne rozwiązania i uwagi o pułapkach"
     }
   ],
+  "Dział II. Edytor tekstu i prezentacje": [
+    {
+      "ozn": "A",
+      "tytul": "Kompletny szablon pracy dyplomowej / raportu technicznego",
+      "wymaga": "po temacie „Rozbudowane dokumenty tekstowe”",
+      "opis": [
+        "Opracuj szablon dokumentu w edytorze tekstu ze zdefiniowanymi autorskimi stylami (Nagłówek 1–3, Tekst Główny, Podpis Ilustracji, Kod), automatycznym podziałem sekcji na stronę tytułową, spis treści, treść główną (odrębna numeracja) oraz załączniki o orientacji poziomej.",
+        "Dodaj makro lub skrypt automatyzujący wstawianie podpisów rysunków oraz upewnij się, że dokument spełnia w 100% wymogi edytorskie (brak sierot, wdów, twarde spacje)."
+      ],
+      "oddajesz": "plik szablonu (.dotx lub .docx) wraz ze szczegółową instrukcją edytorską dla użytkowników"
+    },
+    {
+      "ozn": "B",
+      "tytul": "Interaktywna prezentacja edukacyjna z własnym wzorcem slajdów",
+      "wymaga": "po temacie „Sztuka prezentacji”",
+      "opis": [
+        "Zaprojektuj od zera unikalny wzorzec slajdów (maskę slajdów) i zbuduj na jego podstawie interaktywną prezentację szkoleniową wykorzystującą hiperłącza nawigacyjne, spersonalizowane menu slajdów, zaawansowane wyresy SmartArt i osadzone pliki wideo.",
+        "Przygotuj również kompendium w notatkach prelegenta dla każdego slajdu."
+      ],
+      "oddajesz": "plik prezentacji (.pptx oraz .ppsx) oraz krótki przewodnik dla zaprezentowania materiału"
+    }
+  ],
+  "Dział III. Społeczeństwo w internecie": [
+    {
+      "ozn": "A",
+      "tytul": "Audyt cyberbezpieczeństwa i śladu cyfrowego w organizacji",
+      "wymaga": "po temacie „Cyberbezpieczeństwo”",
+      "opis": [
+        "Przeprowadź symulowany audyt bezpieczeństwa wybranej fikcyjnej organizacji/szkoły. Zidentyfikuj wektory zagrożeń (phishing, słabe hasła, brak 2FA, wycieki danych w OSINT) oraz opracuj Politykę Bezpieczeństwa Informacji.",
+        "Przygotuj procedurę zgłaszania incydentów do CERT Polska oraz ramowy program szkolenia z cyberhigieny dla pracowników."
+      ],
+      "oddajesz": "dokument polityki bezpieczeństwa (.docx) oraz materiały szkoleniowe"
+    },
+    {
+      "ozn": "B",
+      "tytul": "Program do kryptografii i steganografii w Pythonie",
+      "wymaga": "po temacie „Podstawy kryptografii”",
+      "opis": [
+        "Napisz aplikację w języku Python obsługującą szyfrowanie symetryczne (np. Szyfr Cezara, Vigenère'a), obliczanie skrótów SHA-256 oraz proste ukrywanie tekstu w plikach obrazowych (steganografia LSB).",
+        "Aplikacja powinna posiadać menu tekstowe lub prosty interfejs graficzny oraz testy jednostkowe."
+      ],
+      "oddajesz": "kod źródłowy aplikacji w Pythonie z dokumentacją i przykładami użycia"
+    }
+  ],
   "Dział II. Rozwiązywanie problemów z wykorzystaniem dynamicznych struktur danych": [
     {
       "ozn": "A",

@@ -1,0 +1,76 @@
+{
+ "id": "inf-tt-sztuka-prezentacji",
+ "tytul": "Sztuka prezentacji",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "SP",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Maska slajdów i motyw graficzny",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Stwórz lub zmodyfikuj wzorzec slajdów (maskę slajdów). Ustaw spójny krój czcionek, paletę kolorów oraz dodaj logo/stopkę na wszystkich slajdach wzorca.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_czcionka",
+       "Wybrany krój czcionki (nagłówki / treść)",
+       "np. Montserrat / Open Sans"
+      ],
+      [
+       "z1_kolory",
+       "Dominująca paleta kolorów",
+       "np. Ciemnoniebieski + Akcent Pomarańczowy"
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Widok MASKI SLAJDÓW z zdefiniowanym układowi i stopką"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Wizualizacja danych i multimedia",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Zastąp blok tekstu czytelną grafiką SmartArt/schematem oraz osadź wideo/dźwięk ustawiając odpowiednie reguły odtwarzania.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_zasada",
+     "wiersze": 3,
+     "pytanie": "Wyjaśnij zasadę 6x6 w tworzeniu slajdów oraz dlaczego należy unikać ścian tekstu."
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Slajd zawierający wykres lub schemat zamiast wypunktowania"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Wystąpienie publiczne i widok prelegenta",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Przygotuj notatki prelegenta dla 3 slajdów oraz przetestuj działanie widoku prelegenta (Presenter View) na dwóch ekranach.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_notatki",
+     "wiersze": 3,
+     "pytanie": "Jakie informacje powinny znajdować się w notatkach prelegenta, a jakie na samym slajdzie?"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Zrzut ekranu przedstawiający WIDOK PRELEGENTA w trakcie prezentacji"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "rozbudowane-dokumenty-tekstowe"
+}

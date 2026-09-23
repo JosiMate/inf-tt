@@ -1,0 +1,96 @@
+{
+ "id": "inf-tt-nowoczesne-technologie-w-sluzbie-czlowiekowi-projekt",
+ "tytul": "Nowoczesne technologie w służbie człowiekowi – projekt zespołowy",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "PROJ2",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Karta projektu i podział ról w zespole",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Wypełnij kartę projektu: podaj temat projektu, skład zespołu, przydzielone role (Lider, Analityk, Redaktor, Grafik/Prelegent) oraz cel główny.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_temat",
+       "Wybrany temat projektu",
+       "np. Sztuczna inteligencja w medycynie"
+      ],
+      [
+       "z1_lider",
+       "Lider zespołu",
+       "Imię i nazwisko"
+      ],
+      [
+       "z1_sklad",
+       "Pozostali członkowie i ich role",
+       "np. Jan Kowalski (Analityk), Piotr Nowak (Redaktor)"
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z1_cel",
+     "wiersze": 3,
+     "pytanie": "Opisz w 2–3 zdaniach cel główny projektu oraz zakładany efekt końcowy:"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Harmonogram prac i kamienie milowe",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Opracuj szczegółowy harmonogram prac podzielony na 4 etapy (Lekcje 1–4) z przypisanymi odpowiedzialnościami i terminami.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z2_e1",
+       "Etap 1 (Lekcja 1): Analiza i źródła",
+       "Zakres prac i osoba odpowiedzialna"
+      ],
+      [
+       "z2_e2",
+       "Etap 2 (Lekcja 2): Dokument tekstowy",
+       "Zakres prac i osoba odpowiedzialna"
+      ],
+      [
+       "z2_e3",
+       "Etap 3 (Lekcja 3): Prezentacja multimedialna",
+       "Zakres prac i osoba odpowiedzialna"
+      ],
+      [
+       "z2_e4",
+       "Etap 4 (Lekcja 4): Prezentacja i ewaluacja",
+       "Zakres prac i osoba odpowiedzialna"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Podsumowanie wykonania i samoocena",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Opisz przebieg realizacji projektu, napotkane trudności oraz dokonaj samooceny pracy zespołu i własnego wkładu.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_trudnosci",
+     "wiersze": 4,
+     "pytanie": "Jakie trudności pojawiły się podczas pracy zespołowej i w jaki sposób zespół je rozwiązał?"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Zrzut ekranu przedstawiający wspólny folder projektowy lub historię zmian w dokumencie"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "sztuka-prezentacji"
+}

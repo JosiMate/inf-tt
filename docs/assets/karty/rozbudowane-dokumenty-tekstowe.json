@@ -1,0 +1,76 @@
+{
+ "id": "inf-tt-rozbudowane-dokumenty-tekstowe",
+ "tytul": "Rozbudowane dokumenty tekstowe",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "RDT",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Stosowanie stylów i spisu treści",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Sformatuj podany wielostronicowy dokument tekstowy za pomocą nagłówków ze stylów (Nagłówek 1, Nagłówek 2) oraz wygeneruj automatyczny spis treści na początku dokumentu.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_naglowki",
+       "Liczba nagłówków N1 i N2",
+       "np. 4 x N1, 8 x N2"
+      ],
+      [
+       "z1_spis",
+       "Czy spis treści jest automatyczny?",
+       "Tak / Nie"
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Widok pierwszej strony dokumentu z automatycznym spisem treści"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Modyfikacja stylu i przypisy",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Zmodyfikuj styl Nagłówek 1 (zmień krój czcionki, kolor, odstęp przed/po) oraz dodaj co najmniej 3 przypisy dolne w tekście.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_opis_stylu",
+     "wiersze": 3,
+     "pytanie": "Opisz wprowadzone zmiany w stylu Nagłówek 1 (krój czcionki, rozmiar, kolor, interlinia, odstępy akapitu):"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Fragment strony z przypisem dolnym i zmodyfikowanym nagłówkiem"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Podział na sekcje i nagłówki/stopki",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Wstaw znak podziału sekcji (od nowej strony). Odłącz nagłówek/stopkę drugiej sekcji od pierwszej, wstaw inną numerację stron (bez numeru na stronie tytułowej).",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_sekcje",
+     "wiersze": 3,
+     "pytanie": "Dlaczego zwykły podział strony (Ctrl+Enter) nie wystarczy, aby zdefiniować różne nagłówki i stopki w jednym dokumencie?"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Widok podziału sekcji z otwartą edycją nagłówka i stopki"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "e-zasoby"
+}

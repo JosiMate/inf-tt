@@ -1,0 +1,73 @@
+{
+ "id": "inf-tt-moja-cyfrowa-tozsamosc",
+ "tytul": "Moja cyfrowa tożsamość",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "MCT",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Analiza własnego śladu cyfrowego",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Przeprowadź audyt informacji dostępnych na Twój temat w wyszukiwarkach internetowych (tzw. ego-surfing w trybie prywatnym/incognito) i zidentyfikuj potencjalny ślad cyfrowy.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_wyniki",
+       "Publicznie widoczne informacje",
+       "np. konto w serwisie społecznościowym, udział w zawodach"
+      ],
+      [
+       "z1_typ",
+       "Rodzaj śladu",
+       "aktywny (świadomy) czy bierny (automatyczny)"
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z1_wniosek",
+     "wiersze": 3,
+     "pytanie": "Jakie wnioski wyciągasz z przeprowadzonego audytu? Czy dostrzegasz informacje, które wolałbyś ukryć przed pracodawcą lub uczelnią?"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Wizerunek w sieci a przyszłość zawodowa",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Przeanalizuj pojęcie rekrutacji społecznościowej (Social Recruiting) oraz zasady budowania profesjonalnej tożsamości cyfrowej (np. sieć LinkedIn).",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_zasady",
+     "wiersze": 4,
+     "pytanie": "Wymień 3 złote zasady dbaniu o cyfrowy wizerunek zawodowy:",
+     "podpowiedz": "1.  2.  3."
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Przykładowe ustawienia prywatności wybranego profilu społecznościowego"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Prawo do bycia zapomnianym (RODO)",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Przeanalizuj procedurę zgłaszania wniosku o usunięcie danych osobowych z indeksu wyszukiwarki na podstawie art. 17 RODO.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_rodo",
+     "wiersze": 4,
+     "pytanie": "W jakich sytuacjach wniosek o 'prawo do bycia zapomnianym' może zostać odrzucony przez wyszukiwarkę lub administratora danych?"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "nowoczesne-technologie-w-sluzbie-czlowiekowi-projekt"
+}
