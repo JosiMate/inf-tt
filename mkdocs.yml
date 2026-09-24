@@ -71,6 +71,8 @@ extra_javascript:
   - assets/js/postep.js
   - assets/js/narzedzia.js
   - assets/js/labirynt.js
+  # Odhaczanie list „- [ ]” i pobieranie ich jako dokument Word.
+  - assets/js/lista-kontrolna.js
 
 markdown_extensions:
   - abbr

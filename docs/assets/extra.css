@@ -500,3 +500,17 @@
    zwykłe przewinięcie strony wyglądałoby jak wejście z odsyłacza i sekcja
    otwierałaby się wbrew temu, co uczeń ostatnio wybrał. */
 .kp-kotwica { display: block; height: 0; scroll-margin-top: 3.6rem; }
+
+/* ------------------------------------------------------ lista kontrolna
+   Pola z „- [ ] punkt” odblokowuje lista-kontrolna.js — muszą więc wyglądać
+   na klikalne. Odhaczony punkt przygasa, żeby było widać, co jeszcze zostało. */
+.md-typeset .lk-punkt { cursor: pointer; }
+.md-typeset .lk-punkt.lk-zrobione { color: var(--md-default-fg-color--light); }
+.lk-pasek { display: flex; flex-wrap: wrap; align-items: center; gap: .7em; margin: 1.2em 0 1.6em; }
+.lk-pasek .md-button { margin: 0; }
+.lk-licznik { flex: 1 1 100%; margin: 0; font-size: .78rem; font-weight: 700; }
+.lk-licznik.lk-komplet { color: #2e7d32; }
+.lk-status { flex: 1 1 100%; margin: 0; font-size: .74rem; color: var(--md-default-fg-color--light); }
+.lk-status.lk-ok { color: #2e7d32; font-weight: 700; }
+.lk-status.lk-blad { color: #c62828; font-weight: 700; }
+@media print { .lk-pasek { display: none !important; } }
