@@ -1,0 +1,77 @@
+{
+ "id": "inf-tt-animacja-komputerowa",
+ "tytul": "Animacja komputerowa",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "ANK",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Animacja poklatkowa GIF",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Przygotuj prostą animację poklatkową (min. 6 klatek) i wyeksportuj do zapętlonego pliku GIF.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_klatki",
+       "Liczba klatek i opóźnienie",
+       "np. 8 klatek, 100 ms"
+      ],
+      [
+       "z1_rozmiar",
+       "Rozmiar pliku wyjściowego",
+       "np. 240 KB"
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Zrzut ekranu linii czasu animacji"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Animacja CSS3 @keyframes",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Zbuduj ciągłą płynną animację w CSS3 z wykorzystaniem reguły @keyframes i właściwości transform/opacity.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_css_anim",
+     "wiersze": 3,
+     "pytanie": "Wyjaśnij działanie właściwości animation-timing-function (np. ease-in-out vs linear):"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Fragment kodu CSS z regułą @keyframes oraz podgląd elementu"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Rigging i animacja kluczowa",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Stwórz prosty szkielet (rig) dla postaci lub obiektu i połącz go z interpolacją klatek kluczowych.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_ik_fk",
+     "wiersze": 3,
+     "pytanie": "Wyjaśnij różnicę między kinematyką prostą (FK) a odwrotną (IK):"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Zrzut ekranu widoku szkieletu i kości w pozie animowanej"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "grafika-2d-i-3d",
+ "idNastepny": "responsywna-strona-www-w-systemie-cms-projekt"
+}

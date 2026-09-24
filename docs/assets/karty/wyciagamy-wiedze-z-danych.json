@@ -1,0 +1,77 @@
+{
+ "id": "inf-tt-wyciagamy-wiedze-z-danych",
+ "tytul": "Wyciągamy wiedzę z danych",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "WWD",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Tworzenie tabeli przestawnej",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Utwórz tabelę przestawną sumującą wartości transakcji dla poszczególnych regionów i kategorii.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_pola",
+       "Rozmieszczenie pól w tabeli",
+       "Wiersze: Region, Kolumny: Kategoria, Wartości: Suma"
+      ],
+      [
+       "z1_suma",
+       "Suma końcowa raportu",
+       "np. 125 430,00 zł"
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Zrzut ekranu utwożonej tabeli przestawnej"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Grupowanie dat i fragmentatory",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Pogrupuj daty według lat i kwartałów, wstaw fragmentator dla sprzedawców oraz zmień widok wartości na % sumy końcowej.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_grupowanie",
+     "wiersze": 3,
+     "pytanie": "Opisz jak zmiana widoku wartości na procentowy wpływa na interpretację wniosków biznesowych:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Widok tabeli przestawnej z podziałem na kwartały i z wstawionym fragmentatorem"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Dashboard i wykresy przestawne",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Zbuduj interaktywny pulpit nawigacyjny (Dashboard) zawierający 2 wykresy przestawne spięte wspólnym fragmentatorem.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_dashboard",
+     "wiersze": 3,
+     "pytanie": "Wyjaśnij jak połączyć jeden fragmentator z wieloma tabelami przestawnymi (Połączenia raportów):"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Zrzut ekranu gotowego pulpitu nawigacyjnego z wykresami"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "jak-pobierac-dane-do-arkusza-kalkulacyjnego",
+ "idNastepny": "zaawansowane-formuly"
+}

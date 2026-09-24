@@ -56,25 +56,25 @@ wspólnego z ocenami.
 
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
-| Tworzenie stron internetowych | 3 | *w przygotowaniu* |
-| Grafika 2D i 3D | 4 | *w przygotowaniu* |
-| Animacja komputerowa | 4 | *w przygotowaniu* |
-| *Wiesz, umiesz, zdasz – podsumowanie działu* | 1 | — |
-| Responsywna strona WWW w systemie CMS – projekt zespołowy | 4 | *w przygotowaniu* |
+| **[Tworzenie stron internetowych](tworzenie-stron-internetowych.md)** | 3 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| **[Grafika 2D i 3D](grafika-2d-i-3d.md)** | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| **[Animacja komputerowa](animacja-komputerowa.md)** | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| *[Wiesz, umiesz, zdasz – podsumowanie działu](wiesz-umiesz-zdasz-4.md)* | 1 | :material-clipboard-text-clock:{ title="Zakres sprawdzianu i powtórka" } zakres i powtórka |
+| **[Responsywna strona WWW w systemie CMS – projekt zespołowy](responsywna-strona-www-w-systemie-cms-projekt.md)** | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ### Dział V. Arkusz kalkulacyjny i bazy danych
 
-*21 godzin*
+*18 godzin*
 
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
-| Jak pobierać dane do arkusza kalkulacyjnego | 2 | *w przygotowaniu* |
-| Wyciągamy wiedzę z danych | 4 | *w przygotowaniu* |
-| Zaawansowane formuły | 5 | *w przygotowaniu* |
-| Konsekwencje zaokrąglania liczb | 1 | *w przygotowaniu* |
-| Korespondencja seryjna | 2 | *w przygotowaniu* |
-| *Wiesz, umiesz, zdasz – podsumowanie działu* | 4 | — |
-| Współdziałanie aplikacji – projekt zespołowy | 3 | *w przygotowaniu* |
+| **[Jak pobierać dane do arkusza kalkulacyjnego](jak-pobierac-dane-do-arkusza-kalkulacyjnego.md)** | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| **[Wyciągamy wiedzę z danych](wyciagamy-wiedze-z-danych.md)** | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| **[Zaawansowane formuły](zaawansowane-formuly.md)** | 5 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| **[Konsekwencje zaokrąglania liczb](konsekwencje-zaokraglania-liczb.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| **[Korespondencja seryjna](korespondencja-seryjna.md)** | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| *[Wiesz, umiesz, zdasz – podsumowanie działu](wiesz-umiesz-zdasz-5.md)* | 1 | :material-clipboard-text-clock:{ title="Zakres sprawdzianu i powtórka" } zakres i powtórka |
+| **[Współdziałanie aplikacji – projekt zespołowy](wspoldzialanie-aplikacji-projekt.md)** | 3 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ### Dział VI. Algorytmika i programowanie w języku Python
 
@@ -196,6 +196,78 @@ je wykonać. Pełne zasady opisuje strona [wymagań edukacyjnych](wymagania-i-bh
     Aplikacja powinna posiadać menu tekstowe lub prosty interfejs graficzny oraz testy jednostkowe.
 
     **Oddajesz:** kod źródłowy aplikacji w Pythonie z dokumentacją i przykładami użycia
+
+??? example "Dział IV. Strony WWW i grafika komputerowa — 3 zadania do wyboru"
+
+    **A. Kompletny portal internetowy z własnym motywem i optymalizacją RWD/WCAG**
+
+    *Do wykonania po temacie „Tworzenie stron internetowych”.*
+
+    Zaprojektuj i zakoduj od zera wielostronicowy serwis internetowy w czystym HTML5/CSS3 z wykorzystaniem układów Flexbox i Grid.
+
+    Zapewnij pełną responsywność (RWD) dla minimum trzech rozdzielczości ekranu oraz przeprowadź audyt dostępności cyfrowej WCAG, uzyskując wynik 100/100 w teście Google Lighthouse.
+
+    **Oddajesz:** kod źródłowy serwisu, pliki graficzne oraz raport z audytu Lighthouse w formacie PDF
+
+    ---
+
+    **B. Złożona wizualizacja 3D i animacja promocyjna**
+
+    *Do wykonania po temacie „Grafika 2D i 3D”.*
+
+    Stwórz autorski model 3D w programie Blender z rozwiniętą siatką UV i dedykowanymi teksturami (PBR). Ustaw oświetlenie fizyczne i wyrenderuj trwającą 10 sekund animację promocyjną produktu z najazdem kamery.
+
+    Dokonaj postprodukcji wyrenderowanej sekwencji klatek w programie do edycji wideo, dodając ścieżkę dźwiękową i napisy.
+
+    **Oddajesz:** plik projektu (.blend), pliki tekstur oraz wyrenderowany plik wideo (.mp4)
+
+    ---
+
+    **C. Interaktywna strona wizytówka z zaawansowaną grafiką SVG i animacjami CSS**
+
+    *Do wykonania po całym dziale.*
+
+    Zaprojektuj interaktywną stronę wizytówkę wykorzystującą autorskie grafiki wektorowe w formacie SVG. Zaimplementuj animacje stanów oraz przejść stron z użyciem reguł @keyframes w CSS3 i skryptów JavaScript.
+
+    Zadbaj o płynność animacji na urządzeniach mobilnych oraz pełną bezstratną skalowalność elementów graficznych.
+
+    **Oddajesz:** kompletny projekt witryny (pliki HTML, CSS, JS, SVG) oraz dokumentację rozwiązań
+
+??? example "Dział V. Arkusz kalkulacyjny i bazy danych — 3 zadania do wyboru"
+
+    **A. Zautomatyzowany system analizy finansowej i budżetowej w Power Query**
+
+    *Do wykonania po temacie „Jak pobierać dane do arkusza kalkulacyjnego”.*
+
+    Zbuduj w arkuszu kalkulacyjnym zautomatyzowany model budżetowy pobierający dane transakcyjne z wielu plików CSV/JSON jednocześnie za pomocą Power Query.
+
+    Opracuj proces czyszczenia i transformacji danych oraz przygotuj tabele i wykresy przestawne z automatycznym odświeżaniem wskaźników KPI.
+
+    **Oddajesz:** plik arkusza (.xlsx) ze skonfigurowanymi zapytaniami oraz instrukcję obsługi modelu
+
+    ---
+
+    **B. Zaawansowany pulpit menedżerski (Dashboard) z obsługą scenariuszy i wariancji**
+
+    *Do wykonania po temacie „Wyciągamy wiedzę z danych”.*
+
+    Zaprojektuj interaktywny pulpit nawigacyjny w arkuszu kalkulacyjnym zawierający zestaw połączonych fragmentatorami tabel i wykresów przestawnych.
+
+    Zaimplementuj modele analizy symulacyjnej (Menedżer scenariuszy / Szukanie wyniku) oraz wskaźniki odchyleń budżetowych z formatowaniem warunkowym.
+
+    **Oddajesz:** gotowy plik Dashboardu (.xlsx) z opisem metodologii i wnioskami biznesowymi
+
+    ---
+
+    **C. Kompletny system generatora dokumentów i masowej wysyłki z regułami warunkowymi**
+
+    *Do wykonania po całym dziale.*
+
+    Przygotuj zintegrowany system łączący model bazy danych w arkuszu z szablonami korespondencji seryjnej. Zbuduj zaawansowane reguły warunkowe dopasowujące zwroty i kwoty zaległości/premii.
+
+    Zautomatyzuj generowanie spersonalizowanych załączników PDF i przygotuj procedurę wysyłkową z uwzględnieniem zasad RODO.
+
+    **Oddajesz:** plik arkusza z danymi, szablon dokumentu oraz wygenerowane próbki raportów PDF
 
 <!-- zadania6:end -->
 ---

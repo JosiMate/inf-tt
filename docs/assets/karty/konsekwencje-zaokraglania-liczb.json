@@ -1,0 +1,77 @@
+{
+ "id": "inf-tt-konsekwencje-zaokraglania-liczb",
+ "tytul": "Konsekwencje zaokrąglania liczb",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "KZL",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Formatowanie komórek a wartość w pamięci",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Demonstruj różnicę między liczbami ułamkowymi sformatowanymi wizualnie a ich faktyczną sumą w pamięci arkusza.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_skutek",
+       "Obserwowany błąd sumowania wizualnego",
+       "np. 2,4 + 2,4 dają 4,9 przy ukryciu ułamków"
+      ],
+      [
+       "z1_wyjasnienie",
+       "Przyczyna różnicy",
+       "Sformatowanie nie zmienia wartości w pamięci"
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Zrzut ekranu tabeli ze sformatowanymi komórkami i niezgodną sumą"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Zastosowanie funkcji ZAOKR, ZAOKR.DÓŁ i ZAOKR.GÓRA",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Przelicz tabelę z podatkami i kwotami netto przy użyciu funkcji ZAOKR do 2 miejsc po przecinku.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_zaokr",
+     "wiersze": 3,
+     "pytanie": "Podaj formuły zapewniające zgodność groszową podsumowania faktury:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Widok przeliczonych i poprawnie zaokrąglonych wartości kwot"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Precyzja IEEE 754 i progi tolerancji",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Napisz formułę porównującą dwie wartości ułamkowe z uwzględnieniem progu tolerancji (epsilon).",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_epsilon",
+     "wiersze": 3,
+     "pytanie": "Wyjaśnij dlaczego bezpośrednie porównanie =JEŻELI(0.1+0.2=0.3; ...) może zwrócić FAŁSZ:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Zrzut ekranu porównania ułamków z funkcją ABS i progiem tolerancji"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "zaawansowane-formuly",
+ "idNastepny": "korespondencja-seryjna"
+}

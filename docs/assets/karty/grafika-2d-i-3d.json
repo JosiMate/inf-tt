@@ -1,0 +1,77 @@
+{
+ "id": "inf-tt-grafika-2d-i-3d",
+ "tytul": "Grafika 2D i 3D",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "G2D",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Edycja rastrowa na warstwach i maskowanie",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Wykonaj fotomontaż dwóch obrazów w programie grafiki rastrowej z wykorzystaniem masek warstw i łagodnych pędzli.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_formaty",
+       "Użyty format i rozdzielczość",
+       "np. PNG, 1920x1080, 300 DPI"
+      ],
+      [
+       "z1_maska",
+       "Czy zastosowano maskę warstwy?",
+       "Tak / Nie"
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Zrzut ekranu programu graficznego z widocznym panelem warstw i masek"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Grafika wektorowa i krzywe Beziera",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Zaprojektuj wektorowy logotyp lub ikonę przy użyciu narzędzia pióra (krzywe Beziera) i wyeksportuj do SVG.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_wektor",
+     "wiersze": 3,
+     "pytanie": "Opisz zalety formatu SVG w zastosowaniach na stronach internetowych:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Widok wektorowego obiektu z zaznaczonymi węzłami krzywej"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Scena 3D, materiały i render",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Stwórz prostą scenę trójwymiarową w programie 3D, nałóż materiały, ustaw oświetlenie i wykonaj render do pliku PNG.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_render",
+     "wiersze": 3,
+     "pytanie": "Czym różni się cykl renderowania silnikiem Raytracing od silnika czasu rzeczywistego (Rasterization)?"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Render końcowy sceny 3D"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "tworzenie-stron-internetowych",
+ "idNastepny": "animacja-komputerowa"
+}

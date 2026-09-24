@@ -1,0 +1,77 @@
+{
+ "id": "inf-tt-tworzenie-stron-internetowych",
+ "tytul": "Tworzenie stron internetowych",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "TSI",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Struktura HTML5 i semantyka",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Przygotuj plik HTML5 ze strukturalnymi znacznikami semantycznymi (header, nav, main, article, footer) oraz menu z odnośnikami.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_znaczniki",
+       "Użyte znaczniki semantyczne",
+       "np. header, nav, main, article, footer"
+      ],
+      [
+       "z1_walidacja",
+       "Wynik walidacji W3C Validator",
+       "Brak błędów / Opis poprawek"
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Zrzut ekranu widoku strony w przeglądarce oraz kodu HTML"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Arkusze stylów i Box Model",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Podłącz zewnętrzny plik CSS. Zdefiniuj obramowania, marginesy (margin) i odstępy wewnętrzne (padding) dla elementów zgodnie z modelem pudełkowym.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_box_model",
+     "wiersze": 3,
+     "pytanie": "Opisz jak właściwość box-sizing: border-box wpływa na wyliczanie szerokości elementów:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Zrzut ekranu przedstawiający podgląd Box Model z narzędzi deweloperskich (F12)"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Elastyczny układ Flexbox / Grid",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Zbuduj responsywne menu nawigacyjne lub siatkę kart z wykorzystaniem właściwości display: flex lub display: grid.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_grid_flex",
+     "wiersze": 3,
+     "pytanie": "Wyjaśnij kiedy lepiej zastosować układ Flexbox, a kiedy CSS Grid:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Widok elastycznego układu na szerokim i wąskim ekranie"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "podstawy-kryptografii",
+ "idNastepny": "grafika-2d-i-3d"
+}

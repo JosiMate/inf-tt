@@ -75,6 +75,70 @@
       "oddajesz": "kod źródłowy aplikacji w Pythonie z dokumentacją i przykładami użycia"
     }
   ],
+  "Dział IV. Strony WWW i grafika komputerowa": [
+    {
+      "ozn": "A",
+      "tytul": "Kompletny portal internetowy z własnym motywem i optymalizacją RWD/WCAG",
+      "wymaga": "po temacie „Tworzenie stron internetowych”",
+      "opis": [
+        "Zaprojektuj i zakoduj od zera wielostronicowy serwis internetowy w czystym HTML5/CSS3 z wykorzystaniem układów Flexbox i Grid.",
+        "Zapewnij pełną responsywność (RWD) dla minimum trzech rozdzielczości ekranu oraz przeprowadź audyt dostępności cyfrowej WCAG, uzyskując wynik 100/100 w teście Google Lighthouse."
+      ],
+      "oddajesz": "kod źródłowy serwisu, pliki graficzne oraz raport z audytu Lighthouse w formacie PDF"
+    },
+    {
+      "ozn": "B",
+      "tytul": "Złożona wizualizacja 3D i animacja promocyjna",
+      "wymaga": "po temacie „Grafika 2D i 3D”",
+      "opis": [
+        "Stwórz autorski model 3D w programie Blender z rozwiniętą siatką UV i dedykowanymi teksturami (PBR). Ustaw oświetlenie fizyczne i wyrenderuj trwającą 10 sekund animację promocyjną produktu z najazdem kamery.",
+        "Dokonaj postprodukcji wyrenderowanej sekwencji klatek w programie do edycji wideo, dodając ścieżkę dźwiękową i napisy."
+      ],
+      "oddajesz": "plik projektu (.blend), pliki tekstur oraz wyrenderowany plik wideo (.mp4)"
+    },
+    {
+      "ozn": "C",
+      "tytul": "Interaktywna strona wizytówka z zaawansowaną grafiką SVG i animacjami CSS",
+      "wymaga": "po całym dziale",
+      "opis": [
+        "Zaprojektuj interaktywną stronę wizytówkę wykorzystującą autorskie grafiki wektorowe w formacie SVG. Zaimplementuj animacje stanów oraz przejść stron z użyciem reguł @keyframes w CSS3 i skryptów JavaScript.",
+        "Zadbaj o płynność animacji na urządzeniach mobilnych oraz pełną bezstratną skalowalność elementów graficznych."
+      ],
+      "oddajesz": "kompletny projekt witryny (pliki HTML, CSS, JS, SVG) oraz dokumentację rozwiązań"
+    }
+  ],
+  "Dział V. Arkusz kalkulacyjny i bazy danych": [
+    {
+      "ozn": "A",
+      "tytul": "Zautomatyzowany system analizy finansowej i budżetowej w Power Query",
+      "wymaga": "po temacie „Jak pobierać dane do arkusza kalkulacyjnego”",
+      "opis": [
+        "Zbuduj w arkuszu kalkulacyjnym zautomatyzowany model budżetowy pobierający dane transakcyjne z wielu plików CSV/JSON jednocześnie za pomocą Power Query.",
+        "Opracuj proces czyszczenia i transformacji danych oraz przygotuj tabele i wykresy przestawne z automatycznym odświeżaniem wskaźników KPI."
+      ],
+      "oddajesz": "plik arkusza (.xlsx) ze skonfigurowanymi zapytaniami oraz instrukcję obsługi modelu"
+    },
+    {
+      "ozn": "B",
+      "tytul": "Zaawansowany pulpit menedżerski (Dashboard) z obsługą scenariuszy i wariancji",
+      "wymaga": "po temacie „Wyciągamy wiedzę z danych”",
+      "opis": [
+        "Zaprojektuj interaktywny pulpit nawigacyjny w arkuszu kalkulacyjnym zawierający zestaw połączonych fragmentatorami tabel i wykresów przestawnych.",
+        "Zaimplementuj modele analizy symulacyjnej (Menedżer scenariuszy / Szukanie wyniku) oraz wskaźniki odchyleń budżetowych z formatowaniem warunkowym."
+      ],
+      "oddajesz": "gotowy plik Dashboardu (.xlsx) z opisem metodologii i wnioskami biznesowymi"
+    },
+    {
+      "ozn": "C",
+      "tytul": "Kompletny system generatora dokumentów i masowej wysyłki z regułami warunkowymi",
+      "wymaga": "po całym dziale",
+      "opis": [
+        "Przygotuj zintegrowany system łączący model bazy danych w arkuszu z szablonami korespondencji seryjnej. Zbuduj zaawansowane reguły warunkowe dopasowujące zwroty i kwoty zaległości/premii.",
+        "Zautomatyzuj generowanie spersonalizowanych załączników PDF i przygotuj procedurę wysyłkową z uwzględnieniem zasad RODO."
+      ],
+      "oddajesz": "plik arkusza z danymi, szablon dokumentu oraz wygenerowane próbki raportów PDF"
+    }
+  ],
   "Dział II. Rozwiązywanie problemów z wykorzystaniem dynamicznych struktur danych": [
     {
       "ozn": "A",

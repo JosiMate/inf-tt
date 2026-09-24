@@ -1,0 +1,77 @@
+{
+ "id": "inf-tt-responsywna-strona-www-w-systemie-cms-projekt",
+ "tytul": "Responsywna strona WWW w systemie CMS – projekt zespołowy",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "CMS",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Makieta i struktura serwisu CMS",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Przygotuj strukturę witryny w systemie CMS (strony, kategoria wpisów, menu) zgodną z wcześniejszą makietą.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_cms",
+       "Użyty system CMS / generator",
+       "np. WordPress / MkDocs / Hugo"
+      ],
+      [
+       "z1_podstrony",
+       "Utworzone podstrony i menu",
+       "np. Strona Główna, O nas, Oferta, Kontakt"
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Zrzut ekranu panelu administracyjnego z listą stron i menu"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Optymalizacja zasobów i RWD",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Zoptymalizuj obrazy na stronie (format WebP) oraz upewnij się, że motyw jest w pełni responsywny na smartfonach.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_rwd",
+     "wiersze": 3,
+     "pytanie": "Opisz kroki podjęte w celu optymalizacji czasów ładowania mediów na stronie:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Zrzut ekranu strony wyświetlanej na widoku mobilnym"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Audyt Lighthouse i WCAG",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Przeprowadź audyt Google Lighthouse dla opublikowanego serwisu i uzyskaj wyniki powyżej 90/100 w Dostępności i SEO.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_lighthouse",
+     "wiersze": 3,
+     "pytanie": "Przedstaw wyniki audytu Lighthouse i opis usuniętych uwag dotyczących dostępności:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Zrzut ekranu raportu Google Lighthouse"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "animacja-komputerowa",
+ "idNastepny": "jak-pobierac-dane-do-arkusza-kalkulacyjnego"
+}
