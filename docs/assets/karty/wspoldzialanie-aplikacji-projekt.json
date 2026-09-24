@@ -1,0 +1,76 @@
+{
+ "id": "inf-tt-wspoldzialanie-aplikacji-projekt",
+ "tytul": "Współdziałanie aplikacji – projekt zespołowy",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "WAP",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Projekt przepływu danych i integracja OLE",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Osadź dynamiczny wykres z arkusza kalkulacyjnego w dokumencie edytora tekstu poprzez łącze OLE.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_aplikacje",
+       "Połączone aplikacje",
+       "np. Excel + Word / Calc + Writer"
+      ],
+      [
+       "z1_ole_test",
+       "Czy zmiana danych w arkuszu zmienia wykres?",
+       "Tak / Nie"
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Zrzut ekranu połączonych okien aplikacji z widocznym wykresem OLE"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Współpraca w chmurze i integracja JSON/CSV",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Skonfiguruj automatyczne pobieranie danych z pliku JSON/CSV udostępnionego w chmurze do modelu w arkuszu.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_chmura",
+     "wiersze": 3,
+     "pytanie": "Opisz jak zorganizowano przepływ i odświeżanie danych w modelu chmurowym:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Zrzut ekranu widoku edycji chmurowej z podłączonym źródłem danych"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Automatyczny generator sprawozdań i e-mail",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Stwórz zintegrowany proces automatycznie wyliczający wskaźniki i generujący raport końcowy w formacie PDF.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_automatyzacja",
+     "wiersze": 3,
+     "pytanie": "Podsumuj uzyskane oszczędności czasowe dzięki automatyzacji sprawozdawczości:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Zrzut ekranu wygenerowanego raportu ze wskaźnikami KPI"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "korespondencja-seryjna"
+}

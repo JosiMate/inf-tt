@@ -1,0 +1,77 @@
+{
+ "id": "inf-tt-zaawansowane-formuly",
+ "tytul": "Zaawansowane formuły",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "ZAF",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Wyszukiwanie danych za pomocą WYSZUKAJ.X",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Połącz dane z dwóch tabel za pomocą funkcji WYSZUKAJ.X i zabezpiecz błędy funkcją JEŻELI.BŁĄD.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_formula",
+       "Wpisana formuła WYSZUKAJ.X",
+       "=WYSZUKAJ.X(A2; Bazy!A:A; Bazy!C:C; \"Brak\")"
+      ],
+      [
+       "z1_wynik",
+       "Czy poprawnie obsłużono brakujące wpisy?",
+       "Tak / Nie"
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Zrzut ekranu tabeli z uzupełnionymi kolumnami przez WYSZUKAJ.X"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Formuły wielokryterialne SUMA.WARUNKÓW i JEŻELI/ORAZ",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Oblicz premię dla pracowników spełyających jednocześnie kilka warunków (np. staż > 3 lata i sprzedaż > 10 000 zł).",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_warunki",
+     "wiersze": 3,
+     "pytanie": "Podaj zapisaną formułę logiczną z zagnieżdżonymi funkcjami JEŻELI i ORAZ:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Widok arkusza z obliczonymi wartościami premii"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Dynamiczne formuły tablicowe FILTRUJ i UNIKATOWE",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Stwórz dynamiczną listę rozlewającą się, wykorzystując połączenie funkcji SORTUJ, UNIKATOWE oraz FILTRUJ.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_tablicowe",
+     "wiersze": 3,
+     "pytanie": "Czym różni się zachowanie formuły tablicowej rozlewającej się (#) od tradycyjnej formuły kopiowanej w dół?"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Zrzut ekranu rozlanej tablicy wyników z zaznaczoną niebieską ramką"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "wyciagamy-wiedze-z-danych",
+ "idNastepny": "konsekwencje-zaokraglania-liczb"
+}

@@ -1,0 +1,77 @@
+{
+ "id": "inf-tt-korespondencja-seryjna",
+ "tytul": "Korespondencja seryjna",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "KSR",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Połączenie szablonu z bazą danych w arkuszu",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Przygotuj szablon dyplomu/zaświadczenia w edytorze tekstu i połącz go z tabelą danych z arkusza kalkulacyjnego.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_pola_scalania",
+       "Wstawione pola scalania",
+       "np. «Imię», «Nazwisko», «Miejscowość»"
+      ],
+      [
+       "z1_liczba_rekordow",
+       "Liczba przygotowanych rekordów",
+       "np. 10 odbiorców"
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Zrzut ekranu szablonu dokumentu z widocznymi polami scalania"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Reguły warunkowe IF i odmiana odmianowa",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Zastosuj regułę warunkową (IF... THEN... ELSE...) wprowadzającą poprawny zwrot grzecznościowy zależnie od płci odbiorcy.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_regula_if",
+     "wiersze": 3,
+     "pytanie": "Napisz kod reguły warunkowej wstawionej do szablonu dokumentu:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Zrzut ekranu podglądu scalonego dokumentu dla kobiety oraz dla mężczyzny"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Generowanie spersonalizowanych plików PDF",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Wygeneruj indywidualne pliki PDF dla każdego odbiorcy z automatyczną nazwą pliku zawierającą imię i nazwisko.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_pdf_export",
+     "wiersze": 3,
+     "pytanie": "Opisz sposób wygenerowania odrębnych plików PDF dla każdego rekordu z bazy danych:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Zrzut ekranu katalogu z wygenerowanymi spersonalizowanymi plikami PDF"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "konsekwencje-zaokraglania-liczb",
+ "idNastepny": "wspoldzialanie-aplikacji-projekt"
+}
