@@ -1,0 +1,66 @@
+{
+ "id": "inf-tt-cyberbezpieczenstwo",
+ "tytul": "Cyberbezpieczeństwo",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "SEC",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Rozpoznawanie ataków socjotechnicznych",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Przeanalizuj podaną wiadomość e-mail/SMS i zidentyfikuj w niej wskaźniki ataku typu Phishing (czerwone flagi).",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_nadawca",
+       "Adres nadawcy",
+       "np. podrobiona domena"
+      ],
+      [
+       "z1_presja",
+       "Element presji czasu",
+       "np. zablokowanie konta w 24h"
+      ],
+      [
+       "z1_link",
+       "Podejrzany odnośnik",
+       "dokąd naprawdę prowadzi URL"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Inżynieria społeczna i złośliwe oprogramowanie",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Opisz mechanizm działania oprogramowania szantażującego Ransomware oraz podaj zasady ochrony przed infekcją.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_ransomware",
+     "wiersze": 4,
+     "pytanie": "W jaki sposób Ransomware szyfruje pliki na dysku i dlaczego płacenie okupu atakującym nie gwarantuje odzyskania danych?"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Zasady bezpiecznego korzystania z sieci i reagowanie na incydenty",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Opisz procedurę zgłaszania incydentu bezpieczeństwa do zespołu CERT Polska (np. podejrzanego SMS-a na numer 8080) oraz podaj krok po kroku postępowanie po wycieku hasła.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_cert",
+     "wiersze": 4,
+     "pytanie": "Jakie kroki należy podjąć natychmiast po wykryciu wycieku danych z serwisu, w którym posiadałeś konto?"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "przemiany-spoleczne-a-technologie"
+}

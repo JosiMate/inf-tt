@@ -1,0 +1,76 @@
+{
+ "id": "inf-tt-przemiany-spoleczne-a-technologie",
+ "tytul": "Przemiany społeczne a technologie",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "PST",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Wykluczenie cyfrowe i społeczeństwo informacyjne",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Zdefiniuj pojęcia *Społeczeństwo informacyjne* oraz *Wykluczenie cyfrowe* (digital divide) i podaj ich przykłady w codziennym życiu.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_pojecie1",
+       "Społeczeństwo informacyjne",
+       "Krótka definicja własnymi słowami"
+      ],
+      [
+       "z1_pojecie2",
+       "Wykluczenie cyfrowe",
+       "Przyczyny: geograficzne, wiekowe, ekonomiczne"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Bańki informacyjne i dezinformacja",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Wyjaśnij mechanizm powstawania komór filtrujących (filter bubble) w algorytmach mediów społecznościowych oraz opisz zjawisko Deepfake.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_banka",
+     "wiersze": 3,
+     "pytanie": "W jaki sposób algorytmy rekomendacji zamykają użytkowników w bańce informacyjnej i jaki ma to wpływ na społeczeństwo?"
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_fake",
+     "wiersze": 3,
+     "pytanie": "Opisz 2 metody weryfikacji prawdziwości informacji lub nagrania wideo (Fact-checking)."
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Sztuczna inteligencja a rynek pracy",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Przeanalizuj wpływ automatyzacji i sztucznej inteligencji na rynek pracy. Wskaz zawody zagrożone i zyskujące na znaczeniu.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z3_zagrozone",
+       "Zawody zagrożone automatyzacją",
+       "np. kasjer, wprowadzanie danych"
+      ],
+      [
+       "z3_zyskujace",
+       "Zawody przyszłości",
+       "np. Inżynier promptów, analityk danych"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "moja-cyfrowa-tozsamosc"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "inf-tt-podstawy-kryptografii",
+ "tytul": "Podstawy kryptografii",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "KRYPTO",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Szyfry symetryczne – Szyfr Cezara",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Zaszyfruj i odszyfruj podany tekst jawny przy użyciu szyfru Cezara z przesunięciem $k=3$.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_tekst",
+       "Tekst jawny: INFORMATYKA",
+       "Szyfrogram: "
+      ],
+      [
+       "z1_k",
+       "Przesunięcie $k$",
+       "3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Kryptografia asymetryczna (RSA) i podpis cyfrowy",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Wyjaśnij różnicę między kluczem prywatnym a kluczem publicznym w kryptografii asymetrycznej oraz opisz, który klucz służy do szyfrowania, a który do składania podpisu cyfrowego.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_rsa",
+     "wiersze": 4,
+     "pytanie": "Opisz schemat szyfrowania wiadomości dla odbiorcy B przez nadawcę A oraz schemat weryfikacji podpisu cyfrowego:"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Funkcje skrótu (Hash) i steganografia",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Wyjaśnij pojęcie funkcji skrótu (np. SHA-256) oraz zasadę działania steganografii (ukrywania wiadomości w pliku graficznym).",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_hash",
+     "wiersze": 3,
+     "pytanie": "Dlaczego funkcja skrótu jest jednokierunkowa i co oznacza zjawisko kolizji w kryptografii?"
+    }
+   ]
+  }
+ ],
+ "idPoprzedni": "cyberbezpieczenstwo"
+}
