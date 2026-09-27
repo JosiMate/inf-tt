@@ -3,74 +3,276 @@
  "tytul": "Sztuka prezentacji",
  "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
  "klasa": "1TT",
- "sufiks": "SP",
+ "sufiks": "PREZENTACJA",
  "zadania": [
   {
    "nr": 1,
-   "tytul": "Maska slajdów i motyw graficzny",
-   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
-   "polecenie": "Stwórz lub zmodyfikuj wzorzec slajdów (maskę slajdów). Ustaw spójny krój czcionek, paletę kolorów oraz dodaj logo/stopkę na wszystkich slajdach wzorca.",
+   "tytul": "Co jest nie tak z tymi slajdami",
+   "poziom": "wymagania konieczne · ocena 2",
+   "polecenie": "Ćwiczenie 1. Obejrzyj pięć slajdów z pliku startowego, zanim cokolwiek poprawisz. Potem popraw treść: hasła zamiast akapitu, tabela zamiast listy, slajd z obrazem.",
    "pola": [
     {
      "typ": "tabela",
      "wiersze": [
       [
-       "z1_czcionka",
-       "Wybrany krój czcionki (nagłówki / treść)",
-       "np. Montserrat / Open Sans"
+       "z1_s1",
+       "Slajd 1 — co jest nie tak",
+       ""
       ],
       [
-       "z1_kolory",
-       "Dominująca paleta kolorów",
-       "np. Ciemnoniebieski + Akcent Pomarańczowy"
+       "z1_s2",
+       "Slajd 2 — co jest nie tak",
+       ""
+      ],
+      [
+       "z1_s3",
+       "Slajd 3 — co jest nie tak",
+       ""
+      ],
+      [
+       "z1_s4",
+       "Slajd 4 — co jest nie tak",
+       ""
+      ],
+      [
+       "z1_s5",
+       "Slajd 5 — co jest nie tak",
+       ""
       ]
      ]
     },
     {
      "typ": "zrzut",
      "id": "z1_zrzut",
-     "opis": "Widok MASKI SLAJDÓW z zdefiniowanym układowi i stopką"
+     "opis": "poprawiony slajd 2 — hasła zamiast akapitu"
+    },
+    {
+     "typ": "tekst",
+     "id": "z1_obraz_tabela",
+     "pytanie": "Jaki obraz dodałeś i skąd go wziąłeś? Jak ułożyłeś tabelę z danych ze slajdu 3?",
+     "wiersze": 2
     }
    ]
   },
   {
    "nr": 2,
-   "tytul": "Wizualizacja danych i multimedia",
-   "poziom": "wymagania rozszerzające · ocena 4",
-   "polecenie": "Zastąp blok tekstu czytelną grafiką SmartArt/schematem oraz osadź wideo/dźwięk ustawiając odpowiednie reguły odtwarzania.",
+   "tytul": "Wzorzec slajdów",
+   "poziom": "wymagania podstawowe · ocena 3",
+   "polecenie": "Ćwiczenie 2. Ustaw krój, kolory i stopkę we wzorcu nadrzędnym.",
    "pola": [
     {
-     "typ": "tekst",
-     "id": "z2_zasada",
-     "wiersze": 3,
-     "pytanie": "Wyjaśnij zasadę 6x6 w tworzeniu slajdów oraz dlaczego należy unikać ścian tekstu."
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z2_kroje",
+       "Kroje: nagłówki / treść",
+       ""
+      ],
+      [
+       "z2_kolory",
+       "Kolory prezentacji",
+       "dwa–trzy"
+      ],
+      [
+       "z2_reset",
+       "Które slajdy nie posłuchały wzorca",
+       ""
+      ],
+      [
+       "z2_sposob",
+       "Co przywróciło im wygląd z wzorca",
+       "Resetuj / Ctrl+Spacja / Resetuj tło"
+      ]
+     ]
     },
     {
      "typ": "zrzut",
      "id": "z2_zrzut",
-     "opis": "Slajd zawierający wykres lub schemat zamiast wypunktowania"
+     "opis": "widok wzorca slajdów z zaznaczonym wzorcem nadrzędnym"
     }
    ]
   },
   {
    "nr": 3,
-   "tytul": "Wystąpienie publiczne i widok prelegenta",
-   "poziom": "wymagania dopełniające · ocena 5",
-   "polecenie": "Przygotuj notatki prelegenta dla 3 slajdów oraz przetestuj działanie widoku prelegenta (Presenter View) na dwóch ekranach.",
+   "tytul": "Schemat, wykres, efekty",
+   "poziom": "wymagania podstawowe · ocena 3",
+   "polecenie": "Ćwiczenie 3. Lista kroków → SmartArt, tabela → wykres, jedno przejście i animacja odsłaniająca kroki.",
    "pola": [
     {
-     "typ": "tekst",
-     "id": "z3_notatki",
-     "wiersze": 3,
-     "pytanie": "Jakie informacje powinny znajdować się w notatkach prelegenta, a jakie na samym slajdzie?"
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z3_smartart",
+       "Układ SmartArt, który wybrałeś",
+       ""
+      ],
+      [
+       "z3_wykres",
+       "Rodzaj wykresu",
+       ""
+      ],
+      [
+       "z3_przejscie",
+       "Przejście zastosowane do wszystkich slajdów",
+       ""
+      ],
+      [
+       "z3_animacja",
+       "Animacja i kiedy się uruchamia",
+       ""
+      ]
+     ]
     },
     {
      "typ": "zrzut",
      "id": "z3_zrzut",
-     "opis": "Zrzut ekranu przedstawiający WIDOK PRELEGENTA w trakcie prezentacji"
+     "opis": "slajd z wykresem zamiast tabeli"
+    },
+    {
+     "typ": "tekst",
+     "id": "z3_dlaczego",
+     "pytanie": "Dlaczego do kroków procedury pasuje schemat, a do godzinowego obciążenia łącza — wykres, a nie odwrotnie?",
+     "wiersze": 3
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Plan wystąpienia",
+   "poziom": "wymagania podstawowe · ocena 3",
+   "polecenie": "Ćwiczenie 4. Pięciominutowe wystąpienie o wynikach przeglądu sieci dla klasy.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z4_kto",
+       "Kto słucha",
+       ""
+      ],
+      [
+       "z4_czas",
+       "Ile masz czasu i ile slajdów",
+       ""
+      ],
+      [
+       "z4_przeslanie",
+       "Co słuchacz ma zapamiętać — jednym zdaniem",
+       ""
+      ],
+      [
+       "z4_dzialanie",
+       "Co słuchacz ma zrobić albo poprzeć",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z4_plan",
+     "pytanie": "Rozpisz plan: wstęp, trzy główne myśli, zakończenie — po jednym zdaniu na każdą część.",
+     "wiersze": 5
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Komentarz głosowy i pomoce",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Ćwiczenie 5. Nagraj około 30 sekund komentarza do slajdu z wykresem i dobierz pomoce do wystąpienia.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z5_sposob",
+       "Jak nagrałeś komentarz",
+       "Nagraj dźwięk czy Pokaz slajdów → Nagraj"
+      ],
+      [
+       "z5_czas",
+       "Ile trwa nagranie",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_poprawka",
+     "pytanie": "Co poprawiłbyś w drugim podejściu do nagrania?",
+     "wiersze": 2
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_pomoce",
+     "pytanie": "Jakie pomoce — poza slajdami — wykorzystasz przy tym wystąpieniu i dlaczego właśnie te?",
+     "wiersze": 3
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "tytul": "Próba wystąpienia",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ćwiczenie 6. Notatki przy każdym slajdzie, próba z widokiem prezentera i zegarem, zapis .ppsx i PDF.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z6_czas",
+       "Czas próby",
+       "mm:ss"
+      ],
+      [
+       "z6_przekroczenie",
+       "Na którym slajdzie przekroczyłeś plan",
+       ""
+      ],
+      [
+       "z6_pliki",
+       "Czy zapisałeś .ppsx i PDF",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z6_zrzut",
+     "opis": "widok prezentera w trakcie próby — z notatkami i zegarem"
+    },
+    {
+     "typ": "tekst",
+     "id": "z6_notatki",
+     "pytanie": "Przepisz notatki do jednego slajdu. Czym różnią się od tego, co jest na samym slajdzie?",
+     "wiersze": 4
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "tytul": "Samoocena",
+   "poziom": "",
+   "polecenie": "Krótko i szczerze — ta część nie jest oceniana na stopień.",
+   "pola": [
+    {
+     "typ": "wybor",
+     "id": "s_poziom",
+     "pytanie": "Wymagania, które według mnie spełniam w tym temacie",
+     "opcje": [
+      "konieczne (2)",
+      "podstawowe (3)",
+      "rozszerzające (4)",
+      "dopełniające (5)"
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "s_bledy",
+     "pytanie": "Który błąd z pliku startowego zdarzył się kiedyś w twojej prezentacji?",
+     "wiersze": 2
     }
    ]
   }
- ],
- "idPoprzedni": "rozbudowane-dokumenty-tekstowe"
+ ]
 }

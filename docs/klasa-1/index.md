@@ -149,29 +149,41 @@ je wykonać. Pełne zasady opisuje strona [wymagań edukacyjnych](wymagania-i-bh
 
     **Oddajesz:** treści zadań ze wskazaniem źródła, pełne rozwiązania i uwagi o pułapkach
 
-??? example "Dział II. Edytor tekstu i prezentacje — 2 zadania do wyboru"
+??? example "Dział II. Edytor tekstu i prezentacje — 3 zadania do wyboru"
 
-    **A. Kompletny szablon pracy dyplomowej / raportu technicznego**
+    **A. Szablon raportu, z którego skorzystają inni**
 
     *Do wykonania po temacie „Rozbudowane dokumenty tekstowe”.*
 
-    Opracuj szablon dokumentu w edytorze tekstu ze zdefiniowanymi autorskimi stylami (Nagłówek 1–3, Tekst Główny, Podpis Ilustracji, Kod), automatycznym podziałem sekcji na stronę tytułową, spis treści, treść główną (odrębna numeracja) oraz załączniki o orientacji poziomej.
+    Przygotuj szablon Worda (.dotx) do szkolnych raportów i sprawozdań: strona tytułowa z polami do uzupełnienia, style nagłówków z automatyczną numeracją rozdziałów, styl podpisów, spis treści i spis ilustracji, nagłówek i stopka z numeracją od drugiej strony oraz gotowa sekcja na załączniki w orientacji poziomej.
 
-    Dodaj makro lub skrypt automatyzujący wstawianie podpisów rysunków oraz upewnij się, że dokument spełnia w 100% wymogi edytorskie (brak sierot, wdów, twarde spacje).
+    Daj szablon do przetestowania dwóm osobom spoza twojej grupy. Zapisz, gdzie się zatrzymały albo zrobiły coś inaczej, niż zakładałeś, i popraw szablon tak, żeby ten problem już nie wystąpił.
 
-    **Oddajesz:** plik szablonu (.dotx lub .docx) wraz ze szczegółową instrukcją edytorską dla użytkowników
+    **Oddajesz:** szablon .dotx, jednostronicową instrukcję dla użytkownika oraz notatkę z testu: co wyszło, co poprawiłeś
 
     ---
 
-    **B. Interaktywna prezentacja edukacyjna z własnym wzorcem slajdów**
+    **B. Prezentacja dla szkoły, a nie dla klasy**
 
     *Do wykonania po temacie „Sztuka prezentacji”.*
 
-    Zaprojektuj od zera unikalny wzorzec slajdów (maskę slajdów) i zbuduj na jego podstawie interaktywną prezentację szkoleniową wykorzystującą hiperłącza nawigacyjne, spersonalizowane menu slajdów, zaawansowane wyresy SmartArt i osadzone pliki wideo.
+    Przygotuj i wygłoś prezentację poza naszą klasą — dla młodszej klasy, na dniu otwartym, na apelu albo dla rodziców — o nowej technologii albo o bezpiecznym korzystaniu z sieci. Uzgodnij termin i odbiorców z nauczycielem, zanim zaczniesz.
 
-    Przygotuj również kompendium w notatkach prelegenta dla każdego slajdu.
+    Plan dopasuj do odbiorców: inaczej mówi się do uczniów szkoły podstawowej, a inaczej do dorosłych. Po wystąpieniu zbierz od słuchaczy trzy pytania albo uwagi i napisz, co zmieniłbyś następnym razem.
 
-    **Oddajesz:** plik prezentacji (.pptx oraz .ppsx) oraz krótki przewodnik dla zaprezentowania materiału
+    **Oddajesz:** prezentację z notatkami, plan wystąpienia z opisem odbiorców, potwierdzenie wystąpienia od nauczyciela prowadzącego tamte zajęcia oraz wnioski
+
+    ---
+
+    **C. Prezentacja do kiosku — bez prelegenta**
+
+    *Do wykonania po temacie „Sztuka prezentacji”.*
+
+    Zbuduj prezentację, którą odbiorca przegląda sam, na ekranie w holu szkoły: slajd-menu z hiperłączami do działów, przyciski powrotu na każdym slajdzie, własny wzorzec slajdów i komentarz głosowy nagrany do każdego działu. Ustaw pokaz jako przeglądany w kiosku (Pokaz slajdów → Skonfiguruj pokaz slajdów).
+
+    Sprawdź na dwóch osobach, czy bez żadnej instrukcji trafiają do każdego działu i wracają do menu. Zapisz, gdzie się zgubiły, i popraw nawigację.
+
+    **Oddajesz:** plik prezentacji, schemat nawigacji (które slajdy prowadzą dokąd) i notatkę z testu na dwóch osobach
 
 ??? example "Dział III. Społeczeństwo w internecie — 2 zadania do wyboru"
 

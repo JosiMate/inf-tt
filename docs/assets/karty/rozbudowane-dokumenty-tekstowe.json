@@ -3,74 +3,320 @@
  "tytul": "Rozbudowane dokumenty tekstowe",
  "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
  "klasa": "1TT",
- "sufiks": "RDT",
+ "sufiks": "DOKUMENTY",
  "zadania": [
   {
    "nr": 1,
-   "tytul": "Stosowanie stylów i spisu treści",
-   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
-   "polecenie": "Sformatuj podany wielostronicowy dokument tekstowy za pomocą nagłówków ze stylów (Nagłówek 1, Nagłówek 2) oraz wygeneruj automatyczny spis treści na początku dokumentu.",
+   "tytul": "Znaki, akapity, obraz i tabela",
+   "poziom": "wymagania konieczne · ocena 2",
+   "polecenie": "Ćwiczenie 1. Włącz <strong>Pokaż wszystko</strong> i uporządkuj tekst główny raportu.",
    "pola": [
     {
      "typ": "tabela",
      "wiersze": [
       [
-       "z1_naglowki",
-       "Liczba nagłówków N1 i N2",
-       "np. 4 x N1, 8 x N2"
+       "z1_puste",
+       "Ile pustych akapitów „dla odstępu” usunąłeś",
+       ""
       ],
       [
-       "z1_spis",
-       "Czy spis treści jest automatyczny?",
-       "Tak / Nie"
+       "z1_kroj",
+       "Krój i rozmiar tekstu głównego",
+       ""
+      ],
+      [
+       "z1_akapit",
+       "Wyrównanie, interlinia i odstęp po akapicie",
+       "np. obustronne, 1,15, 6 pt"
+      ],
+      [
+       "z1_zawijanie",
+       "Zawijanie tekstu przy obu rysunkach",
+       ""
       ]
      ]
     },
     {
-     "typ": "zrzut",
-     "id": "z1_zrzut",
-     "opis": "Widok pierwszej strony dokumentu z automatycznym spisem treści"
+     "typ": "tekst",
+     "id": "z1_akapit_vs_znak",
+     "pytanie": "Podaj po dwa przykłady ustawień znaku i ustawień akapitu. Po czym poznajesz, którego poziomu dotyczy opcja?",
+     "wiersze": 3
     }
    ]
   },
   {
    "nr": 2,
-   "tytul": "Modyfikacja stylu i przypisy",
-   "poziom": "wymagania rozszerzające · ocena 4",
-   "polecenie": "Zmodyfikuj styl Nagłówek 1 (zmień krój czcionki, kolor, odstęp przed/po) oraz dodaj co najmniej 3 przypisy dolne w tekście.",
+   "tytul": "Style i listy",
+   "poziom": "wymagania podstawowe · ocena 3",
+   "polecenie": "Ćwiczenie 2. Nadaj nagłówkom style, zmodyfikuj styl Nagłówek 1 i zamień zalecenia na listę numerowaną.",
    "pola": [
     {
-     "typ": "tekst",
-     "id": "z2_opis_stylu",
-     "wiersze": 3,
-     "pytanie": "Opisz wprowadzone zmiany w stylu Nagłówek 1 (krój czcionki, rozmiar, kolor, interlinia, odstępy akapitu):"
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z2_n1",
+       "Ile akapitów ma styl Nagłówek 1",
+       ""
+      ],
+      [
+       "z2_n2",
+       "Ile akapitów ma styl Nagłówek 2",
+       ""
+      ],
+      [
+       "z2_modyfikacja",
+       "Co zmieniłeś w stylu Nagłówek 1",
+       "kolor, rozmiar, odstęp…"
+      ]
+     ]
     },
     {
      "typ": "zrzut",
      "id": "z2_zrzut",
-     "opis": "Fragment strony z przypisem dolnym i zmodyfikowanym nagłówkiem"
+     "opis": "okienko nawigacji z pełną listą rozdziałów i podrozdziałów"
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_dlaczego",
+     "pytanie": "Dlaczego ręcznie wpisane „1)”, „2)”, „3)” psują się przy dopisaniu punktu, a lista numerowana nie?",
+     "wiersze": 3
     }
    ]
   },
   {
    "nr": 3,
-   "tytul": "Podział na sekcje i nagłówki/stopki",
-   "poziom": "wymagania dopełniające · ocena 5",
-   "polecenie": "Wstaw znak podziału sekcji (od nowej strony). Odłącz nagłówek/stopkę drugiej sekcji od pierwszej, wstaw inną numerację stron (bez numeru na stronie tytułowej).",
+   "tytul": "Strona tytułowa, nagłówek, stopka i spis treści",
+   "poziom": "wymagania podstawowe · ocena 3",
+   "polecenie": "Ćwiczenie 3. Wydziel stronę tytułową, wstaw automatyczny spis treści, nagłówek z tytułem i numerację stron.",
    "pola": [
     {
-     "typ": "tekst",
-     "id": "z3_sekcje",
-     "wiersze": 3,
-     "pytanie": "Dlaczego zwykły podział strony (Ctrl+Enter) nie wystarczy, aby zdefiniować różne nagłówki i stopki w jednym dokumencie?"
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z3_podzial",
+       "Czym oddzieliłeś stronę tytułową od reszty",
+       ""
+      ],
+      [
+       "z3_bez_numeru",
+       "Jak sprawiłeś, że strona tytułowa nie ma numeru",
+       ""
+      ],
+      [
+       "z3_stary_spis",
+       "Co było nie tak z ręcznie przepisanym spisem treści",
+       "porównaj numery stron"
+      ]
+     ]
     },
     {
      "typ": "zrzut",
      "id": "z3_zrzut",
-     "opis": "Widok podziału sekcji z otwartą edycją nagłówka i stopki"
+     "opis": "strona ze spisem treści i stopką z numerem strony"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Podpisy i spisy, które się aktualizują",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Ćwiczenie 4. Wstaw automatyczne podpisy, spis ilustracji i spis tabel, dopisz podrozdział 3.4 i zaktualizuj wszystkie spisy.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z4_podpisy",
+       "Ile podpisów wstawiłeś (rysunki / tabele)",
+       ""
+      ],
+      [
+       "z4_przed",
+       "Co pokazywał spis treści zaraz po dopisaniu podrozdziału 3.4",
+       ""
+      ],
+      [
+       "z4_po",
+       "Co zmieniło się po aktualizacji (F9)",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z4_zrzut",
+     "opis": "spis ilustracji i spis tabel po aktualizacji"
+    },
+    {
+     "typ": "tekst",
+     "id": "z4_pole",
+     "pytanie": "Spis treści nie aktualizuje się sam w trakcie pisania. Wyjaśnij, co to znaczy, że spis jest polem, i kiedy trzeba go zaktualizować.",
+     "wiersze": 3
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Komentarze",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Ćwiczenie 5. Odpowiedz na oba komentarze redakcji i dodaj własny komentarz w rozdziale 3.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z5_odp1",
+     "pytanie": "Twoja odpowiedź na pierwszy komentarz redakcji",
+     "wiersze": 2
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_odp2",
+     "pytanie": "Twoja odpowiedź na drugi komentarz redakcji",
+     "wiersze": 2
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_wlasny",
+     "pytanie": "Do którego zdania dodałeś komentarz i dlaczego?",
+     "wiersze": 2
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "tytul": "Śledzenie zmian",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ćwiczenie 6. Przejrzyj zmiany redakcji w <em>Podsumowaniu</em>, a potem w trybie śledzenia wpisz, ile stanowisk miało usterki.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z6_zm12",
+       "Zmiany 1–2: „wszystkie” → „większość z nich” — przyjmuję czy odrzucam i dlaczego",
+       ""
+      ],
+      [
+       "z6_zm3",
+       "Zmiana 3: dopisane „na którą zespół nie ma wpływu” — decyzja i powód",
+       ""
+      ],
+      [
+       "z6_wlasna",
+       "Twoja zmiana wprowadzona w trybie śledzenia",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z6_zrzut",
+     "opis": "Podsumowanie z twoją niezaakceptowaną zmianą widoczną w dokumencie"
+    },
+    {
+     "typ": "tekst",
+     "id": "z6_wylaczenie",
+     "pytanie": "Co zobaczy odbiorca pliku, jeśli przed wysłaniem tylko wyłączysz przycisk Śledź zmiany?",
+     "wiersze": 3
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "tytul": "Struktura pracy dyplomowej",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ćwiczenie 7. Sekcja ze stroną poziomą dla Tabeli 1, przypisy dolne, bibliografia z bazy źródeł i odsyłacze.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z7_sekcje",
+       "Ile sekcji ma dokument i w której jest strona pozioma",
+       ""
+      ],
+      [
+       "z7_przypisy",
+       "Ile przypisów dolnych wstawiłeś",
+       ""
+      ],
+      [
+       "z7_cytaty",
+       "Ile cytatów z bazy źródeł wstawiłeś w tekście",
+       ""
+      ],
+      [
+       "z7_odsylacze",
+       "Ile odwołań zamieniłeś na odsyłacze",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z7_zrzut",
+     "opis": "widok wielu stron: strona pozioma z tabelą między pionowymi"
+    },
+    {
+     "typ": "tekst",
+     "id": "z7_polacz",
+     "pytanie": "Jak sprawdziłeś, że numeracja stron jest ciągła? Co musiałbyś zrobić, gdyby strona z tabelą miała mieć inny nagłówek niż pozostałe?",
+     "wiersze": 3
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "tytul": "Ostatnie szlify",
+   "poziom": "",
+   "polecenie": "Ćwiczenie 8. Typografia i ostatnia aktualizacja pól przed oddaniem.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z8_spacje",
+       "Po jakich wyrazach wstawiłeś twarde spacje i w jaki sposób",
+       "ręcznie czy przez Zamień z ^s"
+      ],
+      [
+       "z8_razem",
+       "Czy któryś nagłówek został sam na dole strony — co z tym zrobiłeś",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 9,
+   "tytul": "Samoocena",
+   "poziom": "",
+   "polecenie": "Krótko i szczerze — ta część nie jest oceniana na stopień.",
+   "pola": [
+    {
+     "typ": "wybor",
+     "id": "s_poziom",
+     "pytanie": "Wymagania, które według mnie spełniam w tym temacie",
+     "opcje": [
+      "konieczne (2)",
+      "podstawowe (3)",
+      "rozszerzające (4)",
+      "dopełniające (5)"
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "s_trudne",
+     "pytanie": "Które polecenie Worda znalazłeś z największym trudem i gdzie w końcu było?",
+     "wiersze": 2
+    },
+    {
+     "typ": "tekst",
+     "id": "s_nawyk",
+     "pytanie": "Co zmienisz w tym, jak piszesz własne dokumenty — referaty, sprawozdania?",
+     "wiersze": 2
     }
    ]
   }
- ],
- "idPoprzedni": "e-zasoby"
+ ]
 }

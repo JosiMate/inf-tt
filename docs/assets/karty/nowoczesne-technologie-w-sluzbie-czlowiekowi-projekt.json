@@ -3,94 +3,203 @@
  "tytul": "Nowoczesne technologie w służbie człowiekowi – projekt zespołowy",
  "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
  "klasa": "1TT",
- "sufiks": "PROJ2",
+ "sufiks": "PROJEKT-DZIAL2",
  "zadania": [
   {
    "nr": 1,
-   "tytul": "Karta projektu i podział ról w zespole",
-   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
-   "polecenie": "Wypełnij kartę projektu: podaj temat projektu, skład zespołu, przydzielone role (Lider, Analityk, Redaktor, Grafik/Prelegent) oraz cel główny.",
+   "tytul": "Zespół, temat i role",
+   "poziom": "lekcja 1",
+   "polecenie": "Wypełnij na pierwszej lekcji — każdy w swojej karcie.",
    "pola": [
     {
      "typ": "tabela",
      "wiersze": [
       [
        "z1_temat",
-       "Wybrany temat projektu",
-       "np. Sztuczna inteligencja w medycynie"
+       "Temat i pytanie, na które odpowiada raport",
+       ""
       ],
       [
-       "z1_lider",
-       "Lider zespołu",
-       "Imię i nazwisko"
+       "z1_zespol",
+       "Skład zespołu — numery w dzienniku",
+       ""
       ],
       [
-       "z1_sklad",
-       "Pozostali członkowie i ich role",
-       "np. Jan Kowalski (Analityk), Piotr Nowak (Redaktor)"
+       "z1_rola",
+       "Moja rola główna",
+       "lider / analityk / redaktor / prelegent"
+      ],
+      [
+       "z1_folder",
+       "Gdzie jest wspólny dokument zespołu",
+       "OneDrive — Word"
       ]
      ]
     },
     {
      "typ": "tekst",
-     "id": "z1_cel",
-     "wiersze": 3,
-     "pytanie": "Opisz w 2–3 zdaniach cel główny projektu oraz zakładany efekt końcowy:"
+     "id": "z1_zadania",
+     "pytanie": "Za co konkretnie odpowiadam do następnej lekcji?",
+     "wiersze": 3
     }
    ]
   },
   {
    "nr": 2,
-   "tytul": "Harmonogram prac i kamienie milowe",
-   "poziom": "wymagania rozszerzające · ocena 4",
-   "polecenie": "Opracuj szczegółowy harmonogram prac podzielony na 4 etapy (Lekcje 1–4) z przypisanymi odpowiedzialnościami i terminami.",
+   "tytul": "Źródła i ich wiarygodność",
+   "poziom": "lekcja 1",
+   "polecenie": "Co najmniej cztery źródła zespołu — przy każdym: kto je wydał, z kiedy pochodzi i czy można mu ufać.",
    "pola": [
     {
      "typ": "tabela",
      "wiersze": [
       [
-       "z2_e1",
-       "Etap 1 (Lekcja 1): Analiza i źródła",
-       "Zakres prac i osoba odpowiedzialna"
+       "z2_zr1",
+       "Źródło 1 — adres, wydawca, data, ocena wiarygodności",
+       ""
       ],
       [
-       "z2_e2",
-       "Etap 2 (Lekcja 2): Dokument tekstowy",
-       "Zakres prac i osoba odpowiedzialna"
+       "z2_zr2",
+       "Źródło 2 — adres, wydawca, data, ocena wiarygodności",
+       ""
       ],
       [
-       "z2_e3",
-       "Etap 3 (Lekcja 3): Prezentacja multimedialna",
-       "Zakres prac i osoba odpowiedzialna"
+       "z2_zr3",
+       "Źródło 3 — adres, wydawca, data, ocena wiarygodności",
+       ""
       ],
       [
-       "z2_e4",
-       "Etap 4 (Lekcja 4): Prezentacja i ewaluacja",
-       "Zakres prac i osoba odpowiedzialna"
+       "z2_zr4",
+       "Źródło 4 — adres, wydawca, data, ocena wiarygodności",
+       ""
       ]
      ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_odrzucone",
+     "pytanie": "Jedno źródło, które zespół odrzucił — dlaczego?",
+     "wiersze": 2
     }
    ]
   },
   {
    "nr": 3,
-   "tytul": "Podsumowanie wykonania i samoocena",
-   "poziom": "wymagania dopełniające · ocena 5",
-   "polecenie": "Opisz przebieg realizacji projektu, napotkane trudności oraz dokonaj samooceny pracy zespołu i własnego wkładu.",
+   "tytul": "Moja praca nad raportem",
+   "poziom": "lekcje 2–3",
+   "polecenie": "Co napisałeś i co zredagowałeś we wspólnym dokumencie.",
    "pola": [
     {
-     "typ": "tekst",
-     "id": "z3_trudnosci",
-     "wiersze": 4,
-     "pytanie": "Jakie trudności pojawiły się podczas pracy zespołowej i w jaki sposób zespół je rozwiązał?"
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z3_rozdzialy",
+       "Rozdziały, które napisałem",
+       ""
+      ],
+      [
+       "z3_elementy",
+       "Elementy dokumentu, które wstawiłem",
+       "style, spis, podpisy, przypisy, bibliografia…"
+      ],
+      [
+       "z3_komentarze",
+       "Ile komentarzy dodałem / na ile odpowiedziałem",
+       ""
+      ]
+     ]
     },
     {
      "typ": "zrzut",
      "id": "z3_zrzut",
-     "opis": "Zrzut ekranu przedstawiający wspólny folder projektowy lub historię zmian w dokumencie"
+     "opis": "historia zmian albo komentarze we wspólnym dokumencie z twoim udziałem"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Moja praca nad prezentacją i wystąpieniem",
+   "poziom": "lekcje 3–4",
+   "polecenie": "Twój udział w prezentacji zespołu i w wystąpieniu.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z4_slajdy",
+       "Slajdy, które przygotowałem",
+       ""
+      ],
+      [
+       "z4_mowie",
+       "O czym mówiłem podczas wystąpienia",
+       ""
+      ],
+      [
+       "z4_czas",
+       "Czas wystąpienia zespołu",
+       "mm:ss"
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z4_pytanie",
+     "pytanie": "Jakie pytanie padło z sali i jak zespół na nie odpowiedział?",
+     "wiersze": 2
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Zmiana roli i przywództwo",
+   "poziom": "wymagania rozszerzające i dopełniające · oceny 4–5",
+   "polecenie": "Wypełnij, jeśli pełniłeś więcej niż jedną rolę albo byłeś liderem.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z5_role",
+     "pytanie": "Jakie role pełniłem i co robiłem w każdej z nich?",
+     "wiersze": 3
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_lider",
+     "pytanie": "Jeśli byłem liderem: jaki problem zespołu rozwiązałem i w jaki sposób?",
+     "wiersze": 4
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "tytul": "Samoocena",
+   "poziom": "",
+   "polecenie": "Oceń swoją pracę według tabeli poziomów na stronie projektu.",
+   "pola": [
+    {
+     "typ": "wybor",
+     "id": "s_poziom",
+     "pytanie": "Poziom, który według mnie osiągnąłem w projekcie",
+     "opcje": [
+      "K (2)",
+      "P (3)",
+      "R (4)",
+      "D (5)"
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "s_uzasadnienie",
+     "pytanie": "Uzasadnij — powołaj się na konkretne rzeczy z tej karty.",
+     "wiersze": 3
+    },
+    {
+     "typ": "tekst",
+     "id": "s_inaczej",
+     "pytanie": "Co zrobiłbym inaczej w następnym projekcie zespołowym?",
+     "wiersze": 2
     }
    ]
   }
- ],
- "idPoprzedni": "sztuka-prezentacji"
+ ]
 }

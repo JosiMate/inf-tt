@@ -3,184 +3,222 @@
 !!! abstract "O tym temacie"
 
     **4 godziny lekcyjne** · Dział II. Edytor tekstu i prezentacje
-    · podstawa programowa **I.1, I.2, I.3, I.4, I.5, I.6, III.2**
+    · podstawa programowa **II.3a, II.3b, II.3e, III.1, III.2, III.4, R III.2, IV.1–IV.3, IV.5**
 
-    Projekt zespołowy polega na kompleksowym opracowaniu zagadnienia z zakresu nowoczesnych technologii (np. sztuczna inteligencja w medycynie, smart city, druk 3D w transplantologii, autonomiczne pojazdy, zielone technologie). W ramach projektu zespół tworzy rozbudowany dokument tekstowy oraz prezentację multimedialną z wykorzystaniem zaawansowanych funkcji poznanych w Dziale II.
+    W zespołach po trzy–cztery osoby opracowujecie jedną nowoczesną
+    technologię, która realnie pomaga ludziom: w medycynie, w mieście,
+    w transporcie, w energetyce. Powstają dwa produkty — **raport** zbudowany
+    tak, jak uczyłeś się w temacie o
+    [rozbudowanych dokumentach](rozbudowane-dokumenty-tekstowe.md),
+    i **prezentacja** wygłoszona przed klasą według zasad z tematu
+    [Sztuka prezentacji](sztuka-prezentacji.md).
 
-!!! success "Cele lekcji"
+    Oceniany jest nie tylko efekt, ale i to, **jak pracowałeś w zespole**.
+    Dlatego każdy prowadzi własną kartę projektu.
 
-    Po realizacji projektu potrafisz:
+!!! success "Cele projektu"
 
-    1. planować i organizować pracę w zespole projektowym przy użyciu harmonogramu
-    2. rozdzielać rolę i zadania pomiędzy członków zespołu (Lider, Analityk, Redaktor, Grafik/Prelegent)
-    3. wyszukiwać, selekcjonować i krytycznie oceniać źródła informacji o nowinek technologicznych
-    4. opracować rozbudowany raport tekstowy zgodny ze wszystkimi zasadami edytorskimi (style, sekcje, spis treści, przypisy)
-    5. przygotować profesjonalną prezentację multimedialną opartą na masce slajdów
-    6. zrealizować spójną wizualnie i merytorycznie oprawę projektu
-    7. przedstawić wyniki pracy zespołu na forum klasy z wykorzystaniem widoku prelegenta
-    8. stosować narzędzia do współpracy zdalnej i śledzenia wersji dokumentów
-    9. dokonać samooceny oraz ewaluacji pracy poszczególnych członków zespołu
-    10. przestrzegać praw autorskich i zasad cytowania źródeł
+    Po zakończeniu projektu potrafisz:
+
+    1. zaplanować pracę zespołu: podzielić zadania, ustalić terminy i się ich trzymać
+    2. pełnić w zespole różne role — także rolę lidera
+    3. wyszukać wiarygodne źródła o nowej technologii i ocenić ich wiarygodność
+    4. napisać wspólnie z innymi raport ze stylami, spisem treści, podpisami, przypisami i bibliografią
+    5. pracować na wspólnym dokumencie z komentarzami i śledzeniem zmian
+    6. przygotować i wygłosić prezentację z efektami pracy zespołu
 
 ## Jak czytać tę stronę
 
-Projekt realizowany jest w zespołach 3–4 osobowych w wymiarze 4 godzin lekcyjnych.
+| Oznaczenie | Co znaczy |
+| --- | --- |
+| bez oznaczenia | wymagania konieczne i podstawowe — na ocenę 2 i 3 |
+| :material-plus-circle: **rozszerzenie** | wymagania rozszerzające — na ocenę 4 |
+| :material-star: **dopełnienie** | wymagania dopełniające — na ocenę 5 |
 
 ---
 
-## 1. Struktura i podział ról w zespole
+## 1. Tematy do wyboru
 
-Praca w zespole wymaga jasnego podziału odpowiedzialności. Każdy zespół wybiera Lidera oraz przydziela pozostałe role:
+Każdy zespół wybiera inny temat. Pytanie w nawiasie wyznacza oś raportu —
+nie opisujecie „wszystkiego o technologii”, tylko odpowiadacie na to pytanie.
 
-- **Lider zespołu:** koordynuje harmonogram, pilnuje terminów, scala końcowe pliki i odpowiada за kontakt z nauczycielem.
-- **Analityk / Badacz:** odpowiada za wyszukiwanie wiarygodnych źródeł, weryfikację faktów i opracowanie danych numerycznych/tabel.
-- **Redaktor / Pisarz:** odpowiada za dbałość edytorską dokumentu Word/Docs (style, sekcje, przypisy, spis treści, kontrola sierot i wdów).
-- **Grafik / Prelegent:** odpowiada za przygotowanie wzorca slajdów, grafikę, schematy oraz przeprowadzenie prezentacji przed klasą.
-
----
-
-## 2. Harmonogram projektu (4 godziny lekcyjne)
-
-```text
-[Lekcja 1] Wybór tematu, planowanie, podział ról, zbieranie materiałów i źródeł
-[Lekcja 2] Redagowanie dokumentu tekstowego (min. 5 stron) ze stylami, sekcjami i przypisami
-[Lekcja 3] Tworzenie prezentacji multimedialnej (maska slajdów, schematy, multimedia)
-[Lekcja 4] Prezentacja wyników na forum klasy (5 min na zespół) oraz ewaluacja
-```
-
-### Proponowane tematy projektów
-
-1. **Sztuczna inteligencja i uczenie maszynowe w medycynie i diagnostyce.**
-2. **Miasta przyszłości (Smart Cities) i Internet Rzeczy (IoT).**
-3. **Pojazdy autonomiczne i e-mobilność — wyzwania technologiczne i etyczne.**
-4. **Druk 3D w inżynierii materiałowej, medycynie i budownictwie.**
-5. **Zielone technologie i IT (Green Computing, odnawialne źródła energii w centrach danych).**
+1. **Sztuczna inteligencja w diagnostyce medycznej** (co już działa w polskich szpitalach, a co jest zapowiedzią?)
+2. **Inteligentne miasto i Internet rzeczy** (jakie dane zbiera miasto i kto ma do nich dostęp?)
+3. **Pojazdy autonomiczne** (kto odpowiada za wypadek, gdy samochód prowadzi program?)
+4. **Druk 3D w medycynie i budownictwie** (co już się drukuje i dlaczego nie wszystko?)
+5. **Zielone technologie w informatyce** (ile energii zużywają centra danych i jak to zmniejszyć?)
+6. **Własny temat** — po uzgodnieniu z nauczycielem na pierwszej lekcji.
 
 ---
 
-## 3. Wymagania formalne produktów końcowych
+## 2. Role w zespole
 
-### Raport tekstowy (.docx) — min. 5 stron
-- Strona tytułowa bez numeru strony (osobna sekcja).
-- Automatyczny spis treści na 2. stronie.
-- Zastosowanie stylów: *Nagłówek 1*, *Nagłówek 2*, *Normalny*.
-- Co najmniej 5 przypisów dolnych odwołujących się do źródeł.
-- Co najmniej 2 ilustracje lub tabele z automatycznymi podpisami i odsyłaczami krzyżowymi w tekście.
-- Brak pojedynczych liter na końcu wiersza (twarde spacje) i kontrola wdów/sierot.
+Każda osoba ma jedną rolę główną, ale **wszyscy piszą raport i wszyscy
+występują**. Role określają, kto za co odpowiada, a nie kto co robi sam.
 
-### Prezentacja multimedialna (.pptx) — 6–8 slajdów
-- Wykorzystanie autorskiego wzorca slajdów (maski slajdów).
-- Zgodność z zasadą 6x6, wysoki kontrast, czcionki bezszeryfowe.
-- Przekształcenie danych tekstowych w co najmniej jeden schemat/wykres SmartArt.
-- Notatki prelegenta dopisane do każdego slajdu.
+| Rola | Odpowiada za |
+| --- | --- |
+| **lider** | harmonogram, podział zadań, pilnowanie terminów, scalenie plików, kontakt z nauczycielem |
+| **analityk** | wyszukanie i ocenę źródeł, sprawdzenie faktów i liczb, bibliografię |
+| **redaktor** | spójność raportu: style, spis treści, podpisy, przypisy, przegląd zmian przed oddaniem |
+| **prelegent** | wzorzec slajdów, plan wystąpienia, pilnowanie czasu, próbę generalną |
 
----
+W zespole trzyosobowym rolę prelegenta dzielą między siebie redaktor
+i analityk.
 
-## Karta pracy
+!!! tip "Zmiana ról w trakcie projektu"
 
-W ramach projektu zespół wypełnia **kartę projektu**.
-
-<div class="kp-podsumowanie" data-karta="nowoczesne-technologie-w-sluzbie-czlowiekowi-projekt"></div>
-
-<span id="karta" class="kp-kotwica"></span>
-
-???+ karta "Rozwiń kartę pracy projektu"
-
-    <div class="karta-pracy" data-karta="nowoczesne-technologie-w-sluzbie-czlowiekowi-projekt"></div>
+    Kto chce pokazać, że potrafi pełnić **różne role** — wymaganie
+    rozszerzające — może po drugiej lekcji zamienić się rolami z kimś z zespołu.
+    Zapisujecie to w kartach projektu obu osób.
 
 ---
 
-## Ćwiczenia etapowe
+## 3. Harmonogram — cztery lekcje
 
-### :material-console: Etap 1 (Lekcja 1) — Definiowanie projektu i praca ze źródłami
-1. Utwórzcie wspólny folder na Dysku Google / OneDrive dla zespołu.
-2. Wypełnijcie Zadanie 1 w karcie projektu (temat, skład, podział ról, cel).
-3. Zbierzcie min. 4 wiarygodne źródła (artykuły naukowe, raporty technologiczne) i zapiszcie odnośniki.
+| Lekcja | Co robicie | Co ma być gotowe na koniec lekcji |
+| :---: | --- | --- |
+| **1** | wybór tematu i pytania, podział ról, wspólny folder, pierwsze źródła | karta projektu: temat, role; co najmniej 4 źródła z oceną wiarygodności |
+| **2** | pisanie raportu we wspólnym dokumencie z komentarzami i śledzeniem zmian | wszystkie rozdziały w wersji roboczej |
+| **3** | redakcja raportu i budowa prezentacji na wspólnym wzorcu slajdów | raport gotowy do oddania, prezentacja z notatkami |
+| **4** | wystąpienia zespołów — **5 minut** na zespół i 2 minuty na pytania | wystąpienie, samoocena w karcie projektu |
 
-### :material-console: Etap 2 (Lekcja 2) — Edycja dokumentu zbiorczego
-1. Redaktor i Analityk przygotowują dokument tekstowy na podstawie zebranych materiałów.
-2. Zastosujcie podziały sekcji, zmodyfikowane style nagłówków, przypisy dolne i twarde spacje.
+Między lekcjami pracujecie zdalnie na wspólnym dokumencie **Worda w OneDrive**
+(szkolne konto Microsoft 365). Zasady tej pracy znasz z tematu o
+[e-zasobach i współpracy zdalnej](e-zasoby.md).
 
-### :material-console: Etap 3 (Lekcja 3) — Budowa prezentacji
-1. Grafik tworzy wzorzec slajdów dopasowany do tematu.
-2. Zespół przekształca kluczowe wnioski z dokumentu w slajdy graficzne i dodaje notatki prelegenta.
+!!! warning "Dokument Google nie wystarczy"
 
-### :material-console: Etap 4 (Lekcja 4) — Wystąpienie i ewaluacja
-1. Prelegent zespołu prezentuje projekt na forum klasy (3–5 minut) w Widoku Prelegenta.
-2. Zespół odpowiada na pytania klasy i nauczyciela oraz dokonuje samooceny w karcie pracy.
+    Raport ma mieć automatyczne podpisy, spis ilustracji, bibliografię z bazy
+    źródeł, sekcje i śledzenie zmian, i ma być oddany jako `.docx`. Dokumenty
+    Google tych funkcji nie mają albo mają je w innej postaci — a część jest
+    uboższa także w Wordzie w przeglądarce. Pisać możecie wspólnie w sieci,
+    ale **końcową redakcję robicie w Wordzie na komputerze**.
 
 ---
 
-## Kryteria oceny projektu
+## 4. Wymagania wobec produktów
 
-| Kryterium | Waga | Opis |
-| --- | :---: | --- |
-| **Poprawność edytorska dokumentu** | 35% | Zastosowanie stylów, sekcji, spisu treści, przypisów, twardych spacji i podpisów |
-| **Jakość prezentacji multimedialnej** | 30% | Maska slajdów, czytelność wizualna, wykresy/schematy zamiast bloku tekstu |
-| **Wystąpienie i komunikacja** | 20% | Płynność wypowiedzi, czas trwania, znajomość tematu, obsługa trybu prelegenta |
-| **Współpraca i organizacja** | 15% | Terminowość, wypełnienie karty projektu, harmonogram, samoocena |
+### Raport — około 5 stron treści
+
+- osobna strona tytułowa bez numeru; tytuł, skład zespołu, data;
+- style nagłówków i automatyczny spis treści;
+- numeracja stron; lista numerowana albo wypunktowana tam, gdzie jest wyliczenie;
+- co najmniej 2 ilustracje albo tabele;
+- lista źródeł — co najmniej 4, każde z autorem lub instytucją i datą;
+- obrazy wyłącznie z licencją, która pozwala ich użyć, z podpisem autora i źródła;
+- :material-plus-circle: automatyczne podpisy ilustracji i tabel, spis ilustracji, komentarze we wspólnym dokumencie;
+- :material-star: przypisy dolne, bibliografia z bazy źródeł, odsyłacze do rysunków, sekcja ze stroną poziomą, praca w trybie śledzenia zmian.
+
+### Prezentacja — 4–6 slajdów na 5 minut
+
+- wspólny wzorzec slajdów zespołu;
+- hasła, schematy i wykresy zamiast akapitów;
+- co najmniej jeden schemat SmartArt albo wykres;
+- notatki prelegenta przy każdym slajdzie;
+- ostatni slajd: odpowiedź na pytanie z tematu i źródła.
+
+---
+
+## 5. Jak oceniany jest projekt
+
+Projekt oceniany jest **poziomami wymagań**, tak jak sprawdziany. Każdy
+członek zespołu dostaje **własną ocenę** — z produktów zespołu i z tego,
+co zrobił w zespole — zapisanego w karcie projektu i widocznego w historii
+zmian wspólnego dokumentu.
+
+| Poziom | Co musisz pokazać | Ocena |
+| :---: | --- | :---: |
+| **K** | wykonałeś powierzone zadania; twoja część raportu i prezentacji jest w terminie; umiesz wstawić do nich tekst, obraz i tabelę | 2 |
+| **P** | aktywnie uczestniczyłeś w pracy zespołu i przedstawiłeś efekty; twoja część raportu ma style nagłówków, a raport — spis treści, stronę tytułową i numerację stron; wystąpienie ma plan i mieści się w czasie | 3 |
+| **R** | pełniłeś w projekcie różne role; pracowałeś na wspólnym dokumencie z komentarzami; wstawiłeś automatyczne podpisy, a spisy są aktualne; świadomie dobrałeś pomoce do wystąpienia | 4 |
+| **D** | byłeś liderem odpowiedzialnym za zespół i projekt **albo** zredagowałeś cały raport ze śledzeniem zmian, sekcjami, przypisami, bibliografią i odsyłaczami; wystąpienie świadomie stosuje zasady sztuki prezentacji | 5 |
+
+Ocenę wyznacza najwyższy poziom spełniony w całości, razem z niższymi.
+Zadanie na ocenę celującą — projekt wykraczający poza klasę — jest opisane
+w spisie tematów, w zadaniach działu II.
+
+!!! warning "Projekt zespołowy nie jest ucieczką od pracy"
+
+    Kto nie pracował, nie ma czego wpisać do karty projektu, a historia zmian
+    we wspólnym dokumencie pokazuje, kto co napisał. Zasady samodzielności
+    i weryfikacji z [wymagań edukacyjnych](wymagania-i-bhp.md) dotyczą także
+    projektów.
 
 ---
 
 ## Sprawdź się
 
+Test z natychmiastową odpowiedzią. **Nie jest oceniany i nic nie wysyła.**
+
 <div class="quiz" markdown="0">
 <script type="application/json">
 [
  {
-  "pytanie": "Jaka rola w zespole projektowym odpowiada za poprawność stylów, przypisów i spisu treści w dokumencie?",
+  "pytanie": "Po co zespół ustala pytanie, na które odpowiada raport, zamiast pisać „wszystko o technologii”?",
   "opcje": [
-   "Grafik",
-   "Redaktor",
-   "Lider",
-   "Analityk"
-  ],
-  "poprawna": 1,
-  "wyjasnienie": "Redaktor odpowiada za edytorską jakość dokumentu tekstowego."
- },
- {
-  "pytanie": "Ile wynosi waga poprawności edytorskiej dokumentu w kryteriach oceny tego projektu?",
-  "opcje": [
-   "10%",
-   "35%",
-   "50%",
-   "100%"
-  ],
-  "poprawna": 1,
-  "wyjasnienie": "Raport tekstowy stanowi 35% końcowej oceny z projektu."
- },
- {
-  "pytanie": "Co jest celem 1. etapu (Lekcja 1) w harmonogramie projektu?",
-  "opcje": [
-   "Prezentacja przed klasą",
-   "Wybór tematu, podział ról i zbieranie materiałów źródłowych",
-   "Eksport pliku do PDF",
-   "Drukowanie gotowego raportu"
-  ],
-  "poprawna": 1,
-  "wyjasnienie": "Pierwsza godzina dedykowana jest na koncepcję, podział ról oraz weryfikację źródeł."
- },
- {
-  "pytanie": "Jaka jest minimalna zalecana objętość raportu tekstowego w tym projekcie?",
-  "opcje": [
-   "1 strona",
-   "min. 5 stron",
-   "min. 20 stron",
-   "brak wymagań"
-  ],
-  "poprawna": 1,
-  "wyjasnienie": "Raport projektowy powinien liczyć co najmniej 5 stron z uwzględnieniem strony tytułowej i spisu treści."
- },
- {
-  "pytanie": "Która rola odpowiada za przygotowanie wzorca slajdów oraz przeprowadzenie wystąpienia?",
-  "opcje": [
-   "Grafik / Prelegent",
-   "Analityk",
-   "Programista",
-   "Księgowy"
+   "Żeby każdy rozdział miał wspólną oś i dało się ocenić, czy raport odpowiedział na pytanie",
+   "Żeby raport był krótszy",
+   "Bo tak wymaga edytor tekstu",
+   "Żeby nie trzeba było szukać źródeł"
   ],
   "poprawna": 0,
-  "wyjasnienie": "Grafik / Prelegent przygotowuje oprawę wizualną oraz omawia projekt przed klasą."
+  "wyjasnienie": "Pytanie decyduje, co trafia do raportu, a co nie. Bez niego powstaje zbiór ciekawostek, a nie odpowiedź."
+ },
+ {
+  "pytanie": "Czteroosobowy zespół pisze raport. Jak najlepiej pracować na tekście?",
+  "opcje": [
+   "Każdy pisze w swoim pliku, lider skleja je na koniec",
+   "Jedna osoba pisze wszystko, reszta robi prezentację",
+   "Wspólny dokument w chmurze, komentarze i śledzenie zmian",
+   "Każdy wysyła swoje akapity mailem do redaktora"
+  ],
+  "poprawna": 2,
+  "wyjasnienie": "Wspólny dokument eliminuje sklejanie wersji, a historia zmian pokazuje, kto co napisał — to także podstawa indywidualnej oceny."
+ },
+ {
+  "pytanie": "Za co odpowiada lider zespołu?",
+  "opcje": [
+   "Za napisanie całego raportu",
+   "Wyłącznie za wystąpienie",
+   "Za wybór czcionek w prezentacji",
+   "Za harmonogram, podział zadań, terminy i scalenie pracy"
+  ],
+  "poprawna": 3,
+  "wyjasnienie": "Lider organizuje pracę zespołu i odpowiada za projekt jako całość — to wymaganie dopełniające."
+ },
+ {
+  "pytanie": "Analityk znalazł artykuł bez autora i bez daty, z wieloma liczbami. Co robi?",
+  "opcje": [
+   "Wpisuje liczby do raportu — są konkretne",
+   "Szuka źródła pierwotnego tych liczb albo rezygnuje z artykułu",
+   "Cytuje artykuł z dopiskiem „źródło nieznane”",
+   "Zaokrągla liczby, żeby wyglądały ostrożniej"
+  ],
+  "poprawna": 1,
+  "wyjasnienie": "Źródło bez autora i daty nie daje się ocenić. Liczby trzeba potwierdzić u źródła, z którego pochodzą — raportu instytucji, badania, statystyki."
+ },
+ {
+  "pytanie": "Wystąpienie zespołu ma 5 minut. Ile slajdów to rozsądny plan?",
+  "opcje": [
+   "4–6",
+   "1",
+   "15",
+   "tyle, ile rozdziałów ma raport razy trzy"
+  ],
+  "poprawna": 0,
+  "wyjasnienie": "Około minuty na slajd daje czas, żeby przy każdym coś powiedzieć. Szczegóły zostają w raporcie."
+ },
+ {
+  "pytanie": "Jak ustalana jest ocena każdego członka zespołu?",
+  "opcje": [
+   "Wszyscy dostają tę samą ocenę za produkt",
+   "Ocenę wystawia zespół, głosując",
+   "Z produktów zespołu i z tego, co dana osoba zrobiła — według poziomów wymagań",
+   "Wyłącznie z wystąpienia"
+  ],
+  "poprawna": 2,
+  "wyjasnienie": "Każdy dostaje własną ocenę. Jego udział widać w karcie projektu i w historii zmian wspólnego dokumentu."
  }
 ]
 </script>
@@ -188,12 +226,27 @@ W ramach projektu zespół wypełnia **kartę projektu**.
 
 ---
 
-## Podsumowanie
+## Karta projektu
 
-Projekt zespołowy uczy łączenia umiejętności twardych (zaawansowane funkcje edytora tekstu i aplikacji do prezentacji) z umiejętnościami miękkimi (praca w grupie, zarządzanie czasem, wystąpienia publiczne).
+Kartę projektu prowadzi **każdy członek zespołu osobno** — przez wszystkie
+cztery lekcje. Na jej podstawie ustalana jest twoja ocena.
 
----
+<div class="kp-podsumowanie" data-karta="nowoczesne-technologie-w-sluzbie-czlowiekowi-projekt"></div>
 
-!!! info "Zgodność z podstawą programową"
+<span id="karta" class="kp-kotwica"></span>
 
-    Materiały zgodne z podstawą programową dla szkół ponadpodstawowych (Informatyka – zakres rozszerzony, Dział II: Edytor tekstu i prezentacje).
+???+ karta "Rozwiń kartę projektu"
+
+    !!! info "Twoje odpowiedzi zostają na twoim komputerze"
+
+        Karta prowadzona przez cztery lekcje to także praca w domu — zapisuj
+        postęp do pliku przyciskiem **Zapisz do pliku** pod kartą.
+
+    <div class="karta-pracy" data-karta="nowoczesne-technologie-w-sluzbie-czlowiekowi-projekt"></div>
+
+### Jak oddać projekt
+
+1. Lider oddaje **raport** (`.docx`) i **prezentację** (`.pptx`) zespołu.
+2. Każdy członek zespołu pobiera **swoją kartę projektu**.
+3. Pliki dołączacie w **Dzienniku VULCAN → Zadania domowe**, w zadaniu
+   *Projekt zespołowy — dział II*, najpóźniej w dniu wystąpień.
