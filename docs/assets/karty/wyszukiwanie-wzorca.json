@@ -1,0 +1,189 @@
+{
+ "id": "inf-tt-wyszukiwanie-wzorca",
+ "tytul": "Wyszukiwanie wzorca w tekście",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony · klasa 3",
+ "klasa": "3TT",
+ "sufiks": "WZORZEC",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Problem i algorytm naiwny",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Ćwiczenia 1 (punkty 1 i 4) oraz 2. Obliczenia na kartce rób przed uruchomieniem programu.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z1_def",
+     "wiersze": 3,
+     "pytanie": "Zdefiniuj własnymi słowami: tekst, wzorzec, wystąpienie wzorca z przesunięciem s."
+    },
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_aab",
+       "Porównania algorytmu naiwnego: wzorzec aab w tekście aaaaab — rozpisane na ustawienia",
+       ""
+      ],
+      [
+       "z1_najgorszy",
+       "Tekst długości 10 i wzorzec długości 3 dające najwięcej porównań",
+       ""
+      ],
+      [
+       "z1_ile",
+       "Liczba porównań w tym najgorszym przypadku",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z1_kod",
+     "wiersze": 12,
+     "pytanie": "Wklej swoją funkcję naiwny."
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Tablica prefikso-sufiksów π",
+   "poziom": "wymagania podstawowe i rozszerzające · oceny 3–4",
+   "polecenie": "Ćwiczenie 1, punkt 2, i pierwsza część ćwiczenia 3. Tablice wyznacz na kartce, dopiero potem sprawdź programem.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z2_abacaba",
+       "π dla abacaba",
+       ""
+      ],
+      [
+       "z2_abcabd",
+       "π dla abcabd",
+       ""
+      ],
+      [
+       "z2_aaaba",
+       "π dla aaaba",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_znaczenie",
+     "wiersze": 3,
+     "pytanie": "Co mówi wartość π[3] = 2 dla wzorca ABABCABAB, gdy w trakcie wyszukiwania dopasowane były 4 znaki, a piąty się nie zgodził?"
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_kod",
+     "wiersze": 10,
+     "pytanie": "Wklej swoją funkcję tablica_pi."
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Algorytm KMP i jego złożoność",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Ćwiczenie 3. Komplet testów KMP — pozycje i liczniki — ma przechodzić.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_kod",
+     "wiersze": 14,
+     "pytanie": "Wklej swoją funkcję kmp."
+    },
+    {
+     "typ": "tekst",
+     "id": "z3_16_28",
+     "wiersze": 4,
+     "pytanie": "Dlaczego dla tekstu aaaaaaaaab i wzorca aaab KMP wykonuje 16 porównań, a algorytm naiwny 28? Wskaż, których porównań KMP nie powtarza."
+    },
+    {
+     "typ": "tekst",
+     "id": "z3_liniowy",
+     "wiersze": 5,
+     "pytanie": "Uzasadnij własnymi słowami, dlaczego KMP wykonuje najwyżej 2n porównań, choć wewnątrz pętli for ma pętlę while."
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "wynik testów zadań 1–3"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Algorytm Horspoola i pomiar",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ćwiczenie 1, punkt 3, oraz ćwiczenie 4.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z4_ananas",
+       "Tablica przesunięć Horspoola dla ANANAS (znak → przesunięcie, oraz „inny”)",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z4_kod",
+     "wiersze": 14,
+     "pytanie": "Wklej swoją funkcję horspool."
+    },
+    {
+     "typ": "tekst",
+     "id": "z4_porownaj",
+     "wiersze": 6,
+     "pytanie": "Przepisz wynik porownaj(). Dlaczego Horspool jest najszybszy na tekście polskim, a najwolniejszy w ostatnim zestawie? Dlaczego na DNA jego przewaga maleje?"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Zmienione warunki i wybór metody",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ćwiczenia 5 i 6.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z5_rotacja",
+     "wiersze": 6,
+     "pytanie": "Wklej funkcję jest_rotacja i wyjaśnij, dlaczego wystarczy jedno wyszukiwanie. Podaj jej złożoność i porównaj ze sprawdzaniem wszystkich n rotacji po kolei."
+    },
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z5_czujnik",
+       "Dane z czujnika, znak po znaku, bez zapamiętywania — algorytm i uzasadnienie",
+       ""
+      ],
+      [
+       "z5_powiesc",
+       "Słowo w powieści, w edytorze tekstu — algorytm i uzasadnienie",
+       ""
+      ],
+      [
+       "z5_sprawdzian",
+       "„ala” w zdaniu, na sprawdzianie — algorytm i uzasadnienie",
+       ""
+      ],
+      [
+       "z5_logi",
+       "Logi serwera z tekstem od atakującego — algorytm i uzasadnienie",
+       ""
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

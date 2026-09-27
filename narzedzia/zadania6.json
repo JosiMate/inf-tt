@@ -180,5 +180,37 @@
       ],
       "oddajesz": "rozwiązania z komentarzem, wskazanie źródła zadań i pomiar dla pary rozwiązań"
     }
+  ],
+  "Dział IV. Zaawansowane algorytmy i techniki programistyczne": [
+    {
+      "ozn": "A",
+      "tytul": "Wzorzec w prawdziwym genomie",
+      "wymaga": "po temacie „Wyszukiwanie wzorca w tekście”",
+      "opis": [
+        "Pobierz z bazy NCBI genom bakteriofaga lambda (około 48 500 zasad) i wyszukaj w nim wzorce o długości 4, 8, 16 i 32 zasad algorytmem naiwnym, KMP i Horspoola. Dopisz czwarty algorytm — **Rabina–Karpa** z haszowaniem kroczącym — samodzielnie, na podstawie źródeł.",
+        "Dla każdego algorytmu i każdej długości wzorca zmierz liczbę porównań znaków i czas. Pokaż na wykresie, **jak przewaga Horspoola zależy od długości wzorca**, i sprawdź, od jakiej długości Rabin–Karp zaczyna się opłacać."
+      ],
+      "oddajesz": "kod czterech algorytmów, tabelę pomiarów, wykres i wnioski z podaniem źródła danych"
+    },
+    {
+      "ozn": "B",
+      "tytul": "Wzorzec ze znakiem wieloznacznym",
+      "wymaga": "po temacie „Wyszukiwanie wzorca w tekście”",
+      "opis": [
+        "Rozszerz wyszukiwanie tak, żeby znak `?` we wzorcu pasował do dowolnego znaku tekstu: wzorzec `k?t` ma znaleźć „kot”, „kat” i „kit”. Zrób to w algorytmie naiwnym i w algorytmie Horspoola.",
+        "Pokaż na konkretnym przykładzie, dlaczego **tablica π w KMP przestaje być poprawna**, gdy we wzorcu jest `?`, i zaproponuj, jak Horspool musi zmienić tablicę przesunięć. Przygotuj co najmniej 10 przypadków testowych."
+      ],
+      "oddajesz": "kod obu wersji z testami i opis kontrprzykładu dla KMP"
+    },
+    {
+      "ozn": "C",
+      "tytul": "RSA na małych liczbach — i atak na nie",
+      "wymaga": "po temacie „Szyfrowanie kluczem publicznym. Algorytm RSA”",
+      "opis": [
+        "Zaimplementuj RSA od zera: generowanie kluczy z liczb pierwszych, rozszerzony algorytm Euklidesa do wyznaczenia klucza prywatnego, szybkie potęgowanie modularne, szyfrowanie i deszyfrowanie krótkiej wiadomości.",
+        "Potem złam własne klucze, rozkładając moduł na czynniki metodą prób dzielenia. Zmierz czas łamania dla modułów o długości 20, 30, 40 i 50 bitów i oszacuj z wykresu, ile trwałoby złamanie modułu 2048-bitowego tą metodą."
+      ],
+      "oddajesz": "kod, przykładową wiadomość zaszyfrowaną i odszyfrowaną, tabelę czasów łamania, wykres i oszacowanie"
+    }
   ]
 }

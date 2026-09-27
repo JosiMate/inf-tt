@@ -71,6 +71,8 @@ extra_javascript:
   - assets/js/postep.js
   - assets/js/narzedzia.js
   - assets/js/labirynt.js
+  # Wizualizator wyszukiwania wzorca (naiwny, KMP, Horspool) krok po kroku.
+  - assets/js/wzorzec.js
   # Odhaczanie list „- [ ]” i pobieranie ich jako dokument Word.
   - assets/js/lista-kontrolna.js
   # Konsola Pythona przy przykładach. Interpreter (assets/pyodide/) pobiera

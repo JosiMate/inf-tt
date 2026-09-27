@@ -51,7 +51,7 @@ wspólnego z ocenami.
 
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
-| Wyszukiwanie wzorca w tekście | 4 | *w przygotowaniu* |
+| **[Wyszukiwanie wzorca w tekście](wyszukiwanie-wzorca.md)** | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | Szyfrowanie kluczem publicznym. Algorytm RSA | 3 | *w przygotowaniu* |
 | *Wiesz, umiesz, zdasz* | 4 | — |
 
@@ -135,6 +135,42 @@ je wykonać. Pełne zasady opisuje strona [wymagań edukacyjnych](wymagania-i-bh
     Dla jednego z nich napisz **dwa** rozwiązania: naiwne i wykorzystujące odpowiednią strukturę danych — i pokaż pomiarem, ile na tym zyskujesz przy dużych danych wejściowych.
 
     **Oddajesz:** rozwiązania z komentarzem, wskazanie źródła zadań i pomiar dla pary rozwiązań
+
+??? example "Dział IV. Zaawansowane algorytmy i techniki programistyczne — 3 zadania do wyboru"
+
+    **A. Wzorzec w prawdziwym genomie**
+
+    *Do wykonania po temacie „Wyszukiwanie wzorca w tekście”.*
+
+    Pobierz z bazy NCBI genom bakteriofaga lambda (około 48 500 zasad) i wyszukaj w nim wzorce o długości 4, 8, 16 i 32 zasad algorytmem naiwnym, KMP i Horspoola. Dopisz czwarty algorytm — **Rabina–Karpa** z haszowaniem kroczącym — samodzielnie, na podstawie źródeł.
+
+    Dla każdego algorytmu i każdej długości wzorca zmierz liczbę porównań znaków i czas. Pokaż na wykresie, **jak przewaga Horspoola zależy od długości wzorca**, i sprawdź, od jakiej długości Rabin–Karp zaczyna się opłacać.
+
+    **Oddajesz:** kod czterech algorytmów, tabelę pomiarów, wykres i wnioski z podaniem źródła danych
+
+    ---
+
+    **B. Wzorzec ze znakiem wieloznacznym**
+
+    *Do wykonania po temacie „Wyszukiwanie wzorca w tekście”.*
+
+    Rozszerz wyszukiwanie tak, żeby znak `?` we wzorcu pasował do dowolnego znaku tekstu: wzorzec `k?t` ma znaleźć „kot”, „kat” i „kit”. Zrób to w algorytmie naiwnym i w algorytmie Horspoola.
+
+    Pokaż na konkretnym przykładzie, dlaczego **tablica π w KMP przestaje być poprawna**, gdy we wzorcu jest `?`, i zaproponuj, jak Horspool musi zmienić tablicę przesunięć. Przygotuj co najmniej 10 przypadków testowych.
+
+    **Oddajesz:** kod obu wersji z testami i opis kontrprzykładu dla KMP
+
+    ---
+
+    **C. RSA na małych liczbach — i atak na nie**
+
+    *Do wykonania po temacie „Szyfrowanie kluczem publicznym. Algorytm RSA”.*
+
+    Zaimplementuj RSA od zera: generowanie kluczy z liczb pierwszych, rozszerzony algorytm Euklidesa do wyznaczenia klucza prywatnego, szybkie potęgowanie modularne, szyfrowanie i deszyfrowanie krótkiej wiadomości.
+
+    Potem złam własne klucze, rozkładając moduł na czynniki metodą prób dzielenia. Zmierz czas łamania dla modułów o długości 20, 30, 40 i 50 bitów i oszacuj z wykresu, ile trwałoby złamanie modułu 2048-bitowego tą metodą.
+
+    **Oddajesz:** kod, przykładową wiadomość zaszyfrowaną i odszyfrowaną, tabelę czasów łamania, wykres i oszacowanie
 
 <!-- zadania6:end -->
 ---

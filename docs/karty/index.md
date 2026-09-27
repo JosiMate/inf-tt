@@ -58,6 +58,11 @@ otwierasz, klikając nazwę tematu.
     "plik": "listy",
     "tytul": "Klasa 3 · Wykorzystanie list w rozwiązywaniu problemów",
     "url": "../klasa-3/listy/#karta"
+  },
+  {
+    "plik": "wyszukiwanie-wzorca",
+    "tytul": "Klasa 3 · Wyszukiwanie wzorca w tekście",
+    "url": "../klasa-3/wyszukiwanie-wzorca/#karta"
   }
 ]
 </script>
