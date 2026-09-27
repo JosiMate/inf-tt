@@ -90,6 +90,23 @@ Cztery operacje wystarczą:
 W Pythonie stosem jest zwykła **lista** — `append` i `pop` bez argumentu działają
 dokładnie na jej końcu, w czasie stałym. Nie trzeba niczego importować.
 
+```python
+stos = []
+stos.append(5)                      # push
+stos.append(1)
+stos.append(2)
+print(stos, "wierzch:", stos[-1])   # peek
+
+print(stos.pop())                   # pop — zdejmuje 2
+print(stos.pop())                   # pop — zdejmuje 1
+print(stos, "pusty?", not stos)
+```
+
+<div class="py-konsola"></div>
+
+Dopisz na końcu jeszcze dwa `stos.pop()` i przeczytaj komunikat — tak kończy
+się zdejmowanie z pustego stosu, gdy w wyrażeniu ONP brakuje liczby.
+
 !!! warning "Lista to stos tylko wtedy, gdy używasz jej jak stosu"
 
     `pop()` bez argumentu zdejmuje z końca — to jest operacja stosowa.
@@ -198,6 +215,14 @@ Pobierz szkielet z gotowymi testami. Uzupełniasz trzy funkcje, uruchamiasz plik
 i od razu widzisz, co przechodzi.
 
 [:material-language-python: Szkielet z testami (.py)](../pliki/onp-szkielet.py){ .md-button .md-button--primary download="onp-szkielet.py" }
+
+W okienku niżej ten sam szkielet jest już wczytany: uzupełniasz funkcje,
+a **▶ Uruchom** wykonuje cały plik razem z testami. Okienko pamięta twój kod
+tylko w tej przeglądarce — na koniec lekcji zapisz go przyciskiem
+**⤓ Zapisz .py**, bo plik przyda się do karty pracy. Program działający
+dłużej niż 10 sekund okienko przerywa.
+
+<div class="py-konsola" data-plik="../../pliki/onp-szkielet.py"></div>
 
 !!! note "Ćwiczenie 1. Na kartce, zanim usiądziesz do kodu"
 

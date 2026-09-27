@@ -94,6 +94,30 @@ Ta pętla jest wzorcem, który wróci w każdej operacji na liście. Warunek
 `is not None` jest tu ważniejszy, niż wygląda — to on rozpoznaje koniec
 łańcucha.
 
+Złóż węzeł i pętlę razem, zbuduj łańcuch z rysunku i przejdź po nim:
+
+```python
+class Wezel:
+    def __init__(self, wartosc):
+        self.wartosc = wartosc
+        self.nastepny = None
+
+
+glowa = Wezel(3)                    # łańcuch 3 → 1 → 7 budowany ręcznie
+glowa.nastepny = Wezel(1)
+glowa.nastepny.nastepny = Wezel(7)
+
+biezacy = glowa
+while biezacy is not None:
+    print(biezacy.wartosc)
+    biezacy = biezacy.nastepny
+```
+
+<div class="py-konsola"></div>
+
+Zmień warunek pętli na `biezacy.nastepny is not None` i uruchom jeszcze raz.
+Który element zginął i dlaczego właśnie ten?
+
 ## 3. Operacje na liście jednokierunkowej
 
 === "Wstawianie na początek"
@@ -160,9 +184,40 @@ Ta pętla jest wzorcem, który wróci w każdej operacji na liście. Warunek
     ```
 
     Po pierwszym wierszu nic już nie wskazuje na resztę listy. Drugi wiersz
-    podpina nowy węzeł **sam pod siebie** i lista kończy się w tym miejscu.
+    podpina nowy węzeł **sam pod siebie**: ogon listy przepada, a przeglądanie
+    utyka na nowym węźle i kręci się w nim bez końca.
     Zasada: **najpierw podepnij ogon do nowego węzła, dopiero potem przepnij
     poprzednika**.
+
+    Zobacz to w okienku — pętla ma awaryjny limit ośmiu kroków, bo bez niego
+    nigdy by się nie skończyła. Potem zamień kolejność dwóch oznaczonych
+    przypisań i uruchom jeszcze raz.
+
+    ```python
+    class Wezel:
+        def __init__(self, wartosc):
+            self.wartosc = wartosc
+            self.nastepny = None
+
+
+    glowa = Wezel(3)                    # 3 → 1 → 7
+    glowa.nastepny = Wezel(1)
+    glowa.nastepny.nastepny = Wezel(7)
+
+    biezacy = glowa.nastepny            # stoimy na jedynce, wstawiamy za nią 5
+    nowy = Wezel(5)
+    biezacy.nastepny = nowy             # ŹLE — jako pierwsze
+    nowy.nastepny = biezacy.nastepny    # …a tu już nie ma czego podpiąć
+
+    w, kroki = glowa, 0
+    while w is not None and kroki < 8:  # awaryjny limit kroków
+        print(w.wartosc, end=" ")
+        w = w.nastepny
+        kroki += 1
+    print()
+    ```
+
+    <div class="py-konsola"></div>
 
 !!! warning "Dlaczego usuwanie wymaga poprzednika"
 
@@ -256,12 +311,18 @@ for n in (10_000, 50_000, 100_000):
     print(f"n = {n:>7}   {czas * 1000:7.1f} ms")
 ```
 
+<div class="py-konsola"></div>
+
 Zobaczysz, że **czas rośnie mniej więcej proporcjonalnie do `n`**: przy liście
 pięć razy dłuższej te same 2000 wstawień zajmuje około pięciu razy więcej
 czasu. To jest O(n) na każde wstawienie, zmierzone we własnym komputerze.
 
 Powtórz ten sam pomiar dla `dane.append(x)` — czas nie będzie zależał od `n`.
 Różnica między tymi dwoma wykresami jest całą treścią tej lekcji.
+
+W okienku Python działa w przeglądarce, więc czasy wyjdą inne niż na
+komputerze z zainstalowanym Pythonem — ale **proporcje** są te same, a tylko
+o nie tu chodzi.
 
 ## 6. Zadanie Flawiusza
 
@@ -297,6 +358,14 @@ słowem TODO, uruchamiasz plik i od razu widzisz, co przechodzi.
 
 [:material-language-python: Szkielet z testami (.py)](../pliki/listy-szkielet.py){ .md-button .md-button--primary download="listy-szkielet.py" }
 
+W okienku niżej ten sam szkielet jest już wczytany: uzupełniasz funkcje,
+a **▶ Uruchom** wykonuje cały plik razem z testami. Okienko pamięta twój kod
+tylko w tej przeglądarce — na koniec lekcji zapisz go przyciskiem
+**⤓ Zapisz .py**, bo plik przyda się do karty pracy. Program działający
+dłużej niż 10 sekund okienko przerywa.
+
+<div class="py-konsola" data-plik="../../pliki/listy-szkielet.py"></div>
+
 !!! note "Ćwiczenie 1. Lista jednokierunkowa"
 
     Uzupełnij w klasie `ListaJednokierunkowa` cztery miejsca: `jako_lista`,
@@ -327,7 +396,8 @@ słowem TODO, uruchamiasz plik i od razu widzisz, co przechodzi.
 
 !!! tip "Ćwiczenie 4. Pomiar"
 
-    Wykonaj pomiar z sekcji 5 dla `insert(0, x)` oraz dla `append(x)`. Zapisz
+    Wykonaj pomiar z sekcji 5 — w okienku przy tej sekcji albo na komputerze —
+    dla `insert(0, x)` oraz dla `append(x)`. Zapisz
     czasy dla trzech długości listy i odpowiedz, która z nich zachowuje się
     jak O(1), a która jak O(n) — na podstawie własnych liczb, nie tabeli
     z podręcznika.

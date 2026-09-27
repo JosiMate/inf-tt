@@ -337,6 +337,17 @@ na ocenę wyższą, uruchamiasz plik i od razu widzisz, co przechodzi.
 
 [:material-language-python: Szkielet z testami (.py)](../pliki/labirynt-szkielet.py){ .md-button .md-button--primary download="labirynt-szkielet.py" }
 
+W okienku niżej ten sam szkielet jest już wczytany: uzupełniasz funkcje,
+a **▶ Uruchom** wykonuje cały plik razem z testami. Okienko pamięta twój kod
+tylko w tej przeglądarce — na koniec lekcji zapisz go przyciskiem
+**⤓ Zapisz .py**, bo plik przyda się do karty pracy. Program działający
+dłużej niż 10 sekund okienko przerywa.
+
+<div class="py-konsola" data-plik="../../pliki/labirynt-szkielet.py"></div>
+
+Funkcje `rysuj` i `porownaj` są w szkielecie gotowe. Żeby zobaczyć drogę,
+dopisz na końcu pliku na przykład `rysuj(MALY, najkrotsza_droga(MALY))`.
+
 !!! note "Ćwiczenie 1. Na kartce, zanim usiądziesz do kodu"
 
     Weź labirynt z sekcji 1 i **zmień kolejność** sprawdzania sąsiadów na
