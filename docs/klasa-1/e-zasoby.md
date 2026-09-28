@@ -13,7 +13,7 @@
 
     Ostatnia lekcja tego działu. Po niej sprawdzian **Wiesz, umiesz, zdasz**.
 
-!!! question "Na rozgrzewkę — 3 minuty, bez zaglądania"
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
