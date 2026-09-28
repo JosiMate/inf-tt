@@ -13,6 +13,21 @@
 
     Ostatnia lekcja tego działu. Po niej sprawdzian **Wiesz, umiesz, zdasz**.
 
+!!! question "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Urząd wysłał ci pismo elektronicznie, jako odpowiednik listu poleconego za potwierdzeniem odbioru. Przez jaką usługę?
+    2. **Sprzed kilku tygodni.** Skróć adres IPv6 `fe80:0000:0000:0000:0204:61ff:fe9d:f156`. Jakiego rodzaju to adres?
+    3. **Z dawniejszych tematów.** `ipconfig` pokazuje adres `169.254.12.7`. Co to znaczy?
+
+    ??? success "Odpowiedzi"
+
+        1. Przez **e-Doręczenia** — to one zastąpiły ePUAP w korespondencji z urzędami.
+        2. `fe80::204:61ff:fe9d:f156` — adres **link-local** (zaczyna się od `fe80`).
+        3. To **APIPA** — komputer nie dostał adresu z DHCP i nadał go sobie sam. Sprawdzasz kabel, port, router.
+
 !!! success "Cele lekcji"
 
     Po tych zajęciach potrafisz:

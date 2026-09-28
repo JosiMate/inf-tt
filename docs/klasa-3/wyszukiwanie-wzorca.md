@@ -12,23 +12,38 @@
     algorytm KMP, który nigdy nie cofa się w tekście, i algorytm Horspoola,
     który potrafi przeskakiwać całe jego fragmenty.
 
-!!! success "Cele lekcji"
+!!! question "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
-    Po tej lekcji potrafisz:
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. zdefiniować problem wyszukiwania wzorca: tekst, wzorzec, wystąpienie, przesunięcie
-    2. zapisać i zaimplementować algorytm naiwny oraz wyznaczyć jego złożoność pesymistyczną
-    3. wskazać, jaką informację algorytm naiwny marnuje po niezgodności
-    4. wyznaczyć tablicę prefikso-sufiksów π dla wzorca — na kartce i programem
-    5. zaimplementować algorytm Knutha–Morrisa–Pratta i uzasadnić jego złożoność liniową
-    6. zaimplementować algorytm Boyera–Moore'a–Horspoola z tablicą przesunięć
-    7. porównać trzy algorytmy liczbą wykonanych porównań na różnych danych
-    8. dobrać algorytm do problemu i uzasadnić wybór — także w zadaniu o zmienionych warunkach
+    1. **Z poprzedniej lekcji.** Dlaczego wstawienie na początek listy dowiązanej kosztuje O(1), a wbudowanej listy Pythona — O(n)?
+    2. **Sprzed kilku tygodni.** Która struktura danych w przeszukiwaniu labiryntu gwarantuje drogę najkrótszą — i dlaczego?
+    3. **Z dawniejszych tematów.** Oblicz wyrażenie zapisane w ONP: `3 4 + 2 *`.
+
+    ??? success "Odpowiedzi"
+
+        1. W liście dowiązanej przepina się dwa odwołania; lista Pythona to tablica, więc trzeba przesunąć wszystkie pozostałe elementy.
+        2. **Kolejka** (przeszukiwanie wszerz): pola wychodzą z niej w kolejności rosnącej odległości od startu.
+        3. 14 — najpierw 3 + 4 = 7, potem 7 · 2.
+
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
+
+    Po tym temacie:
+
+    1. Zdefiniuję problem wyszukiwania wzorca i policzę, ile porównań wykona algorytm naiwny w najgorszym przypadku.
+    2. Wyznaczę tablicę π dla wzorca — na kartce i programem — i powiem, co znaczy każda jej wartość.
+    3. Przeprowadzę algorytm KMP krok po kroku i uzasadnię, dlaczego wykonuje najwyżej `2n` porównań.
+    4. Zbuduję tablicę przesunięć Horspoola i powiem, kiedy ten algorytm przeskakuje, a kiedy grzęźnie.
+    5. Porównam trzy algorytmy liczbą porównań i dobiorę właściwy do sytuacji.
+    6. Rozwiążę zadanie o zmienionych warunkach jednym wyszukiwaniem wzorca.
 
 !!! tip "Przykłady uruchomisz na tej stronie"
 
     Pod przykładami są okienka z Pythonem: zmień kod i kliknij **▶ Uruchom**
-    (albo ++ctrl+enter++). Wizualizator w sekcjach 2, 5 i 6 pokazuje każdy
+    (albo ++ctrl+enter++). **Zanim klikniesz, przewiduj** wynik — sprawdzisz
+    go w ramce „Przewiduj, potem sprawdź wynik”. Pod ćwiczeniami są
+    podpowiedzi; odsłaniaj je po kolei, dopiero gdy utkniesz. Wizualizator w sekcjach 2, 5 i 6 pokazuje każdy
     z trzech algorytmów krok po kroku i liczy porównania — tak samo jak
     funkcje w szkielecie ćwiczeń, więc wyniki da się porównać.
 
@@ -84,10 +99,12 @@ print(naiwny("ABRAKADABRA", "ABRA"))
 
 <div class="py-konsola"></div>
 
-```text
-[1, 3]
-[0, 7]
-```
+??? success "Przewiduj, potem sprawdź wynik"
+
+    ```text
+    [1, 3]
+    [0, 7]
+    ```
 
 Prześledź go na klasycznym przykładzie. Wizualizator liczy **porównania
 znaków** — każde, także nieudane — i **ustawienia** wzorca. Wpisz też własny
@@ -197,11 +214,13 @@ print(tablica_pi("ANANAS"))
 
 <div class="py-konsola"></div>
 
-```text
-[0, 0, 1, 2, 0, 1, 2, 3, 4]
-[0, 1, 0, 1, 2, 2, 3]
-[0, 0, 1, 2, 3, 0]
-```
+??? success "Przewiduj, potem sprawdź wynik"
+
+    ```text
+    [0, 0, 1, 2, 0, 1, 2, 3, 4]
+    [0, 1, 0, 1, 2, 2, 3]
+    [0, 0, 1, 2, 3, 0]
+    ```
 
 !!! question "Dlaczego `k = pi[k - 1]`, a nie `k = 0`"
 
@@ -266,10 +285,12 @@ print(kmp("AABAACAADAABAABA", "AABA"))
 
 <div class="py-konsola"></div>
 
-```text
-[10]
-[0, 9, 12]
-```
+??? success "Przewiduj, potem sprawdź wynik"
+
+    ```text
+    [10]
+    [0, 9, 12]
+    ```
 
 Wizualizator poniżej startuje w trybie **KMP**. Jasnozielone pola wzorca to
 znaki „znane bez porównania” — te, które π pozwoliła pominąć.
@@ -339,10 +360,12 @@ print(horspool("ABRAKADABRA", "ABRA"))
 
 <div class="py-konsola"></div>
 
-```text
-[20]
-[0, 7]
-```
+??? success "Przewiduj, potem sprawdź wynik"
+
+    ```text
+    [20]
+    [0, 7]
+    ```
 
 <div class="wzorzec-wiz" markdown="0">
 <script type="application/json">
@@ -439,6 +462,18 @@ dłużej niż 10 sekund okienko przerywa.
     zwracać **parę**: listę pozycji i liczbę porównań znaków. Wszystkie
     dwanaście testów ma przechodzić — sześć pozycji i sześć liczników.
 
+    ??? tip "Podpowiedź 1"
+
+        Dwie pętle: zewnętrzna po `s` w `range(n - m + 1)`, wewnętrzna po `j` od 0 w górę.
+
+    ??? tip "Podpowiedź 2"
+
+        Licznik zwiększaj tuż przed porównaniem `tekst[s + j]` z `wzorzec[j]` — liczy się także porównanie nieudane.
+
+    ??? tip "Podpowiedź 3"
+
+        Wygodnie: `j = 0`, potem `while j < m:` — w środku `porownania += 1`, przy różnicy `break`, inaczej `j += 1`. Po pętli: `if j == m: pozycje.append(s)`.
+
 !!! note "Ćwiczenie 3. Tablica π i KMP"
 
     Uzupełnij `tablica_pi`, a potem `kmp` (w szkielecie: zadania 2 i 3).
@@ -447,6 +482,18 @@ dłużej niż 10 sekund okienko przerywa.
     drugi raz w `if` — żeby licznik się zgadzał, przebuduj pętlę tak, jak
     opisuje szkielet: `while True:` porównaj; zgodne → `q += 1` i `break`;
     różne i `q == 0` → `break`; różne → `q = pi[q - 1]`.
+
+    ??? tip "Podpowiedź 1"
+
+        `tablica_pi`: przepisz schemat z docstringu. `k` to długość dopasowanego prefiksu — najpierw pętla `while` cofająca `k = pi[k - 1]`, potem `if` przedłużający o 1.
+
+    ??? tip "Podpowiedź 2"
+
+        `kmp`: pętla `for i in range(n)`, a w niej `while True:` z **jednym** porównaniem `tekst[i] == wzorzec[q]` i licznikiem tuż przed nim.
+
+    ??? tip "Podpowiedź 3"
+
+        Po wyjściu z `while True` sprawdź `if q == m:` — dopisz pozycję `i - m + 1` i ustaw `q = pi[q - 1]`, żeby znaleźć też wystąpienia nakładające się.
 
     W karcie pracy wyjaśnij, dlaczego dla tekstu `aaaaaaaaab` i wzorca `aaab`
     KMP wykonuje 16 porównań, a algorytm naiwny 28.
@@ -461,6 +508,18 @@ dłużej niż 10 sekund okienko przerywa.
     `porownaj()`, uruchom i sprawdź, że liczby zgadzają się z tabelą
     z sekcji 7.
 
+    ??? tip "Podpowiedź 1"
+
+        Tablica: `{wzorzec[k]: m - 1 - k for k in range(m - 1)}` — zakres **bez** ostatniej pozycji wzorca.
+
+    ??? tip "Podpowiedź 2"
+
+        Pętla zewnętrzna `while s <= n - m`, wewnętrzna od `j = m - 1` w dół, dopóki znaki się zgadzają.
+
+    ??? tip "Podpowiedź 3"
+
+        Przesunięcie po **każdym** ustawieniu, także po znalezieniu wystąpienia: `s += przesuniecie.get(tekst[s + m - 1], m)`.
+
 !!! note "Ćwiczenie 5. Zmienione warunki: rotacja napisu"
 
     Napis `cdeab` powstaje z `abcde` przez przeniesienie `ab` z początku na
@@ -472,6 +531,18 @@ dłużej niż 10 sekund okienko przerywa.
 
     W karcie pracy podaj złożoność swojego rozwiązania i porównaj ją ze
     sprawdzaniem po kolei wszystkich `n` rotacji.
+
+    ??? tip "Podpowiedź 1"
+
+        Wypisz wszystkie rotacje napisu `abcde` i poszukaj każdej z nich w napisie `abcdeabcde`.
+
+    ??? tip "Podpowiedź 2"
+
+        Najpierw sprawdź długości — bez tego `"abc"` byłoby „rotacją” `"abcabc"`.
+
+    ??? tip "Podpowiedź 3"
+
+        `return len(a) == len(b) and len(kmp(a + a, b)[0]) > 0`
 
 !!! tip "Ćwiczenie 6. Wybór algorytmu"
 
