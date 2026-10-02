@@ -79,6 +79,8 @@ extra_javascript:
   # się dopiero przy pierwszym kliknięciu „Uruchom” — python-worker.mjs
   # ładuje go w osobnym wątku, więc nie ma go na tej liście.
   - assets/js/python-konsola.js
+  # Podpowiedzi pod ćwiczeniami odsłaniane po kolei (jedna belka „Podpowiedzi”).
+  - assets/js/podpowiedzi.js
 
 markdown_extensions:
   - abbr
