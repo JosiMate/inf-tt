@@ -448,9 +448,10 @@ Z tego tematu oddajesz **kartę pracy** oraz **poprawioną prezentację**
 
     !!! info "Twoje odpowiedzi zostają na twoim komputerze"
 
-        Formularz niczego nie wysyła. Plik Worda powstaje dopiero po kliknięciu
-        przycisku. Wyczyszczenie danych przeglądania usunie odpowiedzi — kiedy
-        skończysz, pobierz plik.
+        Formularz niczego nie wysyła sam. Do nauczyciela karta trafia dopiero po
+        kliknięciu **Wyślij do nauczyciela** (z kodem z karteczki) albo gdy
+        dołączysz pobrany plik Worda w dzienniku. Wyczyszczenie danych
+        przeglądania usunie odpowiedzi — kiedy skończysz, wyślij albo pobierz kartę.
 
     <div class="karta-pracy" data-karta="sztuka-prezentacji"></div>
 

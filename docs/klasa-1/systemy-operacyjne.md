@@ -527,10 +527,11 @@ ocenę wyższą.
 
     !!! info "Twoje odpowiedzi zostają na twoim komputerze"
 
-        Formularz niczego nie wysyła — ani do mnie, ani nigdzie indziej. Wszystko
-        dzieje się w przeglądarce, a plik Worda powstaje dopiero w momencie
-        kliknięcia przycisku. Jedyny moment, w którym praca do mnie trafia, to
-        dołączenie pliku w Dzienniku VULCAN.
+        Formularz niczego nie wysyła sam. Wszystko dzieje się w przeglądarce,
+        a plik Worda powstaje dopiero w momencie kliknięcia przycisku. Praca
+        trafia do mnie tylko wtedy, gdy klikniesz **Wyślij do nauczyciela**
+        (z kodem z karteczki — klasa, numer i odpowiedzi, bez nazwiska) albo
+        dołączysz plik w Dzienniku VULCAN.
 
         Odwrotna strona tej samej monety: skoro odpowiedzi siedzą w przeglądarce,
         to **wyczyszczenie danych przeglądania je usunie** i na cudzym komputerze

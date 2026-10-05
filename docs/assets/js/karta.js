@@ -2,12 +2,24 @@
  *
  * Renderuje formularz z definicji JSON (docs/assets/karty/<id>.json), trzyma
  * odpowiedzi w localStorage i składa z nich plik .docx po stronie przeglądarki.
- * Nic nie wychodzi poza komputer ucznia — nie ma tu żadnego serwera.
+ * Nic nie wychodzi poza komputer ucznia, dopóki sam nie kliknie „Wyślij do
+ * nauczyciela” — wtedy klasa, numer, kod z karteczki i odpowiedzi idą do
+ * skryptu Google nauczyciela (adres w ODBIOR), który zapisuje je na jego Dysku.
  *
  * Użycie w Markdownie:   <div class="karta-pracy" data-karta="systemy-operacyjne"></div>
  */
 (function () {
   "use strict";
+
+  /* Skrypt Google nauczyciela przyjmujący karty (_materialy-nauczycielskie/
+     narzedzia/apps-script). Pusty napis = bez przycisku „Wyślij”. */
+  const ODBIOR = "https://script.google.com/macros/s/AKfycbwhTDRRQxYs5eECosEyMZ-r0B-jSORYTbSuxw5_c2pepxbGe1MFf_IJgrShjLCM8utm/exec";
+  /* Kod z karteczki nie trafia do danych karty (liczyłby się jako wypełnione
+     pole i jechał z „Zapisz do pliku”). Pamięta go tylko ta karta przeglądarki
+     — na wspólnym komputerze w pracowni znika po jej zamknięciu. */
+  const KLUCZ_KODU = "kp-kod-ucznia";
+  const KLUCZ_WYSLANIA = (id) => "kp-wyslano-" + id;
+  const kodSesji = () => { try { return sessionStorage.getItem(KLUCZ_KODU) || ""; } catch { return ""; } };
 
   // Ścieżka do katalogu, z którego wczytano ten skrypt — obok leży docx.umd.js.
   const KATALOG = (document.currentScript && document.currentScript.src)
@@ -225,11 +237,17 @@
                 value="${esc(dane._klasa || def.klasa || "")}"></td></tr>
           <tr><th scope="row">Data</th>
             <td><input type="date" data-pole="_data" value="${esc(dane._data || "")}"></td></tr>
+          ${ODBIOR ? `<tr><th scope="row">Kod z karteczki</th>
+            <td><input type="text" class="kp-kod" autocomplete="off" spellcheck="false" maxlength="7"
+                value="${esc(kodSesji())}" placeholder="tylko do wysyłania, np. K7MPQ"
+                style="text-transform:uppercase;letter-spacing:.12em"></td></tr>` : ""}
         </tbody></table>
       </div>
       ${zadania}
       <div class="kp-stopka">
-        <button type="button" class="kp-generuj md-button md-button--primary">
+        ${ODBIOR ? `<button type="button" class="kp-wyslij md-button md-button--primary">
+          Wyślij do nauczyciela</button>` : ""}
+        <button type="button" class="kp-generuj md-button${ODBIOR ? "" : " md-button--primary"}">
           Pobierz jako dokument Word</button>
         <button type="button" class="kp-eksport md-button"
           title="Zapisz odpowiedzi do pliku, żeby wrócić do nich na innym komputerze">
@@ -480,7 +498,8 @@
         odswiezDateDomyslna(id, dane, host);
         const nazwa = await generuj(def, dane, status);
         if (nazwa) {
-          status.textContent = `Pobrano plik ${nazwa}. Teraz dołącz go w Dzienniku VULCAN.`;
+          status.textContent = `Pobrano plik ${nazwa}. Teraz dołącz go w Dzienniku VULCAN` +
+            (ODBIOR ? " — albo zamiast tego kliknij „Wyślij do nauczyciela”." : ".");
           status.className = "kp-status kp-ok";
         }
       } catch (err) {
@@ -488,6 +507,75 @@
           "). Pobierz pustą kartę w Wordzie i wypełnij ją tam — odpowiedzi z tej strony zostają zapisane.";
         status.className = "kp-status kp-blad";
       } finally { btn.disabled = false; }
+    });
+
+    /* ─────────────────────── wysłanie do nauczyciela ───────────────────────
+       Treść jako text/plain — wtedy przeglądarka nie pyta skryptu Google
+       o zgodę (CORS) i da się odczytać odpowiedź z numerem potwierdzenia. */
+    const kodPole = host.querySelector(".kp-kod");
+    if (kodPole) kodPole.addEventListener("input", () => {
+      try { sessionStorage.setItem(KLUCZ_KODU, kodPole.value.toUpperCase().replace(/[^A-Z0-9]/g, "")); } catch { /* bez pamięci */ }
+    });
+    const wyslij = host.querySelector(".kp-wyslij");
+    const pokazWyslanie = () => {
+      let w = null;
+      try { w = JSON.parse(localStorage.getItem(KLUCZ_WYSLANIA(id)) || "null"); } catch { /* brak */ }
+      if (w && w.odebrano && !status.textContent) {
+        status.innerHTML = `Ostatnio wysłano do nauczyciela <strong>${esc(w.odebrano)}</strong>` +
+          (w.potwierdzenie ? ` (potwierdzenie ${esc(w.potwierdzenie)})` : "") +
+          ". Po zmianach możesz wysłać jeszcze raz — liczy się najnowsza wersja.";
+        status.className = "kp-status kp-ok";
+      }
+    };
+    if (wyslij) pokazWyslanie();
+    if (wyslij) wyslij.addEventListener("click", async () => {
+      const kod = String(kodPole ? kodPole.value : "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+      const blad = (t) => { status.innerHTML = t; status.className = "kp-status kp-blad"; };
+      if (!String(dane._nr || "").trim()) { blad("Wpisz najpierw numer w dzienniku."); host.querySelector('[data-pole="_nr"]').focus(); return; }
+      if (kod.length !== 5) { blad("Wpisz kod z karteczki — 5 znaków. Nie masz go? Pobierz dokument Word i oddaj go w Dzienniku VULCAN."); kodPole.focus(); return; }
+      wyslij.disabled = true;
+      status.textContent = "Wysyłam kartę…"; status.className = "kp-status";
+      try {
+        odswiezDateDomyslna(id, dane, host);
+        const pomin = new Set(["_nr", "_klasa", "_data", "_data_domyslna", "_zapisano"]);
+        const odpowiedzi = Object.fromEntries(Object.entries(dane)
+          .filter(([k, v]) => !pomin.has(k) && v !== "" && v != null).map(([k, v]) => [k, String(v)]));
+        const tresc = JSON.stringify({
+          klasa: dane._klasa || def.klasa || "", numer: dane._nr, kod,
+          karta_id: def.id || "", karta_sufiks: def.sufiks || "", karta_tytul: def.tytul || "",
+          serwis: (location.pathname.split("/").filter(Boolean)[0]) || location.hostname,
+          wypelnione: policzWypelnione(dane, def), wszystkie: policzWszystkie(def, dane),
+          wygenerowano: new Date().toISOString(), odpowiedzi });
+        let w;
+        try {
+          const resp = await fetch(ODBIOR, { method: "POST", body: tresc,
+            headers: { "Content-Type": "text/plain;charset=utf-8" }, redirect: "follow" });
+          w = await resp.json();
+        } catch {
+          blad("Nie udało się połączyć z serwerem nauczyciela. Sprawdź internet i spróbuj jeszcze raz — " +
+            "albo pobierz dokument Word i oddaj go w Dzienniku VULCAN.");
+          return;
+        }
+        if (w && w.ok) {
+          try { localStorage.setItem(KLUCZ_WYSLANIA(id), JSON.stringify({ odebrano: w.odebrano || "", potwierdzenie: w.potwierdzenie || "" })); } catch { /* bez pamięci */ }
+          status.innerHTML = `<strong>Karta dotarła do nauczyciela</strong> ${esc(w.odebrano || "")}. ` +
+            `Numer potwierdzenia: <strong>${esc(w.potwierdzenie || "")}</strong>. ` +
+            "Karty nie musisz już oddawać w dzienniku — dołącz tam tylko inne pliki, o które prosi polecenie (np. raport). " +
+            "Po poprawkach możesz wysłać jeszcze raz.";
+          status.className = "kp-status kp-ok";
+          return;
+        }
+        const komunikaty = {
+          zly_kod: `Ten kod nie pasuje do numeru ${esc(dane._nr)} w klasie ${esc(dane._klasa || def.klasa || "")}. Sprawdź numer, klasę i kod.` +
+            (w && w.pozostalo != null ? ` Zostało prób: ${esc(w.pozostalo)}.` : ""),
+          zablokowane: "Za dużo złych kodów dla tego numeru — wysyłanie jest zablokowane na godzinę.",
+          za_czesto: "Za dużo wysyłek w krótkim czasie. Odczekaj kilka minut.",
+          za_duze: "Karta jest za duża do wysłania (zrzuty ekranu). Pobierz dokument Word i oddaj go w Dzienniku VULCAN.",
+          brak_danych: "Brakuje numeru, klasy albo kodu.",
+          nieskonfigurowane: "Odbiór kart nie jest jeszcze włączony. Pobierz dokument Word i oddaj go w Dzienniku VULCAN.",
+        };
+        blad(komunikaty[w && w.blad] || "Serwer nauczyciela nie przyjął karty. Pobierz dokument Word i oddaj go w Dzienniku VULCAN.");
+      } finally { wyslij.disabled = false; }
     });
 
     /* ─────────────────────── przeniesienie na inny komputer ───────────────
