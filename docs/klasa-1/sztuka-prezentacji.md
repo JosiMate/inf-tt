@@ -15,16 +15,38 @@
     z niej prezentację, z którą da się wyjść przed klasę. Pracujemy w programie
     **Microsoft PowerPoint**.
 
-!!! success "Cele lekcji"
+    ??? abstract "Plan dwóch lekcji"
 
-    Po tych zajęciach potrafisz:
+        | Lekcja | Sekcje strony | Ćwiczenia |
+        | --- | --- | --- |
+        | 1 | 1–4: slajd a dokument, plan, treść slajdu, wzorzec slajdów | 1–2 |
+        | 2 | 5–7: efekty i multimedia, pomoce, wystąpienie | 3–6 (5 i 6 możesz dokończyć w domu) |
 
-    1. przygotować prezentację z kilku slajdów z poprawnie sformatowaną treścią, obrazem i tabelą
-    2. opracować plan prezentacji dla konkretnego odbiorcy i czasu
-    3. nadać prezentacji spójny wygląd przez wzorzec slajdów
-    4. świadomie stosować przejścia, animacje i multimedia
-    5. dobrać pomoce wizualne do wystąpienia i nagrać komentarz głosowy do slajdu
-    6. wygłosić wystąpienie z notatkami w widoku prezentera, stosując zasady wystąpień publicznych
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Dopisałeś do raportu nowy rozdział, a spis treści pokazuje stare numery stron. Co robisz?
+    2. **Sprzed kilku tygodni.** Zdjęcie z sieci ma licencję **CC BY**. Co musisz zrobić, jeśli wstawisz je na slajd?
+    3. **Z dawniejszych tematów.** Ile bitów ma adres IPv4, a ile IPv6?
+
+    ??? success "Odpowiedzi"
+
+        1. Klikam w spis i naciskam ++f9++ → **Aktualizuj cały spis**. Spis to pole — sam się nie odświeża.
+        2. Podać autora — BY znaczy „uznanie autorstwa”. Na slajdzie: autor, źródło i licencja pod zdjęciem.
+        3. IPv4 — **32 bity**, IPv6 — **128 bitów**.
+
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
+
+    Po tym temacie:
+
+    1. Przygotuję kilka slajdów z czytelną treścią — hasła zamiast akapitów — z obrazem i tabelą.
+    2. Zaplanuję wystąpienie: kto słucha, ile mam czasu, co słuchacz ma zapamiętać.
+    3. Nadam prezentacji spójny wygląd wzorcem slajdów i przywrócę go slajdowi, który nie posłuchał.
+    4. Użyję przejścia, animacji i multimediów tylko tam, gdzie pomagają zrozumieć treść.
+    5. Dobiorę pomoce do wystąpienia i nagram komentarz głosowy do slajdu.
+    6. Wygłoszę wystąpienie z notatkami w widoku prezentera i zmieszczę się w czasie.
 
 ## Jak czytać tę stronę
 
@@ -91,6 +113,18 @@ slajdami to pokaz slajdów, a nie wystąpienie.
 | **treść co najmniej 24 pt**, tytuły większe | ostatni rząd sali musi przeczytać bez mrużenia oczu |
 | **dwa–trzy kolory w całej prezentacji** i konsekwentnie te same | kolor ma coś znaczyć, a nie ozdabiać |
 
+!!! example "Przewiduj"
+
+    Slajd 2 z pliku do ćwiczeń ma akapit na kilka zdań. Pokazujesz go klasie
+    i zaczynasz mówić o czymś innym. Co robi większość słuchaczy przez
+    pierwsze pół minuty?
+
+    ??? success "Wynik"
+
+        **Czyta slajd** — i przestaje cię słuchać. Ludzie nie potrafią naraz
+        czytać jednego tekstu i słuchać drugiego. Dlatego na slajdzie zostają
+        hasła, a zdania mówisz ty.
+
 ### Obraz, tabela, wykres i schemat
 
 Obraz i tabelę wstawiasz tak jak w edytorze tekstu: **Wstawianie → Obrazy**,
@@ -138,6 +172,18 @@ decyduje, gdzie i jak wyglądają.
     - zaznacz tekst i naciśnij ++ctrl+space++ — usuwa ręczne formatowanie
       znaków (krój, rozmiar, kolor);
     - **Projektowanie → Formatuj tło → Resetuj tło** — gdy slajd ma własne tło.
+
+!!! example "Przewiduj"
+
+    We wzorcu slajdów zmieniasz krój nagłówków na inny. Na slajdzie 3 ktoś
+    wcześniej ręcznie ustawił tytułowi krój *Comic Sans*. Jakim krojem będzie
+    tytuł slajdu 3 po zamknięciu widoku wzorca?
+
+    ??? success "Wynik"
+
+        Nadal **Comic Sans** — ręczne formatowanie wygrywa z wzorcem. Wszystkie
+        pozostałe tytuły zmienią krój. Slajdowi 3 przywrócisz wygląd z wzorca
+        zaznaczeniem tekstu i ++ctrl+space++ albo przyciskiem **Resetuj**.
 
 ---
 
@@ -234,6 +280,18 @@ komputerze w innej sali — zapisz jako **Pokaz programu PowerPoint (.ppsx)**:
 
 ---
 
+!!! warning "Najczęstsze błędy"
+
+    | Objaw | Przyczyna i naprawa |
+    | --- | --- |
+    | slajd z akapitem tekstu, prelegent czyta go na głos | zdania przenieś do **notatek**, na slajdzie zostaw hasła |
+    | na projektorze tekstu prawie nie widać | za słaby kontrast albo za mała czcionka — ciemne na jasnym, treść co najmniej 24 pt |
+    | jeden slajd wygląda inaczej niż reszta | ręczne formatowanie silniejsze od wzorca — **Resetuj** albo ++ctrl+space++ |
+    | logo trzeba poprawiać na każdym slajdzie | logo wstawione na slajdy zamiast na **wzorzec nadrzędny** |
+    | każdy slajd ma inne przejście, napisy wirują | efekty bez powodu — jedno przejście dla całej prezentacji, animacja tylko do odsłaniania treści |
+    | film nie gra na komputerze w sali | nie sprawdzono sprzętu przed wystąpieniem; ustaw na karcie **Odtwarzanie**, czy startuje po kliknięciu |
+    | wystąpienie trwa dwa razy dłużej niż plan | za dużo slajdów i brak próby z zegarem — mniej więcej minuta na slajd |
+
 ## Ćwiczenia
 
 Pracujesz na pliku **prezentacja-start.pptx** (przycisk na górze strony).
@@ -256,11 +314,44 @@ i sprawdź, które slajdy się podporządkowały. Tym, które nie posłuchały,
 przywróć wygląd z wzorca sposobami z ramki w sekcji 4 — i zapisz w karcie,
 który sposób zadziałał.
 
+??? tip "Podpowiedź 1"
+
+    **Widok → Wzorzec slajdów**. Po lewej jest lista miniatur — kliknij
+    **największą, na samej górze**. Zmiana w mniejszej miniaturze dotyczy tylko
+    jednego układu slajdów.
+
+??? tip "Podpowiedź 2"
+
+    Krój i kolory zmieniasz na karcie *Wzorzec slajdów*, w grupie *Tło*:
+    przyciski **Czcionki** i **Kolory**. Numer slajdu i stopkę włączasz poza
+    wzorcem: **Wstawianie → Nagłówek i stopka → Zastosuj do wszystkich**.
+
+??? tip "Podpowiedź 3"
+
+    Slajd, który nie posłuchał, zwykle ma ręcznie zmieniony tekst albo tło.
+    Zaznacz cały tekst w polu i naciśnij ++ctrl+space++; jeśli dalej się
+    różni — **Narzędzia główne → Resetuj**, a dla tła **Formatuj tło → Resetuj tło**.
+
 ### :material-console: Ćwiczenie 3 — schemat, wykres, efekty
 
 Listę kroków na slajdzie 4 zamień na grafikę SmartArt z grupy *Proces*.
 Tabelę na slajdzie 5 zamień na wykres kolumnowy. Ustaw jedno przejście dla
 całej prezentacji i animację, która odsłania kroki schematu po kolei.
+
+??? tip "Podpowiedź 1"
+
+    SmartArt: kliknij w pole z listą kroków → **Narzędzia główne → Konwertuj na
+    grafikę SmartArt** → **Więcej grafik SmartArt** → grupa *Proces*.
+
+??? tip "Podpowiedź 2"
+
+    Wykres: **Wstawianie → Wykres → Kolumnowy**. Otworzy się małe okno z danymi —
+    przepisz do niego godziny i procenty z tabeli, a tabelę potem usuń.
+
+??? tip "Podpowiedź 3"
+
+    Kroki po kolei: zaznacz schemat → **Animacje** → np. *Pojawienie* →
+    **Opcje efektu → Pojedynczo**. Każdy krok pojawi się po kolejnym kliknięciu.
 
 ### :material-console: Ćwiczenie 4 — plan wystąpienia
 
@@ -292,14 +383,14 @@ Test z natychmiastową odpowiedzią. **Nie jest oceniany i nic nie wysyła.**
 [
  {
   "pytanie": "Od czego zaczynasz przygotowanie prezentacji?",
-  "opcje": ["Od wyboru motywu graficznego", "Od planu: kto słucha, ile mam czasu i co słuchacz ma zapamiętać", "Od wyszukania zdjęć", "Od ustawienia przejść między slajdami"],
+  "opcje": ["Od wyboru motywu graficznego dla całej prezentacji", "Od planu: odbiorca, czas i główna myśl", "Od wyszukania zdjęć pasujących do tematu", "Od ustawienia przejść między slajdami"],
   "poprawna": 1,
   "wyjasnienie": "Wygląd dobiera się do treści, a treść do odbiorcy i czasu. Bez planu powstaje zbiór slajdów, a nie wystąpienie."
  },
  {
   "pytanie": "Masz 5 minut na wystąpienie. Ile slajdów to rozsądny punkt wyjścia?",
-  "opcje": ["2", "4–6", "15–20", "tyle, ile zmieści się tekstu"],
-  "poprawna": 1,
+  "opcje": ["2", "15–20", "4–6", "tyle, ile zmieści się tekstu"],
+  "poprawna": 2,
   "wyjasnienie": "Około minuty na slajd daje czas na powiedzenie czegoś przy każdym slajdzie. Przy dwudziestu slajdach zostaje kilkanaście sekund na slajd."
  },
  {
@@ -328,14 +419,14 @@ Test z natychmiastową odpowiedzią. **Nie jest oceniany i nic nie wysyła.**
  },
  {
   "pytanie": "Prezentacja ma być pokazywana na stronie szkoły, bez prelegenta. Czego użyjesz?",
-  "opcje": ["Notatek prelegenta", "Widoku prezentera", "Nagrania komentarza głosowego i eksportu do klipu wideo", "Zapisu w formacie .docx"],
-  "poprawna": 2,
+  "opcje": ["Nagranego komentarza i eksportu do wideo", "Notatek prelegenta przy każdym slajdzie", "Widoku prezentera z zegarem", "Zapisu prezentacji w formacie .docx"],
+  "poprawna": 0,
   "wyjasnienie": "Notatki i widok prezentera pomagają prelegentowi na żywo. Bez prelegenta głos musi być nagrany — Pokaz slajdów → Nagraj, a potem Plik → Eksportuj → Utwórz klip wideo."
  },
  {
   "pytanie": "Słuchacz pyta o coś, czego nie wiesz. Co robisz?",
-  "opcje": ["Odpowiadam ogólnikowo, żeby nie było widać", "Mówię, że nie wiem, i proponuję, że sprawdzę i odpowiem", "Przechodzę do następnego slajdu", "Odsyłam do internetu"],
-  "poprawna": 1,
+  "opcje": ["Odpowiadam ogólnikowo, żeby nie było widać", "Przechodzę szybko do następnego slajdu", "Odsyłam pytającego do internetu", "Mówię: „nie wiem, sprawdzę i odpowiem”"],
+  "poprawna": 3,
   "wyjasnienie": "Uczciwe „nie wiem, sprawdzę” buduje zaufanie. Zmyślona odpowiedź wychodzi na jaw i podważa całe wystąpienie."
  }
 ]

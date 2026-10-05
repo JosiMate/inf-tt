@@ -254,8 +254,8 @@ Test z natychmiastową odpowiedzią. **Nie jest oceniany i nic nie wysyła.**
     "opcje": [
       "Niczym — to dwie nazwy tego samego",
       "Podział sekcji pozwala mieć w części dokumentu inną orientację, marginesy, nagłówek i numerację",
-      "Podział sekcji zawsze tworzy stronę poziomą",
-      "Podział strony usuwa numerację"
+      "Podział sekcji zawsze tworzy w dokumencie stronę poziomą",
+      "Podział strony usuwa numerację stron i nagłówki w dalszej części"
     ],
     "poprawna": 1,
     "wyjasnienie": "Sekcja to część dokumentu z własnym układem strony. Podział strony tylko przenosi tekst na następną stronę."
@@ -274,10 +274,10 @@ Test z natychmiastową odpowiedzią. **Nie jest oceniany i nic nie wysyła.**
   {
     "pytanie": "Recenzent chce zasugerować zmianę słowa, ale tak, żeby autor sam zdecydował, czy ją przyjąć. Czego używa?",
     "opcje": [
-      "Zwykłej edycji tekstu",
-      "Komentarza albo zmiany wprowadzonej przy włączonym śledzeniu zmian",
-      "Podziału sekcji",
-      "Stylu Nagłówek 1"
+      "Zwykłej edycji tekstu i zapisu pod nową nazwą",
+      "Komentarza albo zmiany przy włączonym śledzeniu",
+      "Podziału sekcji przed poprawianym akapitem",
+      "Stylu Nagłówek 1 dla poprawionego zdania"
     ],
     "poprawna": 1,
     "wyjasnienie": "Komentarz niczego nie zmienia w tekście, a zmiana przy włączonym śledzeniu czeka na akceptację albo odrzucenie. Zwykła edycja zmienia tekst bez śladu."

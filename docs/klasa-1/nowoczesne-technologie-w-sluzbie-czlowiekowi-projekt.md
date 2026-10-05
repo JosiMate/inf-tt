@@ -16,16 +16,33 @@
     Oceniany jest nie tylko efekt, ale i to, **jak pracowałeś w zespole**.
     Dlatego każdy prowadzi własną kartę projektu.
 
-!!! success "Cele projektu"
+    Plan czterech lekcji jest w sekcji [Harmonogram](#3-harmonogram-cztery-lekcje).
 
-    Po zakończeniu projektu potrafisz:
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania (lekcja 1)"
 
-    1. zaplanować pracę zespołu: podzielić zadania, ustalić terminy i się ich trzymać
-    2. pełnić w zespole różne role — także rolę lidera
-    3. wyszukać wiarygodne źródła o nowej technologii i ocenić ich wiarygodność
-    4. napisać wspólnie z innymi raport ze stylami, spisem treści, podpisami, przypisami i bibliografią
-    5. pracować na wspólnym dokumencie z komentarzami i śledzeniem zmian
-    6. przygotować i wygłosić prezentację z efektami pracy zespołu
+    Odpowiedz w zeszycie, zanim zaczniesz projekt. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniego tematu.** Co widzi publiczność, a co prelegent, gdy włączony jest widok prezentera?
+    2. **Sprzed kilku tygodni.** Czym różni się komentarz od zmiany wprowadzonej przy włączonym śledzeniu zmian?
+    3. **Z dawniejszych tematów.** Znalazłeś artykuł o samochodach autonomicznych. Jakie trzy pytania zadasz, zanim uwierzysz w podane w nim liczby?
+
+    ??? success "Odpowiedzi"
+
+        1. Publiczność — sam bieżący slajd. Prelegent — bieżący i następny slajd, notatki i zegar.
+        2. Komentarz nie zmienia tekstu — to uwaga na marginesie. Zmiana śledzona zmienia tekst, ale czeka na akceptację albo odrzucenie autora.
+        3. Na przykład: **kto** to napisał, **kiedy** (data), **skąd** to wie (czy podaje źródła). Dalej: po co to napisał i czy ktoś inny mówi to samo.
+
+!!! success "Kryteria sukcesu — sprawdź się na koniec projektu"
+
+    Po tym projekcie:
+
+    1. Zaplanuję z zespołem pracę: podział zadań, terminy — i dotrzymam swoich.
+    2. Spełnię w zespole swoją rolę, a jeśli zechcę — także inną, z rolą lidera włącznie.
+    3. Znajdę co najmniej dwa wiarygodne źródła i powiem, dlaczego im ufam.
+    4. Napiszę swoją część raportu ze stylami, podpisami i przypisami, tak żeby pasowała do całości.
+    5. Będę pracować na wspólnym dokumencie z komentarzami i śledzeniem zmian.
+    6. Wygłoszę swoją część wystąpienia z notatkami i zmieszczę się w czasie zespołu.
 
 ## Jak czytać tę stronę
 
@@ -118,6 +135,17 @@ Między lekcjami pracujecie zdalnie na wspólnym dokumencie **Worda w OneDrive**
 - notatki prelegenta przy każdym slajdzie;
 - ostatni slajd: odpowiedź na pytanie z tematu i źródła.
 
+!!! warning "Najczęstsze błędy w projektach"
+
+    | Objaw | Przyczyna i naprawa |
+    | --- | --- |
+    | raport sklejony z czterech plików, każdy rozdział wygląda inaczej | każdy pisał u siebie — piszcie we wspólnym dokumencie, a wygląd ustalcie stylami na starcie |
+    | spis treści pusty albo niepełny | część rozdziałów bez stylu *Nagłówek 1* — redaktor sprawdza w okienku nawigacji |
+    | lista źródeł to same linki do wyszukiwarki | źródło ma autora albo instytucję i datę — analityk ocenia je od pierwszej lekcji |
+    | 15 slajdów na 5 minut, każdy z akapitem | slajdy budowane z raportu zamiast z planu wystąpienia — 4–6 slajdów, hasła i schematy |
+    | wszystko robione na ostatniej lekcji | brak harmonogramu — lider pilnuje, co ma być gotowe na koniec każdej lekcji |
+    | w historii zmian nie widać czyjejś pracy | ktoś pisał offline i wkleił na koniec — pisz od razu we wspólnym dokumencie |
+
 ---
 
 ## 5. Jak oceniany jest projekt
@@ -157,10 +185,10 @@ Test z natychmiastową odpowiedzią. **Nie jest oceniany i nic nie wysyła.**
  {
   "pytanie": "Po co zespół ustala pytanie, na które odpowiada raport, zamiast pisać „wszystko o technologii”?",
   "opcje": [
-   "Żeby każdy rozdział miał wspólną oś i dało się ocenić, czy raport odpowiedział na pytanie",
-   "Żeby raport był krótszy",
-   "Bo tak wymaga edytor tekstu",
-   "Żeby nie trzeba było szukać źródeł"
+   "Żeby rozdziały miały wspólną oś i jasny cel",
+   "Żeby raport był krótszy i szybciej gotowy",
+   "Bo tak wymaga edytor tekstu przy stylach",
+   "Żeby nie trzeba było szukać źródeł w sieci"
   ],
   "poprawna": 0,
   "wyjasnienie": "Pytanie decyduje, co trafia do raportu, a co nie. Bez niego powstaje zbiór ciekawostek, a nie odpowiedź."
