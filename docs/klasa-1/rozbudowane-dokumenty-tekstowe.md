@@ -16,17 +16,40 @@
     spisy, podpisy, nagłówki, sekcje, przypisy i bibliografia. Pracujemy
     w programie **Microsoft Word**.
 
-!!! success "Cele lekcji"
+    ??? abstract "Plan trzech lekcji"
 
-    Po tych zajęciach potrafisz:
+        | Lekcja | Sekcje strony | Ćwiczenia |
+        | --- | --- | --- |
+        | 1 | 1–3: znak i akapit, style, listy | 1–2 |
+        | 2 | 4–5: strona tytułowa, nagłówek i stopka, spisy i podpisy | 3–4 |
+        | 3 | 6–8: praca z innymi, struktura pracy dyplomowej, typografia | 5–8 (6 i 7 możesz dokończyć w domu) |
 
-    1. sformatować znaki i akapity oraz wstawić do dokumentu obraz i tabelę
-    2. stosować gotowe style nagłówkowe i modyfikować je
-    3. stosować numerowanie i wypunktowanie
-    4. utworzyć stronę tytułową oraz ustawić nagłówek, stopkę i numerację stron
-    5. wstawić spis treści, spis ilustracji i spis tabel — i zaktualizować je po zmianach
-    6. pracować na dokumencie z innymi: komentować, śledzić zmiany, akceptować je i odrzucać
-    7. zbudować dokument o strukturze pracy dyplomowej: sekcje, przypisy, bibliografia i odsyłacze
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Szukasz w wyszukiwarce podstawy programowej, ale tylko w plikach PDF i tylko na stronach rządowych. Jakie dwa operatory dopiszesz do zapytania?
+    2. **Sprzed kilku tygodni.** Komputery w pracowni mają adresy prywatne, a i tak otwierają strony w internecie. Jak nazywa się mechanizm, dzięki któremu to działa, i które urządzenie go wykonuje?
+    3. **Z dawniejszych tematów.** Na pendrivie jest 20 GB wolnego miejsca, a film o rozmiarze 6 GB nie chce się na niego skopiować. Dlaczego?
+
+    ??? success "Odpowiedzi"
+
+        1. `filetype:pdf` i `site:gov.pl`.
+        2. **NAT** — router podmienia adresy prywatne na swój adres publiczny. W raporcie, który dziś formatujesz, jest o tym przypis.
+        3. Pendrive jest sformatowany w **FAT32**, a ten system plików nie zapisze pliku większego niż 4 GB. Pomoże sformatowanie w exFAT (formatowanie usuwa dane).
+
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
+
+    Po tym temacie:
+
+    1. Sformatuję znaki i akapity, wstawię obraz i tabelę — i powiem, które ustawienie dotyczy znaku, a które akapitu.
+    2. Nadam nagłówkom style i zmienię wygląd wszystkich rozdziałów naraz, modyfikując styl.
+    3. Zamienię ręcznie wpisane „1)”, „2)” na listę numerowaną albo wypunktowaną.
+    4. Oddzielę stronę tytułową podziałem strony i ustawię nagłówek, stopkę i numerację stron — bez numeru na stronie tytułowej.
+    5. Wstawię spis treści, spis ilustracji i spis tabel — i zaktualizuję je po zmianach.
+    6. Odpowiem na komentarze i przy każdej śledzonej zmianie zdecyduję: akceptuję czy odrzucam.
+    7. Zbuduję dokument o strukturze pracy dyplomowej: sekcje, przypisy, bibliografia i odsyłacze.
 
 ## Jak czytać tę stronę
 
@@ -64,6 +87,18 @@ Obraz wstawiasz przez **Wstawianie → Obrazy**, tabelę przez **Wstawianie →
 Tabela**. Obraz z zawijaniem **Równo z tekstem** zachowuje się jak duża
 litera — przesuwa się razem z tekstem i niczego nie zasłania. Na początek to
 najbezpieczniejsze ustawienie.
+
+!!! example "Przewiduj"
+
+    Zaznaczasz **jedno słowo** w środku akapitu i klikasz **Wyśrodkuj**. Co się
+    wyśrodkuje? A co się stanie, gdy przy tym samym zaznaczeniu klikniesz
+    **Pogrubienie**? Najpierw odpowiedz, potem sprawdź w raporcie.
+
+    ??? success "Wynik"
+
+        **Wyśrodkuje się cały akapit** — wyrównanie to ustawienie akapitu, więc
+        działa na cały akapit, w którym stoi kursor, nawet jeśli zaznaczyłeś jedno
+        słowo. **Pogrubi się tylko to słowo** — pogrubienie to ustawienie znaku.
 
 ---
 
@@ -263,10 +298,30 @@ rysunek, zdanie zacznie kłamać. **Odsyłacz** (**Odwołania → Odsyłacz** �
 typ *Rysunek*) wstawia pole, które pokazuje aktualny numer podpisu. Tak samo
 odsyła się do tabeli, rozdziału albo numeru strony.
 
+!!! example "Przewiduj"
+
+    W zdaniu „Dane zestawiono w tabeli 1” zamieniasz „tabeli 1” na odsyłacz
+    do podpisu tabeli z opcją **Tylko etykieta i numer**. Co pojawi się
+    w zdaniu?
+
+    ??? success "Wynik"
+
+        „Dane zestawiono w **Tabela 1**” — odsyłacz kopiuje etykietę dokładnie
+        tak, jak stoi w podpisie: w mianowniku i wielką literą.
+
 W polskim zdaniu wyraz zwykle stoi w innym przypadku niż w podpisie —
-„przedstawia rysun**ek** 1”, „w tabel**i** 1”. Dlatego w oknie odsyłacza
-wybierasz **Tylko numer**, a słowo przed nim piszesz sam, w dobrej formie.
-Opcja *Tylko etykieta i numer* wstawiłaby „w Tabela 1”.
+„przedstawia rysun**ek** 1”, „w tabel**i** 1”. Word przy podpisach nie ma
+opcji „sam numer” (są: *Cały podpis*, *Tylko etykieta i numer*, *Tylko tekst
+podpisu*, *Numer strony*, *Powyżej/poniżej*). Sam numer wstawisz przez
+**zakładkę**:
+
+1. W podpisie zaznacz **sam numer** — na przykład `1` w „Rysunek 1.”.
+2. **Wstawianie → Zakładka** → nazwa bez spacji, np. `rys1` → **Dodaj**.
+3. W zdaniu napisz sam „rysunek ”, a potem **Odwołania → Odsyłacz** →
+   typ odwołania *Zakładka* → *Tekst zakładki* → wybierz `rys1`.
+
+Numer w zdaniu jest teraz polem połączonym z numerem w podpisie — po zmianie
+kolejności rysunków i aktualizacji pól (++f9++) przestawi się sam.
 
 ---
 
@@ -297,6 +352,19 @@ zostaje sam na dole strony, oddzielony od swojego tekstu.
 
 ---
 
+!!! warning "Najczęstsze błędy"
+
+    | Objaw | Przyczyna i naprawa |
+    | --- | --- |
+    | rozdziału nie ma w spisie treści ani w okienku nawigacji | tytuł jest tylko pogrubiony — nadaj mu styl **Nagłówek 1** albo **2** |
+    | spis treści pokazuje stare numery stron | spis to pole — kliknij w niego, ++f9++, **Aktualizuj cały spis** |
+    | spis ilustracji jest pusty | podpisy wpisano z klawiatury — wstaw je przez **Odwołania → Wstaw podpis** |
+    | na stronie tytułowej jest numer albo nagłówek | brak zaznaczenia **Inna pierwsza strona** |
+    | po poprawce strona tytułowa „wjeżdża” na drugą stronę | puste akapity zamiast podziału strony (++ctrl+enter++) |
+    | wszystkie strony zrobiły się poziome | podział strony zamiast podziału **sekcji** przed i za tabelą |
+    | numeracja stron po stronie poziomej zaczyna się od 1 | w stopce nowej sekcji ustawione *Rozpocznij od* zamiast *Kontynuuj od poprzedniej sekcji* |
+    | odbiorca widzi w pliku usunięty tekst | wyłączono **Śledź zmiany**, ale zmian nie zaakceptowano ani nie odrzucono |
+
 ## Ćwiczenia
 
 Pracujesz na pliku **rozbudowane-start.docx** (przycisk na górze strony).
@@ -325,6 +393,22 @@ i w jego miejsce — na drugiej stronie — wstaw spis automatyczny. W stopce
 wstaw numer strony, w nagłówku — tytuł raportu. Strona tytułowa ma być bez
 numeru i bez nagłówka.
 
+??? tip "Podpowiedź 1"
+
+    Podział strony wstawiasz z kursorem tuż za ostatnim wierszem strony tytułowej:
+    ++ctrl+enter++. Puste akapity, które były tam wcześniej, usuń.
+
+??? tip "Podpowiedź 2"
+
+    Spis treści: **Odwołania → Spis treści** → *Tabela automatyczna*. Zadziała tylko
+    wtedy, gdy rozdziały mają już style nagłówków z ćwiczenia 2.
+
+??? tip "Podpowiedź 3"
+
+    Kliknij dwa razy w nagłówek strony. Na karcie *Nagłówek i stopka* zaznacz **Inna
+    pierwsza strona** — nagłówek i stopka pierwszej strony robią się osobne
+    i mogą zostać puste.
+
 ### :material-console: Ćwiczenie 4 — podpisy i spisy :material-plus-circle:
 
 Usuń ręcznie wpisane podpisy i wstaw automatyczne do obu rysunków i do tabeli.
@@ -348,6 +432,24 @@ komentarz: wpisz, ile stanowisk nie przeszło testu łączności (odpowiedź jes
 w rozdziale 3.1). Zostaw tę zmianę **niezaakceptowaną** — ma być widoczna
 w oddanym pliku.
 
+??? tip "Podpowiedź 1"
+
+    Zmiany redakcji przeglądasz na karcie **Recenzja** przyciskiem **Następna**
+    (w grupie *Zmiany*). Przy każdej klikasz **Akceptuj** albo **Odrzuć** — nie
+    *Akceptuj wszystkie zmiany*.
+
+??? tip "Podpowiedź 2"
+
+    Odpowiedź na pierwszy komentarz jest w rozdziale 3.1: policz, ile stanowisk
+    nie przeszło wszystkich prób. Zdanie zaczynające się od „Czternaście…” podaje,
+    ile jest stanowisk i ile z nich przeszło.
+
+??? tip "Podpowiedź 3"
+
+    Najpierw **Recenzja → Śledź zmiany** (przycisk ma być podświetlony), dopiero
+    potem poprawiasz zdanie w *Podsumowaniu*: słowo „pojedynczych” zastępujesz
+    liczbą stanowisk. Tej zmiany nie akceptujesz.
+
 ### :material-console: Ćwiczenie 7 — sekcje, przypisy, bibliografia, odsyłacze :material-star:
 
 1. Tabelę 1 umieść w osobnej sekcji na stronie poziomej. Reszta dokumentu
@@ -357,7 +459,25 @@ w oddanym pliku.
    w tekście co najmniej dwa cytaty i zamień ręczną listę na automatyczną
    bibliografię.
 4. W zdaniach „przedstawia rysunek 1”, „przedstawia rysunek 2” i „w tabeli 1”
-   zamień numer na odsyłacz z opcją **Tylko numer**.
+   zamień sam numer na odsyłacz do **zakładki** na numerze w podpisie
+   (sekcja 7, *Odsyłacze*).
+
+??? tip "Podpowiedź 1"
+
+    Kursor tuż **przed** podpisem „Tabela 1.” → **Układ → Znaki podziału →
+    Następna strona**. Potem kursor w pierwszym akapicie **za** tabelą i drugi
+    taki sam podział. Włącz **Pokaż wszystko** — zobaczysz napisy *Podział sekcji*.
+
+??? tip "Podpowiedź 2"
+
+    Kliknij w tabelę i dopiero wtedy **Układ → Orientacja → Pozioma**. Orientacja
+    zmienia się tylko w sekcji, w której stoi kursor.
+
+??? tip "Podpowiedź 3"
+
+    Jeżeli numeracja na stronie poziomej zaczęła się od 1: dwuklik w stopkę tej
+    strony → **Numer strony → Formatuj numery stron** → *Kontynuuj od poprzedniej
+    sekcji*. To samo sprawdź w sekcji za tabelą.
 
 ### :material-console: Ćwiczenie 8 — ostatnie szlify
 

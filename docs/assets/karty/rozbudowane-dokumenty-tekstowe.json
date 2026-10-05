@@ -185,7 +185,7 @@
    "nr": 6,
    "tytul": "Śledzenie zmian",
    "poziom": "wymagania dopełniające · ocena 5",
-   "polecenie": "Ćwiczenie 6. Przejrzyj zmiany redakcji w <em>Podsumowaniu</em>, a potem w trybie śledzenia wpisz, ile stanowisk miało usterki.",
+   "polecenie": "Ćwiczenie 6. Przejrzyj zmiany redakcji w <em>Podsumowaniu</em>, a potem w trybie śledzenia wpisz, ile stanowisk nie przeszło testu łączności.",
    "pola": [
     {
      "typ": "tabela",
