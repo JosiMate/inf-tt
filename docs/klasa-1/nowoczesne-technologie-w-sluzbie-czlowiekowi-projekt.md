@@ -41,7 +41,7 @@
     2. Spełnię w zespole swoją rolę, a jeśli zechcę — także inną, z rolą lidera włącznie.
     3. Znajdę co najmniej dwa wiarygodne źródła i powiem, dlaczego im ufam.
     4. Napiszę swoją część raportu ze stylami, podpisami i przypisami, tak żeby pasowała do całości.
-    5. Będę pracować na wspólnym dokumencie z komentarzami i śledzeniem zmian.
+    5. Będę pracować na wspólnym dokumencie: piszę w swoim rozdziale, a do cudzych dodaję podpisane komentarze i sugestie.
     6. Wygłoszę swoją część wystąpienia z notatkami i zmieszczę się w czasie zespołu.
 
 ## Jak czytać tę stronę
@@ -95,22 +95,41 @@ i analityk.
 
 | Lekcja | Co robicie | Co ma być gotowe na koniec lekcji |
 | :---: | --- | --- |
-| **1** | wybór tematu i pytania, podział ról, wspólny folder, pierwsze źródła | karta projektu: temat, role; co najmniej 4 źródła z oceną wiarygodności |
-| **2** | pisanie raportu we wspólnym dokumencie z komentarzami i śledzeniem zmian | wszystkie rozdziały w wersji roboczej |
-| **3** | redakcja raportu i budowa prezentacji na wspólnym wzorcu slajdów | raport gotowy do oddania, prezentacja z notatkami |
+| **1** | wybór tematu i pytania, podział ról, link do dokumentów zespołu, pierwsze źródła | karta projektu: temat, role; co najmniej 4 źródła z oceną wiarygodności |
+| **2** | pisanie raportu we wspólnym dokumencie z komentarzami i sugestiami | wszystkie rozdziały w wersji roboczej |
+| **3** | redakcja końcowa raportu w Wordzie i budowa prezentacji na wspólnym wzorcu slajdów | raport gotowy do oddania, prezentacja z notatkami |
 | **4** | wystąpienia zespołów — **5 minut** na zespół i 2 minuty na pytania | wystąpienie, samoocena w karcie projektu |
 
-Między lekcjami pracujecie zdalnie na wspólnym dokumencie **Worda w OneDrive**
-(szkolne konto Microsoft 365). Zasady tej pracy znasz z tematu o
-[e-zasobach i współpracy zdalnej](e-zasoby.md).
+## Jak pracujecie we wspólnym dokumencie
 
-!!! warning "Dokument Google nie wystarczy"
+Każdy zespół dostaje ode mnie **dwa linki**: do raportu (Dokumenty Google) i do
+prezentacji (Prezentacje Google). Otwierasz link i piszesz — **bez logowania**,
+na komputerze w pracowni i w domu. Dokumenty są już przygotowane: style, rozdziały,
+strona tytułowa, tabela źródeł i szablon slajdów z miejscem na notatki.
 
-    Raport ma mieć automatyczne podpisy, spis ilustracji, bibliografię z bazy
-    źródeł, sekcje i śledzenie zmian, i ma być oddany jako `.docx`. Dokumenty
-    Google tych funkcji nie mają albo mają je w innej postaci — a część jest
-    uboższa także w Wordzie w przeglądarce. Pisać możecie wspólnie w sieci,
-    ale **końcową redakcję robicie w Wordzie na komputerze**.
+Bez logowania dokument nie wie, kto pisze — w historii zmian zobaczysz
+„Anonimową wydrę” zamiast siebie. Dlatego podpisujecie się **numerem z dziennika**:
+
+1. **Piszesz tylko w swoim rozdziale** — przy jego tytule jest „Autor: nr …”. Wpisz tam swój numer.
+2. **Uwaga do cudzego rozdziału = komentarz** (**Wstaw → Komentarz**) zaczynający się od twojego numeru: „nr 7: brak źródła tej liczby”.
+3. **Poprawka w cudzym tekście = sugestia**: ołówek w prawym górnym rogu → **Sugerowanie**. Autor ją przyjmuje albo odrzuca. Też podpisz ją komentarzem z numerem.
+4. **Każde źródło od razu do tabeli** na końcu raportu, z numerem osoby, która je znalazła.
+5. **Nie wpisujecie imion i nazwisk** — tylko numery. Link do dokumentów dostaje tylko wasz zespół: nie wysyłajcie go nikomu innemu.
+
+!!! warning "Redakcja końcowa — w Wordzie"
+
+    Dokumenty Google nie mają automatycznych podpisów „Rysunek 1”, spisu
+    ilustracji ani odsyłaczy do rysunków — a to wymagania na 4 i 5. Na
+    lekcji 3 redaktor pobiera raport: **Plik → Pobierz → Microsoft Word (.docx)**
+    i kończy go w Wordzie na komputerze: podpisy, spisy, odsyłacze, bibliografia.
+    Nieprzyjęte sugestie zamienią się w Wordzie w zmiany śledzone — przejrzyj je
+    tam. Prezentację lider pobiera jako **.pptx** (notatki zostają).
+
+!!! tip "Ktoś coś skasował?"
+
+    Każdy z linkiem może edytować, więc pomyłka się zdarzy. **Plik → Historia
+    wersji → Wyświetl historię wersji** pozwala wrócić do dowolnej wcześniejszej
+    wersji. Napisz do mnie, jeśli nie dacie rady.
 
 ---
 
@@ -144,7 +163,7 @@ Między lekcjami pracujecie zdalnie na wspólnym dokumencie **Worda w OneDrive**
     | lista źródeł to same linki do wyszukiwarki | źródło ma autora albo instytucję i datę — analityk ocenia je od pierwszej lekcji |
     | 15 slajdów na 5 minut, każdy z akapitem | slajdy budowane z raportu zamiast z planu wystąpienia — 4–6 slajdów, hasła i schematy |
     | wszystko robione na ostatniej lekcji | brak harmonogramu — lider pilnuje, co ma być gotowe na koniec każdej lekcji |
-    | w historii zmian nie widać czyjejś pracy | ktoś pisał offline i wkleił na koniec — pisz od razu we wspólnym dokumencie |
+    | nie wiadomo, kto napisał rozdział albo komentarz | brak numeru autora — „Autor: nr …” przy rozdziale, numer na początku każdego komentarza |
 
 ---
 
@@ -152,8 +171,8 @@ Między lekcjami pracujecie zdalnie na wspólnym dokumencie **Worda w OneDrive**
 
 Projekt oceniany jest **poziomami wymagań**, tak jak sprawdziany. Każdy
 członek zespołu dostaje **własną ocenę** — z produktów zespołu i z tego,
-co zrobił w zespole — zapisanego w karcie projektu i widocznego w historii
-zmian wspólnego dokumentu.
+co zrobił w zespole — zapisanego w karcie projektu, w rozdziałach podpisanych
+twoim numerem i w twoich komentarzach i sugestiach we wspólnym dokumencie.
 
 | Poziom | Co musisz pokazać | Ocena |
 | :---: | --- | :---: |
@@ -168,8 +187,9 @@ w spisie tematów, w zadaniach działu II.
 
 !!! warning "Projekt zespołowy nie jest ucieczką od pracy"
 
-    Kto nie pracował, nie ma czego wpisać do karty projektu, a historia zmian
-    we wspólnym dokumencie pokazuje, kto co napisał. Zasady samodzielności
+    Kto nie pracował, nie ma czego wpisać do karty projektu ani podpisanego
+    rozdziału czy komentarzy we wspólnym dokumencie — a ja zaglądam do niego
+    na każdej lekcji. Zasady samodzielności
     i weryfikacji z [wymagań edukacyjnych](wymagania-i-bhp.md) dotyczą także
     projektów.
 
@@ -202,7 +222,7 @@ Test z natychmiastową odpowiedzią. **Nie jest oceniany i nic nie wysyła.**
    "Każdy wysyła swoje akapity mailem do redaktora"
   ],
   "poprawna": 2,
-  "wyjasnienie": "Wspólny dokument eliminuje sklejanie wersji, a historia zmian pokazuje, kto co napisał — to także podstawa indywidualnej oceny."
+  "wyjasnienie": "Wspólny dokument eliminuje sklejanie wersji, a podpisane rozdziały i komentarze pokazują, kto co napisał — to także podstawa indywidualnej oceny."
  },
  {
   "pytanie": "Za co odpowiada lider zespołu?",
@@ -246,7 +266,7 @@ Test z natychmiastową odpowiedzią. **Nie jest oceniany i nic nie wysyła.**
    "Wyłącznie z wystąpienia"
   ],
   "poprawna": 2,
-  "wyjasnienie": "Każdy dostaje własną ocenę. Jego udział widać w karcie projektu i w historii zmian wspólnego dokumentu."
+  "wyjasnienie": "Każdy dostaje własną ocenę. Jego udział widać w karcie projektu oraz w podpisanym rozdziale, komentarzach i sugestiach we wspólnym dokumencie."
  }
 ]
 </script>
@@ -274,7 +294,8 @@ cztery lekcje. Na jej podstawie ustalana jest twoja ocena.
 
 ### Jak oddać projekt
 
-1. Lider oddaje **raport** (`.docx`) i **prezentację** (`.pptx`) zespołu.
-2. Każdy członek zespołu pobiera **swoją kartę projektu**.
-3. Pliki dołączacie w **Dzienniku VULCAN → Zadania domowe**, w zadaniu
-   *Projekt zespołowy — dział II*, najpóźniej w dniu wystąpień.
+1. Lider oddaje **raport** (`.docx` po redakcji w Wordzie) i **prezentację** (`.pptx`)
+   zespołu w **Dzienniku VULCAN → Zadania domowe**, w zadaniu *Projekt zespołowy — dział II*,
+   najpóźniej w dniu wystąpień.
+2. Każdy członek zespołu oddaje **swoją kartę projektu**: przyciskiem **Wyślij do
+   nauczyciela** (z kodem z karteczki) albo jako plik Worda w tym samym zadaniu w dzienniku.

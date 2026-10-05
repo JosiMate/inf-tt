@@ -32,7 +32,7 @@
       [
        "z1_folder",
        "Gdzie jest wspólny dokument zespołu",
-       "OneDrive — Word"
+       "Dokumenty Google — link od nauczyciela"
       ]
      ]
     },
@@ -112,7 +112,7 @@
     {
      "typ": "zrzut",
      "id": "z3_zrzut",
-     "opis": "historia zmian albo komentarze we wspólnym dokumencie z twoim udziałem"
+     "opis": "twój rozdział z numerem albo komentarze i sugestie podpisane twoim numerem"
     }
    ]
   },
