@@ -263,7 +263,16 @@
   }
 
   // ---------------------------------------------------------------- .docx
-  async function generuj(def, dane, status) {
+  /* Plik → base64 (bez nagłówka data:), do wysłania Worda razem z odpowiedziami. */
+  const naBase64 = (blob) => new Promise((ok, zle) => {
+    const fr = new FileReader();
+    fr.onload = () => ok(String(fr.result).split(",")[1] || "");
+    fr.onerror = () => zle(fr.error);
+    fr.readAsDataURL(blob);
+  });
+
+  /* opcje.tylkoPlik — zwraca { blob, nazwa } bez pobierania (wysyłka do nauczyciela). */
+  async function generuj(def, dane, status, opcje = {}) {
     await zaladujDocx();
     const { Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell,
             WidthType, ImageRun, AlignmentType, BorderStyle, HeadingLevel } = docx;
@@ -385,6 +394,7 @@
       .replace(/[^\w-]/g, "");
     const nr = bezOgonkow(dane._nr || "brak-numeru") || "brak-numeru";
     const nazwa = `${bezOgonkow(dane._klasa || def.klasa || "1TT")}_${nr}_${def.sufiks || "karta"}.docx`;
+    if (opcje.tylkoPlik) return { blob, nazwa };
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url; a.download = nazwa; document.body.appendChild(a); a.click();
@@ -538,14 +548,27 @@
       try {
         odswiezDateDomyslna(id, dane, host);
         const pomin = new Set(["_nr", "_klasa", "_data", "_data_domyslna", "_zapisano"]);
+        /* Cały dokument Word jedzie razem z odpowiedziami — nauczyciel przegląda
+           go na Dysku. Zrzuty ekranu są już w Wordzie, więc w odpowiedziach
+           zostaje tylko znacznik (mniejsza wysyłka). Gdy Worda nie da się złożyć,
+           zrzuty idą jak dawniej, osobno. */
+        let word = null;
+        try {
+          status.textContent = "Składam dokument Word…";
+          const g = await generuj(def, dane, status, { tylkoPlik: true });
+          word = { nazwa: g.nazwa, b64: await naBase64(g.blob) };
+        } catch { word = null; }
+        status.textContent = "Wysyłam kartę…";
         const odpowiedzi = Object.fromEntries(Object.entries(dane)
-          .filter(([k, v]) => !pomin.has(k) && v !== "" && v != null).map(([k, v]) => [k, String(v)]));
+          .filter(([k, v]) => !pomin.has(k) && v !== "" && v != null)
+          .map(([k, v]) => [k, word && String(v).startsWith("data:image") ? "[zrzut]" : String(v)]));
         const tresc = JSON.stringify({
           klasa: dane._klasa || def.klasa || "", numer: dane._nr, kod,
           karta_id: def.id || "", karta_sufiks: def.sufiks || "", karta_tytul: def.tytul || "",
           serwis: (location.pathname.split("/").filter(Boolean)[0]) || location.hostname,
           wypelnione: policzWypelnione(dane, def), wszystkie: policzWszystkie(def, dane),
-          wygenerowano: new Date().toISOString(), odpowiedzi });
+          wygenerowano: new Date().toISOString(), odpowiedzi,
+          docx: word ? word.b64 : "", docx_nazwa: word ? word.nazwa : "" });
         let w;
         try {
           const resp = await fetch(ODBIOR, { method: "POST", body: tresc,
@@ -558,7 +581,7 @@
         }
         if (w && w.ok) {
           try { localStorage.setItem(KLUCZ_WYSLANIA(id), JSON.stringify({ odebrano: w.odebrano || "", potwierdzenie: w.potwierdzenie || "" })); } catch { /* bez pamięci */ }
-          status.innerHTML = `<strong>Karta dotarła do nauczyciela</strong> ${esc(w.odebrano || "")}. ` +
+          status.innerHTML = `<strong>Karta dotarła do nauczyciela</strong>${w.word ? " razem z dokumentem Word" : ""} ${esc(w.odebrano || "")}. ` +
             `Numer potwierdzenia: <strong>${esc(w.potwierdzenie || "")}</strong>. ` +
             "Karty nie musisz już oddawać w dzienniku — dołącz tam tylko inne pliki, o które prosi polecenie (np. raport). " +
             "Po poprawkach możesz wysłać jeszcze raz.";
