@@ -76,6 +76,8 @@ extra_javascript:
   - assets/js/labirynt.js
   # Wizualizator wyszukiwania wzorca (naiwny, KMP, Horspool) krok po kroku.
   - assets/js/wzorzec.js
+  # Wizualizator grafu: BFS i algorytm Dijkstry krok po kroku.
+  - assets/js/graf.js
   # Odhaczanie list „- [ ]” i pobieranie ich jako dokument Word.
   - assets/js/lista-kontrolna.js
   # Konsola Pythona przy przykładach. Interpreter (assets/pyodide/) pobiera

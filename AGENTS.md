@@ -390,6 +390,22 @@ Tryby: `naiwny`, `kmp`, `horspool`. Tekst do 60 znaków, wzorzec do 20.
 
 `#` ściana, `.` korytarz, `S` start, `E` wyjście; `tryb`: `dfs` albo `bfs`.
 
+### Wizualizator grafu (`graf.js`)
+
+```html
+<div class="graf-wiz" markdown="0">
+<script type="application/json">
+{ "wierzcholki": {"A": [8, 30], "B": [35, 10], "C": [35, 50]},
+  "krawedzie": [["A", "B", 4], ["A", "C", 2], ["B", "C", 1]],
+  "skierowany": false, "start": "A", "cel": "C", "tryb": "dijkstra" }
+</script>
+</div>
+```
+
+Współrzędne w układzie 100 × 60; `tryb`: `bfs` albo `dijkstra` (uczeń może
+przełączyć); `cel` opcjonalny. Liczy tak samo jak `grafy-szkielet.py`:
+sąsiedzi w kolejności krawędzi, Dijkstra w wersji prostej.
+
 ### Lista kontrolna (`lista-kontrolna.js`)
 
 Każda lista zadań `- [ ] …` na stronie staje się klikalna i do pobrania

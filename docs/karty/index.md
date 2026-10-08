@@ -63,6 +63,11 @@ otwierasz, klikając nazwę tematu.
     "plik": "wyszukiwanie-wzorca",
     "tytul": "Klasa 3 · Wyszukiwanie wzorca w tekście",
     "url": "../klasa-3/wyszukiwanie-wzorca/#karta"
+  },
+  {
+    "plik": "grafy",
+    "tytul": "Klasa 3 · Grafy. Znajdowanie najkrótszej drogi",
+    "url": "../klasa-3/grafy/#karta"
   }
 ]
 </script>

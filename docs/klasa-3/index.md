@@ -29,7 +29,7 @@ wspólnego z ocenami.
 | **[Odwrotna notacja polska (ONP)](onp.md)** | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | **[Znajdowanie drogi wyjścia z labiryntu](labirynt.md)** | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | **[Wykorzystanie list w rozwiązywaniu problemów](listy.md)** | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| Grafy. Znajdowanie najkrótszej drogi | 6 | *w przygotowaniu* |
+| **[Grafy. Znajdowanie najkrótszej drogi](grafy.md)** | 6 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | *Wiesz, umiesz, zdasz* | 4 | — |
 
 ### Dział III. Algorytmy numeryczne

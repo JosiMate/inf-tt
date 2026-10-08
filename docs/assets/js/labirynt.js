@@ -281,7 +281,7 @@
     if (host.dataset.gotowe) return;
     host.dataset.gotowe = "1";
 
-    const dane = JSON.parse(host.querySelector("script[type='application/json']").textContent);
+    const dane = JSON.parse(host.querySelector("script[type='application/json'], script:not([src])").textContent);
     let lab;
     try {
       lab = wczytaj(dane.siatka);

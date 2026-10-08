@@ -10,4 +10,5 @@ nav:
   - "Odwrotna notacja polska": onp.md
   - "Znajdowanie drogi wyjścia z labiryntu": labirynt.md
   - "Wykorzystanie list w rozwiązywaniu problemów": listy.md
+  - "Grafy. Znajdowanie najkrótszej drogi": grafy.md
   - "Wyszukiwanie wzorca w tekście": wyszukiwanie-wzorca.md

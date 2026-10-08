@@ -1,0 +1,188 @@
+{
+ "id": "inf-tt-grafy",
+ "tytul": "Grafy. Znajdowanie najkrótszej drogi",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony · klasa 3",
+ "klasa": "3TT",
+ "sufiks": "GRAFY",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Pojęcia i zapis grafu",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Ćwiczenie 1, punkty 1–2, oraz ćwiczenie 2. Obliczenia na kartce rób przed uruchomieniem programu.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z1_pojecia",
+     "wiersze": 3,
+     "pytanie": "Wyjaśnij własnymi słowami: graf skierowany, graf ważony, stopień wierzchołka. Do każdego pojęcia podaj przykład z życia."
+    },
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_ve",
+       "Graf H: liczba wierzchołków i krawędzi",
+       ""
+      ],
+      [
+       "z1_stopnie",
+       "Graf H: krawędzie wychodzące i wchodzące dla każdego wierzchołka",
+       ""
+      ],
+      [
+       "z1_symetria",
+       "Czy macierz sąsiedztwa grafu H jest symetryczna? Dlaczego?",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z1_kod",
+     "wiersze": 14,
+     "pytanie": "Wklej swoje funkcje wczytaj_graf i stopnie."
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Przeszukiwanie wszerz i w głąb",
+   "poziom": "wymagania podstawowe · ocena 3",
+   "polecenie": "Sekcja 3, ćwiczenie 1 (punkt 4) i ćwiczenie 3.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z2_bfs_h",
+       "Droga z S do T znaleziona przez BFS w grafie H i jej koszt",
+       ""
+      ],
+      [
+       "z2_dfs_g",
+       "Kolejność odwiedzania wierzchołków grafu G przez DFS ze startu F",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_roznica",
+     "wiersze": 3,
+     "pytanie": "Czym różni się BFS od DFS — jakiej struktury danych używa każdy z nich i który znajduje drogę o najmniejszej liczbie krawędzi?"
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_kod",
+     "wiersze": 14,
+     "pytanie": "Wklej swoje funkcje bfs_droga i droga."
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Algorytm Dijkstry na kartce",
+   "poziom": "wymagania podstawowe i rozszerzające · oceny 3–4",
+   "polecenie": "Ćwiczenie 1, punkt 3. Najpierw tabela na kartce, dopiero potem wizualizator.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_tabela",
+     "wiersze": 8,
+     "pytanie": "Przepisz tabelę algorytmu Dijkstry dla grafu H ze startu S: w każdym wierszu zatwierdzany wierzchołek i odległości (z poprzednikami w nawiasach)."
+    },
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z3_odl",
+       "Odległości z S do wszystkich wierzchołków grafu H",
+       ""
+      ],
+      [
+       "z3_droga",
+       "Najkrótsza droga z S do T i jej długość",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "wizualizator po ostatnim kroku algorytmu Dijkstry dla grafu H"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Algorytm Dijkstry w Pythonie",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Ćwiczenia 4 i 5. Komplet testów zadań 1–5 ma przechodzić.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z4_kod",
+     "wiersze": 18,
+     "pytanie": "Wklej swoją funkcję dijkstra."
+    },
+    {
+     "typ": "tekst",
+     "id": "z4_porownanie",
+     "wiersze": 4,
+     "pytanie": "Przepisz wynik programu z ćwiczenia 5: drogi A → F w grafie G znalezione przez BFS i przez algorytm Dijkstry oraz ich koszty. Dlaczego się różnią?"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z4_zrzut",
+     "opis": "wynik testów zadań 1–5"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Zmienione warunki i wybór metody",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ćwiczenia 6 i 7 oraz przykład z wagą ujemną z sekcji 6.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z5_przez",
+     "wiersze": 12,
+     "pytanie": "Wklej funkcję przez_punkt. Wyjaśnij, dlaczego nie wystarczy znaleźć najkrótszej drogi S → T i sprawdzić, czy przechodzi przez D."
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_ujemne",
+     "wiersze": 3,
+     "pytanie": "Dlaczego w przykładzie z sekcji 6 program podaje odległość do D równą 3, choć najkrótsza droga ma długość 2?"
+    },
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z5_metro",
+       "Metro, najmniej przystanków — metoda i uzasadnienie",
+       ""
+      ],
+      [
+       "z5_mapa",
+       "Mapa województwa w kilometrach — metoda i uzasadnienie",
+       ""
+      ],
+      [
+       "z5_gra",
+       "Gra z polami dodającymi czas — metoda i uzasadnienie",
+       ""
+      ],
+      [
+       "z5_siec",
+       "Sieć firmowa z kosztami łączy — metoda i uzasadnienie",
+       ""
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

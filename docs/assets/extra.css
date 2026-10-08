@@ -395,6 +395,57 @@
 
 .lb-blad { color: #c62828; font-weight: 700; }
 
+/* ---------------------------------------------------- wizualizator grafu */
+/* Widget z docs/assets/js/graf.js (temat „Grafy” w klasie 3). Sterowanie,
+   opis, kolejka i legenda biorą klasy .lb-* z labiryntu; tu tylko rysunek
+   grafu i tabela odległości. Kolory jak w labiryncie: bieżący żółty, droga
+   zielona, start niebieski, cel czerwony, reszta ze zmiennych motywu. */
+.gr { margin: 1.4em 0; }
+.gr-rysunek { max-width: 40rem; margin: .4em auto 0; }
+.gr-svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+.gr-kraw { stroke: var(--md-default-fg-color--light); stroke-width: .45; }
+.gr-kraw-droga { stroke: #2e7d32; stroke-width: 1.1; }
+.gr-grot { fill: var(--md-default-fg-color--light); }
+.gr-grot-droga { fill: #2e7d32; }
+.gr-waga-tlo { fill: var(--md-default-bg-color); }
+.gr-waga { font-size: 2.9px; font-weight: 700; text-anchor: middle;
+           dominant-baseline: central; fill: var(--md-default-fg-color); }
+
+.gr-kolo { fill: var(--md-code-bg-color); stroke: var(--md-default-fg-color--light);
+           stroke-width: .45; transition: fill .25s; }
+.gr-kolo.gr-zatw { fill: color-mix(in srgb, var(--md-accent-fg-color) 22%, var(--md-default-bg-color)); }
+.gr-kolo.gr-zm   { fill: color-mix(in srgb, var(--md-accent-fg-color) 55%, var(--md-default-bg-color)); }
+.gr-kolo.gr-biez { fill: #f9a825; }
+.gr-kolo.gr-na-drodze { fill: #2e7d32; }
+.gr-kolo.gr-start { stroke: #1565c0; stroke-width: 1; }
+.gr-kolo.gr-cel   { stroke: #c62828; stroke-width: 1; }
+.gr-nazwa { font-size: 3.6px; font-weight: 700; text-anchor: middle;
+            dominant-baseline: central; fill: var(--md-default-fg-color);
+            pointer-events: none; }
+.gr-kolo.gr-na-drodze + .gr-nazwa { fill: #fff; }
+.gr-kolo.gr-biez + .gr-nazwa { fill: #212121; }
+.gr-odl { font-size: 2.7px; text-anchor: middle; dominant-baseline: central;
+          fill: var(--md-default-fg-color--light); font-weight: 700; }
+
+.gr-tabela-owijka { overflow-x: auto; }
+.md-typeset table.gr-tabela { display: table; margin: .4em 0 0; font-size: .72rem;
+                              min-width: 0; }
+.md-typeset .gr-tabela th, .md-typeset .gr-tabela td { padding: .3em .9em;
+                                                      text-align: center; }
+.md-typeset .gr-tabela tr.gr-wiersz-zm td {
+  background: color-mix(in srgb, var(--md-accent-fg-color) 18%, transparent); }
+
+.gr-kl { display: inline-block; width: .8em; height: .8em; border-radius: 50%;
+         flex: none; background: var(--md-code-bg-color);
+         border: 1px solid var(--md-default-fg-color--lighter); }
+.gr-kl-start { box-shadow: inset 0 0 0 2px #1565c0; }
+.gr-kl-cel   { box-shadow: inset 0 0 0 2px #c62828; }
+.gr-kl-zatw  { background: color-mix(in srgb, var(--md-accent-fg-color) 22%, var(--md-default-bg-color)); }
+.gr-kl-zm    { background: color-mix(in srgb, var(--md-accent-fg-color) 55%, var(--md-default-bg-color)); }
+.gr-kl-biez  { background: #f9a825; }
+.gr-kl-droga { background: #2e7d32; }
+
 /* ─────────────────────────────────────────── przegląd kart pracy
    Karta pracy ma własną stronę, a jej stan pokazujemy w dwóch miejscach:
    paskiem na stronie działu i tabelą na zbiorczej stronie „Karty pracy".
