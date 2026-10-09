@@ -1,0 +1,94 @@
+{
+ "id": "inf-tt-deklaracja-stalych-i-zmiennych",
+ "tytul": "Deklaracja stałych i zmiennych w odniesieniu do wbudowanych typów danych",
+ "przedmiot": "PCEiKZ Szczucin · informatyka, zakres rozszerzony",
+ "klasa": "1TT",
+ "sufiks": "DEKLARACJA-ZMIENNYCH",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Profil użytkownika i mutowalność const vs let",
+   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+   "polecenie": "Utwórz plik script.js z deklaracjami stałych const oraz zmiennych let. Zweryfikuj działanie konsoli po modyfikacji wieku oraz po próbie modyfikacji identyfikatora użytkownika.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z1_zmienne",
+       "Zadeklarowane stałe i zmienne",
+       "np. const idUzytkownika, let imie, let wiek"
+      ],
+      [
+       "z1_blad",
+       "Komunikat błędu po próbie zmiany const",
+       "Uncaught TypeError: Assignment to constant variable."
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "z1_zrzut",
+     "opis": "Zrzut ekranu konsoli deweloperskiej z widocznym błędem przy próbie zmiany stałej"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Badanie typów danych i typowanie dynamiczne",
+   "poziom": "wymagania podstawowe i rozszerzające · oceny 3–4",
+   "polecenie": "Sprawdź zachowanie operatora typeof dla zmiennych niezainicjalizowanych, typów liczbowych, tekstowych oraz wartości null.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_typowanie",
+     "wiersze": 3,
+     "pytanie": "Wyjaśnij na czym polega zjawisko typowania dynamicznego w JavaScript i podaj przykład:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Zrzut ekranu z konsoli F12 pokazujący wyniki typeof dla poszczególnych przypisań"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Mini-kalkulator cen z wykorzystaniem stałych i grawisów",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Napisz skrypt liczący cenę brutto na podstawie stałej STAWKA_VAT i zmiennej cenaNetto. Sformatuj wynik z użyciem szablonu tekstu.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_kalkulator",
+     "wiersze": 3,
+     "pytanie": "Dlaczego stawkę VAT zadeklarowano jako const, a nie let? Co stanie się, jeśli cenaNetto będzie tekstem \"100\"?"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z3_zrzut",
+     "opis": "Zrzut ekranu kodu skryptu oraz wyniku wypisanego w konsoli przeglądarki"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Walidacja typów wejściowych i ochrona danych",
+   "poziom": "wymagania dopełniające i celujące · oceny 5–6",
+   "polecenie": "Przygotuj skrypt sprawdzający typ danych wejściowych za pomocą typeof oraz instrukcji warunkowej if.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z4_walidacja",
+     "wiersze": 4,
+     "pytanie": "Wyjaśnij różnicę między zmienną undefined a null oraz opisz, w jaki sposób const chroni dane:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z4_zrzut",
+     "opis": "Zrzut ekranu działania walidatora w konsoli dla poprawnego i błędnego typu danych"
+    }
+   ]
+  }
+ ]
+}

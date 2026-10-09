@@ -45,6 +45,11 @@ otwierasz, klikając nazwę tematu.
     "url": "../klasa-1/e-zasoby/#karta"
   },
   {
+    "plik": "deklaracja-stalych-i-zmiennych",
+    "tytul": "Klasa 1 · Deklaracja stałych i zmiennych w odniesieniu do wbudowanych typów danych",
+    "url": "../klasa-1/deklaracja-stalych-i-zmiennych/#karta"
+  },
+  {
     "plik": "onp",
     "tytul": "Klasa 3 · Odwrotna notacja polska",
     "url": "../klasa-3/onp/#karta"
