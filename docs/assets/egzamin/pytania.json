@@ -1,0 +1,100 @@
+[
+  {
+    "id": "wiai_d1_st_01",
+    "kwalifikacja": "INF.03",
+    "temat": "Deklaracja stałych i zmiennych w odniesieniu do wbudowanych typów danych",
+    "pytanie": "Które słowo kluczowe w języku JavaScript służy do zadeklarowania stałej o zasięgu blokowym, której wartości nie można zmodyfikować poprzez ponowne przypisanie?",
+    "opcje": [
+      "let",
+      "var",
+      "const",
+      "static"
+    ],
+    "poprawna": 2,
+    "wyjasnienie": "Słowo kluczowe const służy do tworzenia stałych, których wartość po przypisaniu jest chroniona przed zmianą."
+  },
+  {
+    "id": "wiai_d1_st_02",
+    "kwalifikacja": "INF.03",
+    "temat": "Deklaracja stałych i zmiennych w odniesieniu do wbudowanych typów danych",
+    "pytanie": "Jaki typ danych zwróci operator typeof w języku JavaScript dla wartości zadeklarowanej jako let wynik = 49.99;",
+    "opcje": [
+      "float",
+      "number",
+      "double",
+      "decimal"
+    ],
+    "poprawna": 1,
+    "wyjasnienie": "W języku JavaScript wszystkie liczby (zarówno całkowite, jak i zmiennoprzecinkowe) reprezentowane są przez typ number."
+  },
+  {
+    "id": "wiai_d1_st_03",
+    "kwalifikacja": "INF.03",
+    "temat": "Deklaracja stałych i zmiennych w odniesieniu do wbudowanych typów danych",
+    "pytanie": "Wskaż zmienną zadeklarowaną zgodnie z konwencją camelCase:",
+    "opcje": [
+      "Liczba_Uzytkownikow",
+      "liczba_uzytkownikow",
+      "liczbaUzytkownikow",
+      "1liczbaUzytkownikow"
+    ],
+    "poprawna": 2,
+    "wyjasnienie": "Konwencja camelCase wymaga pisania pierwszego wyrazu małą literą, a każdego kolejnego wielką literą bez spacji i łączników."
+  },
+  {
+    "id": "wiai_d1_st_04",
+    "kwalifikacja": "INF.03",
+    "temat": "Deklaracja stałych i zmiennych w odniesieniu do wbudowanych typów danych",
+    "pytanie": "Co oznacza zjawisko dynamicznego typowania w języku JavaScript?",
+    "opcje": [
+      "Zmienna musi mieć jawnie określony typ przed kompilacją programu",
+      "Ta sama zmienna może przechowywać wartości różnych typów w trakcie działania programu",
+      "Typ danych zmiennej jest przypisywany na stałe przy jej pierwszej deklaracji",
+      "Wszystkie zmienne są automatycznie konwertowane do typu boolean"
+    ],
+    "poprawna": 1,
+    "wyjasnienie": "Dynamiczne typowanie pozwala na zmianę typu przechowywanej wartości w zmiennej podczas wykonywania skryptu."
+  },
+  {
+    "id": "wiai_d1_st_05",
+    "kwalifikacja": "INF.03",
+    "temat": "Deklaracja stałych i zmiennych w odniesieniu do wbudowanych typów danych",
+    "pytanie": "Jaki typ danych ma zmienna zadeklarowana instrukcją let dane;, do której nie przypisano żadnej wartości?",
+    "opcje": [
+      "null",
+      "undefined",
+      "void",
+      "empty"
+    ],
+    "poprawna": 1,
+    "wyjasnienie": "Niezainicjalizowana zmienna w JavaScript domyślnie posiada wartość i typ undefined."
+  },
+  {
+    "id": "wiai_d1_st_06",
+    "kwalifikacja": "INF.03",
+    "temat": "Deklaracja stałych i zmiennych w odniesieniu do wbudowanych typów danych",
+    "pytanie": "Jaki błąd zostanie zgłoszony w konsoli przeglądarki po próbie wykonania kodu: const STAWKA = 0.23; STAWKA = 0.08;",
+    "opcje": [
+      "SyntaxError",
+      "TypeError: Assignment to constant variable",
+      "ReferenceError",
+      "RangeError"
+    ],
+    "poprawna": 1,
+    "wyjasnienie": "Modyfikacja stałej const powoduje wyemitowanie wyjątku TypeError."
+  },
+  {
+    "id": "wiai_d1_st_07",
+    "kwalifikacja": "INF.03",
+    "temat": "Deklaracja stałych i zmiennych w odniesieniu do wbudowanych typów danych",
+    "pytanie": "Jaki wynik w konsoli da wykonanie instrukcji: console.log(typeof null);",
+    "opcje": [
+      "null",
+      "undefined",
+      "object",
+      "boolean"
+    ],
+    "poprawna": 2,
+    "wyjasnienie": "Operator typeof dla wartości null ze względów historycznych w języku JavaScript zwraca napis 'object'."
+  }
+]
