@@ -7,20 +7,16 @@
 
     Kryptografia to nauka o utajnianiu i zabezpieczaniu informacji. Leży u podstaw niemal każdego nowoczesnego systemu technicznego: od bezpiecznych zakupów w internecie, przez bankowość elektroniczną i podpisy cyfrowe, po kryptowaluty. Na tej lekcji poznasz zasady szyfrowania symetrycznego, asymetrycznego oraz funkcje skrótu.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. odróżnić pojęcia: kryptoanaliza, kryptografia i kryptologia
-    2. wyjaśnić zasadę działania szyfrów symetrycznych (np. Szyfr Cezara, AES)
-    3. zaszyfrować i odszyfrować wiadomość za pomocą szyfru przesunieniowego
-    4. wyjaśnić zasadę kryptografii asymetrycznej z kluczem publicznym i prywatnym (np. RSA)
-    5. opisać proces bezpiecznej wymiany kluczy (protokół Diffiego-Hellmana)
-    6. zdefiniować funkcję skrótu (hash function, np. SHA-256) i podać jej właściwości
-    7. wyjaśnić, jak działa podpis cyfrowy i zapewniana przez niego niezaprzeczalność
-    8. omówić zastosowanie infrastruktury klucza publicznego (PKI) i certyfikatów X.509
-    9. odróżnić steganografię (ukrywanie istnienia wiadomości) od kryptografii
-    10. ocenić odporność szyfrów na ataki typu brute-force (przegląd wyczerpujący)
+    1. Wyjaśnię różnicę między szyfrowaniem symetrycznym a asymetrycznym i problem bezpiecznego przekazania wspólnego klucza.
+    2. Zaszyfruję i odszyfruję wiadomość szyfrem Cezara dla podanego klucza $k$.
+    3. Powiem, do czego służy klucz publiczny, a do czego prywatny — przy szyfrowaniu i przy podpisie cyfrowym.
+    4. Wyjaśnię, jak podpis cyfrowy potwierdza nadawcę i to, że wiadomość nie została zmieniona.
+    5. Obliczę skrót SHA-256 pliku w konsoli i pokażę efekt lawinowy po zmianie jednej litery.
+    6. Odróżnię steganografię od kryptografii.
 
 ## Jak czytać tę stronę
 

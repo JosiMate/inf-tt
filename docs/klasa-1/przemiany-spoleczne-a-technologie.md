@@ -7,20 +7,16 @@
 
     Rozwój technologii informacyjno-komunikacyjnych fundamentalnie zmienia strukturę społeczeństwa, gospodarki i rynku pracy. Na tej lekcji przeanalizujesz zjawisko społeczeństwa informacyjnego, wykluczenia cyfrowego, mechanizmy dezinformacji oraz wpływ sztucznej inteligencji na rynek pracy.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. zdefiniować pojęcie społeczeństwa informacyjnego i wskazać jego cechy
-    2. omówić przyczyny i konsekwencje wykluczenia cyfrowego (digital divide)
-    3. wyjaśnić mechanizm działania komór filtrujących (filter bubble) i baniek informacyjnych
-    4. rozpoznać zjawisko dezinformacji, fake newsów oraz technologii deepfake
-    5. stosować zasady weryfikacji informacji (fact-checking) i krytycznego myślenia
-    6. przeanalizować wpływ automatyzacji i sztucznej inteligencji na rynek pracy
-    7. opisać szanse i zagrożenia wynikające z pracy zdalnej i e-commerce
-    8. omówić zjawisko nomofobii i przeciążenia informacyjnego (information overload)
-    9. wskazać nowe kompetencje cyfrowe wymagane przez nowoczesną gospodarkę
-    10. ocenić etyczne wyzwania związane z rozwojem sztucznej inteligencji
+    1. Wyjaśnię, czym jest społeczeństwo informacyjne, i podam przykład wykluczenia cyfrowego — geograficznego, ekonomicznego albo kompetencyjnego.
+    2. Opiszę, jak algorytm portalu buduje bańkę informacyjną (komorę filtrującą) i czym to grozi.
+    3. Odróżnię fake news od deepfake'a i rozpoznam cechy clickbaitu w nagłówku.
+    4. Sprawdzę wiarygodność informacji: źródło, autora i potwierdzenie w niezależnych mediach.
+    5. Znajdę pierwotne źródło zdjęcia wyszukiwaniem obrazem (np. Google Lens).
+    6. Wskażę zawody zagrożone automatyzacją i takie, które zyskują dzięki sztucznej inteligencji, i uzasadnię wybór.
 
 ## Jak czytać tę stronę
 

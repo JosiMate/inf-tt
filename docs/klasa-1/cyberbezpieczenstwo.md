@@ -7,20 +7,16 @@
 
     Większość skutecznych ataków hakerskich nie opiera się na łamaniu skomplikowanych zabezpieczeń technicznych, lecz na wykorzystaniu słabości ludzkiej — niewiedzy, pośpiechu i zaufania. Na tej lekcji poznasz metody ataku stosowane przez cyberprzestępców, rodzaje złośliwego oprogramowania oraz zasady reagowania na incydenty bezpieczeństwa.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. zdefiniować pojęcie inżynierii społecznej (socjotechniki) w cyberbezpieczeństwie
-    2. rozpoznać próby wyłudzenia danych typu Phishing, Smishing i Vishing
-    3. zidentyfikować „czerwone flagi” w podejrzanych wiadomościach e-mail i SMS
-    4. odróżnić od siebie typy złośliwego oprogramowania (Wirus, Robak, Trojan, Ransomware, Spyware)
-    5. wyjaśnić mechanizm ataku typu Man-in-the-Middle oraz DDoS
-    6. stosować bezpieczne nawyków przy korzystaniu z publicznych sieci Wi-Fi (sieci VPN)
-    7. wyjaśnić rolę i działanie certyfikatów SSL/TLS i protokołu HTTPS
-    8. wdrażać uwierzytelnianie dwuskładnikowe (2FA/MFA) przy użyciu kluczy sprzętowych (YubiKey) lub aplikacji
-    9. zgłaszać podejrzane wiadomości i incydenty do zespołu CERT Polska
-    10. postępować zgodnie z procedurą reakcji na wyciek haseł i danych osobowych
+    1. Wyjaśnię, na czym polega inżynieria społeczna, i odróżnię phishing, smishing i vishing.
+    2. Wskażę w podejrzanej wiadomości e-mail albo SMS-ie co najmniej trzy czerwone flagi phishingu.
+    3. Odróżnię wirusa, robaka, trojana, ransomware i spyware po tym, jak działają.
+    4. Opiszę, jak działa ransomware i czego żąda przestępca.
+    5. Wyjaśnię, co zapewnia połączenie HTTPS w publicznej sieci Wi-Fi.
+    6. Zgłoszę podejrzany SMS na numer 8080, a stronę phishingową na incydent.cert.pl.
 
 ## Jak czytać tę stronę
 

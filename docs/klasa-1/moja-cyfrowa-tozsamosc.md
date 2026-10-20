@@ -7,20 +7,16 @@
 
     Wszystko, co robisz w sieci — od opublikowanych zdjęć i komentarzy, po wyszukiwane hasła i historię lokalizacji — tworzy Twoją **cyfrową tożsamość** oraz **ślad cyfrowy**. Na tej lekcji przeanalizujesz swój wizerunek online, dowiesz się, jak oceniają go rekruterzy oraz poznasz swoje prawa w świetle przepisów RODO.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. zdefiniować pojęcie cyfrowej tożsamości oraz śladu cyfrowego (digital footprint)
-    2. odróżnić ślad cyfrowy aktywny od śladu cyfrowego biernego
-    3. przeprowadzić audyt własnego wizerunku w sieci (tzw. ego-surfing)
-    4. zarządzać ustawieniami prywatności w serwisach społecznościowych
-    5. ocenić wpływ obecności w internecie na proces rekrutacji i przyszłość zawodową
-    6. stosować zasady cyfrowej higieny w celu ochrony własnego wizerunku
-    7. wyjaśnić zjawisko baniek informacyjnych i komór filtrujących (filter bubble)
-    8. omówić prawo do bycia zapomnianym wynikające z art. 17 RODO
-    9. rozpoznać zagrożenia związane z kradzieżą tożsamości (identity theft)
-    10. świadomie kształtować swój profesjonalny profil zawodowy w sieci
+    1. Wyjaśnię, czym jest ślad cyfrowy, i odróżnię na przykładach ślad aktywny od biernego.
+    2. Wskażę, jakie dane zdradza zdjęcie z telefonu (metadane EXIF), zanim je opublikuję.
+    3. Wyszukam swoje imię i nazwisko w trybie prywatnym i ocenię, co o mnie widać w sieci.
+    4. Sprawdzę i zmienię ustawienia prywatności swojego konta w serwisie społecznościowym.
+    5. Wyjaśnię, jak pracodawcy korzystają z profili kandydatów (social recruiting), i zastosuję test gazety przed publikacją.
+    6. Opiszę, czego mogę żądać na podstawie prawa do bycia zapomnianym (art. 17 RODO) i kiedy administrator może odmówić.
 
 ## Jak czytać tę stronę
 
