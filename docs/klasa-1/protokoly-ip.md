@@ -11,19 +11,17 @@
     w twoim komputerze, który **używa obu naraz** — najczęściej bez pytania
     cię o zdanie.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tych zajęciach potrafisz:
+    Po tym temacie:
 
-    1. wyjaśnić, za co odpowiada protokół IP, a za co protokoły warstwy wyższej
-    2. policzyć, ile adresów daje 32 bity, i wyjaśnić, dlaczego to za mało
-    3. wskazać, czym NAT przedłużył życie IPv4 i co przy okazji popsuł
-    4. odczytać i **skrócić** adres IPv6 zgodnie z regułami zapisu
-    5. rozpoznać rodzaj adresu IPv6 po jego początku: globalny, link-local, unikatowy lokalny, multicast
-    6. wyjaśnić, czym jest prefiks `/64` i dlaczego w IPv6 jest tak powszechny
-    7. opisać, skąd komputer bierze adres IPv6 — SLAAC i DHCPv6
-    8. wymienić różnice między IPv4 a IPv6, w tym zniknięcie adresu rozgłoszeniowego
-    9. sprawdzić poleceniami systemowymi, czy twoja sieć działa po IPv6, i odczytać wynik
+    1. Wyjaśnię, za co odpowiada protokół IP, a za co protokoły warstw wyższych.
+    2. Policzę, ile adresów daje 32 bity, i wyjaśnię, czym NAT przedłużył życie IPv4 i co przy tym popsuł.
+    3. Skrócę i rozwinę adres IPv6 zgodnie z regułami zapisu.
+    4. Rozpoznam rodzaj adresu IPv6 po jego początku: globalny, link-local, unikatowy lokalny, multicast.
+    5. Wyjaśnię, czym jest prefiks `/64` i skąd komputer bierze adres IPv6 (SLAAC, DHCPv6).
+    6. Wymienię różnice między IPv4 a IPv6, w tym brak adresu rozgłoszeniowego w IPv6.
+    7. Sprawdzę poleceniami systemowymi, czy moja sieć działa po IPv6, i odczytam wynik.
 
 ## Jak czytać tę stronę
 

@@ -7,20 +7,15 @@
 
     Komputerowe przetwarzanie obrazu to kluczowy element współczesnych mediów. Na tych zajęciach dowiesz się, czym różni się grafika rastrowa od wektorowej, poznasz modele barw (RGB, CMYK), podstawy edycji obrazów w programach graficznych oraz zasady modelowania i renderowania obiektów w przestrzeni trójwymiarowej (3D).
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. wyjaśnić różnice pomiędzy grafiką rastrową a wektorową i wskazać ich zastosowania
-    2. opisać modele barw RGB, CMYK oraz HSL i ich przeznaczenie (ekran vs druk)
-    3. przeliczać rozdzielczość obrazu (DPI/PPI) oraz rozmiary plików graficznych
-    4. operować na warstwach, maskach i zaznaczeniach w programie do grafiki rastrowej
-    5. tworzyć i modyfikować kształty wektorowe oraz krzywe Beziera
-    6. stosować retusz, korekcję barwną oraz filtry w obróbce zdjęć
-    7. eksportować obrazy do odpowiednich formatów (JPEG, PNG, SVG, WebP) z uwzględnieniem kompresji
-    8. opisać podstawy przestrzeni 3D (osie X, Y, Z), obiekty siatkowe (mesh) i przekształcenia
-    9. stosować materiały, tekstury i oświetlenie w scenach trójwymiarowych
-    10. przeprowadzić proces renderowania sceny 3D do pliku dwuwymiarowego
+    1. Odróżnię grafikę rastrową od wektorowej i dobiorę format pliku do zastosowania.
+    2. Wskażę, kiedy użyć modelu barw RGB, a kiedy CMYK.
+    3. Połączę dwa zdjęcia maską warstwy, nie usuwając pikseli.
+    4. Narysuję proste logo krzywymi Beziera i wyeksportuję je do SVG i PNG z przezroczystym tłem.
+    5. Wymienię etapy tworzenia obrazu 3D (siatka, materiał, światło i kamera, render) i wyrenderuję prostą scenę.
 
 ## Jak czytać tę stronę
 

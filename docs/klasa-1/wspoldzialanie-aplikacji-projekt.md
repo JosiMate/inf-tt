@@ -7,20 +7,14 @@
 
     W warunkach biznesowych rzadko korzysta się tylko z jednego programu. W ramach tego projektu zespołowego stworzysz zintegrowany system przepływu danych łączący arkusz kalkulacyjny, edytor tekstu, bazę danych oraz aplikacje w chmurze i wiadomości e-mail.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. zaplanować architekturę przepływu danych (data flow) w projekcie wieloaplikacyjnym
-    2. przygotować relacyjną bazę danych lub ustrukturyzowany model tabel w arkuszu
-    3. połączyć dane z arkusza kalkulacyjnego z dynamicznymi raportami w edytorze tekstu
-    4. eksportować i importować dane pomiędzy arkuszem a zewnętrznymi plikami JSON / XML / CSV
-    5. stosować osadzanie i łączenie obiektów (OLE — Object Linking and Embedding)
-    6. zautomatyzować generowanie raportów PDF na podstawie dynamicznie aktualizowanych tabel
-    7. wykorzystać narzędzia pracy w chmurze (Google Sheets / Microsoft 365) do współdzielenia danych
-    8. osadzić interaktywne wykresy z arkusza w prezentacji lub na stronie internetowej
-    9. stworzyć automatyczny ciąg korespondencji seryjnej z wygenerowaniem spersonalizowanych załączników PDF
-    10. zaprezentować ukończony zintegrowany system przed grupą projektową
+    1. Narysuję w zespole schemat przepływu danych między aplikacjami.
+    2. Wkleję wykres z arkusza do dokumentu jako obiekt połączony (OLE) i sprawdzę, że zmienia się razem z danymi.
+    3. Wyjaśnię, jak współdzielony arkusz w chmurze pomaga w pracy zespołu.
+    4. Przygotuję szablon dokumentu zasilany danymi z arkusza i wygeneruję z niego sprawozdania PDF.
 
 ## Jak czytać tę stronę
 

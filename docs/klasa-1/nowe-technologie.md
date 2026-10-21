@@ -11,16 +11,16 @@
     technologię, zanim się jej zaufa: czyje to dane, kto płaci i co się stanie,
     gdy usługa zostanie wyłączona.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. wymienić etapy rozwoju technologii komputerowych i wskazać, co napędzało każdy z nich
-    2. wyjaśnić, czym jest chmura obliczeniowa, i rozróżnić modele IaaS, PaaS i SaaS
-    3. wyjaśnić, czym jest sztuczna inteligencja i uczenie maszynowe, oraz wskazać ograniczenia tych rozwiązań
-    4. podać zastosowania automatyki, robotyki, internetu rzeczy i druku 3D wraz z ich zaletami i ryzykami
-    5. rozróżnić rodzaje licencji oprogramowania i sprawdzić, na jakiej licencji działa program, którego używasz
-    6. ocenić nową technologię według stałego zestawu pytań, zamiast opierać się na reklamie
+    1. Wymienię etapy rozwoju technologii komputerowych i powiem, co napędzało każdy z nich.
+    2. Wyjaśnię, czym jest chmura obliczeniowa, i rozróżnię modele IaaS, PaaS i SaaS.
+    3. Wyjaśnię, czym jest sztuczna inteligencja i uczenie maszynowe, i wskażę, czego model językowy nie robi.
+    4. Podam zastosowania internetu rzeczy, robotyki, druku 3D i rzeczywistości wirtualnej — z jedną zaletą i jednym ryzykiem każdej.
+    5. Rozróżnię rodzaje licencji oprogramowania i sprawdzę, na jakiej licencji działa program w pracowni.
+    6. Ocenię nową technologię według stałego zestawu pytań, a nie według reklamy.
 
 ## Jak czytać tę stronę
 

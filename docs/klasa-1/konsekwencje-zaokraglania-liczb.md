@@ -7,20 +7,15 @@
 
     Prezentacja liczb w arkuszu kalkulacyjnym bywa myląca. Zmiana liczby wyświetlanych miejsc po przecinku za pomocą formatowania komórki nie zmienia jej rzeczywistej wartości przechowywanej w pamięci. Na tej lekcji dowiesz się, jak powstają skumulowane błędy zaokrągleń oraz jak stosować funkcje zaokrąglające.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. wyjaśnić różnicę między formatowaniem wizualnym a rzeczywistą wartością liczbową w pamięci
-    2. opisać mechanizm powstawania skumulowanego błędu zaokrągleń w obliczeniach finansowych
-    3. stosować funkcje `ZAOKR`, `ZAOKR.DÓŁ` oraz `ZAOKR.GÓRA` z określoną precyzją
-    4. używać funkcji `L.CAŁK` (INT) oraz `OBCIĘCIE` (TRUNC) do odcinania części ułamkowej
-    5. opisać reprezentację zmiennoprzecinkową w standardzie IEEE 754 i jej ograniczenia
-    6. zidentyfikować przyczyny niedokładności przy porównywaniu liczb zmiennoprzecinkowych
-    7. stosować bezpieczne progi tolerancji (epsilon) przy porównaniach wartości ułamkowych
-    8. projektować bezpieczne arkusze księgowe zapobiegające błędom groszowym
-    9. wykrywać i korygować niezgodności sum częściowych wynikające z formatowania
-    10. stosować zasady zaokrąglania walutowego i podatkowego zgodnego z przepisami
+    1. Wyjaśnię, czym różni się wartość wyświetlana w komórce od wartości zapisanej w pamięci.
+    2. Wskażę na przykładzie, jak samo formatowanie prowadzi do „błędu” w sumie.
+    3. Dobiorę funkcję `ZAOKR`, `ZAOKR.DÓŁ` albo `ZAOKR.GÓRA` i naprawię nią kwoty na fakturze.
+    4. Wyjaśnię, dlaczego liczba 0,1 nie ma dokładnego zapisu w komputerze (IEEE 754).
+    5. Porównam dwie liczby ułamkowe z tolerancją zamiast znakiem równości.
 
 ## Jak czytać tę stronę
 

@@ -11,18 +11,16 @@
     „doręczone”, dlaczego jedno przejęte konto potrafi zaboleć bardziej niż
     zgubiony portfel — i co ważnego zmieniło się w Polsce **1 stycznia 2026 r.**
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tych zajęciach potrafisz:
+    Po tym temacie:
 
-    1. zdefiniować e-usługę i odróżnić ją od zwykłej strony internetowej
-    2. podać przykłady e-usług z różnych dziedzin i wskazać te, z których korzystasz
-    3. wymienić sposoby potwierdzania tożsamości w polskich e-usługach i wskazać, do czego służy `login.gov.pl`
-    4. opisać zabezpieczenia e-usług, w tym systemu **ePUAP**, i wyjaśnić, czym zastąpiły go **e-Doręczenia**
-    5. wymienić zalety e-usług i problemy, jakie ze sobą niosą
-    6. stosować zasady bezpiecznego korzystania z bankowości elektronicznej i rozpoznać próbę wyłudzenia
-    7. wskazać, z jakich części składa się e-usługa i jakimi narzędziami można ją zbudować
-    8. omówić kierunki rozwoju e-usług, w tym europejski portfel tożsamości cyfrowej
+    1. Zdefiniuję e-usługę, odróżnię ją od zwykłej strony internetowej i podam przykłady, z których korzystam.
+    2. Wymienię sposoby potwierdzania tożsamości w polskich e-usługach i powiem, do czego służy login.gov.pl.
+    3. Opiszę zabezpieczenia e-usług i wyjaśnię, czym e-Doręczenia zastąpiły ePUAP.
+    4. Wymienię zalety e-usług i problemy, jakie ze sobą niosą, w tym wykluczenie cyfrowe.
+    5. Rozpoznam próbę wyłudzenia i zastosuję zasady bezpiecznej bankowości elektronicznej.
+    6. Zaprojektuję prostą e-usługę dla szkoły i wskażę, z jakich części się składa.
 
 ## Jak czytać tę stronę
 

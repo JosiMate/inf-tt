@@ -7,20 +7,14 @@
 
     Głębsza analiza danych w arkuszu wymaga biegłego posługiwania się funkcjami wyszukiwania, logiki, operacji na tekstach oraz formułami tablicowymi. Na tych zajęciach opanujesz funkcje `WYSZUKAJ.X` (XLOOKUP), `WYSZUKAJ.PIONOWO`, zagnieżdżone warunki `JEŻELI` oraz formuły dynamiczne.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. stosować funkcję `WYSZUKAJ.PIONOWO` (VLOOKUP) oraz powiązane z nią ograniczenia
-    2. używać nowoczesnej i elastycznej funkcji `WYSZUKAJ.X` (XLOOKUP)
-    3. łączyć funkcje `INDEKS` i `PODAJ.POZYCJĘ` (INDEX / MATCH) do wyszukiwania dwukierunkowego
-    4. budować złożone formuły logiczne z zagnieżdżonymi funkcjami `JEŻELI`, `ORAZ`, `LUB`
-    5. stosować funkcje warunkowe agragujące z wieloma kryteriami (`SUMA.WARUNKÓW`, `LICZ.WARUNKÓW`)
-    6. operować na ciągach tekstowych za pomocą funkcji `LEWY`, `PRAWY`, `FRAGMENT.TEKSTU`, `DŁ`, `POŁĄCZ.TEKSTY`
-    7. wykonywać obliczenia na datach i czasie (`DZIŚ`, `ROK`, `MIESIĄC`, `DNI.ROBOCZE`)
-    8. stosować dynamiczne formuły tablicowe (`UNIKATOWE`, `SORTUJ`, `FILTRUJ`)
-    9. wykrywać i obsługiwać błędy formuł za pomocą funkcji `JEŻELI.BŁĄD` (IFERROR)
-    10. audytować skomplikowane zależności i formuły w arkuszu (Menedżer nazw, śledzenie poprawności)
+    1. Dołączę dane z innej tabeli funkcją `WYSZUKAJ.X` i powiem, czym różni się ona od `WYSZUKAJ.PIONOWO`.
+    2. Zabezpieczę formułę funkcją `JEŻELI.BŁĄD`.
+    3. Zbuduję formułę z `JEŻELI` i `ORAZ` dla dwóch warunków jednocześnie.
+    4. Utworzę posortowaną listę bez powtórzeń formułą `SORTUJ(UNIKATOWE(...))` i wyjaśnię, czym jest formuła rozlewająca się.
 
 ## Jak czytać tę stronę
 

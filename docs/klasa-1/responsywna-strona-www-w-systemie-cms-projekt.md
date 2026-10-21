@@ -7,20 +7,15 @@
 
     W ramach tego projektu zespołowego zaprojektujesz i wdrożysz kompletną, responsywną witrynę internetową. Wykorzystasz nowoczesny system zarządzania treścią (CMS) lub generator stron statycznych, przygotujesz autorskie materiały graficzne oraz zadbasz o dostępność i optymalizację SEO.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. zaplanować strukturę, makietę (wireframe) i architekturę informacji witryny
-    2. podzielić zadania w zespole projektowym z wykorzystaniem tablicy Kanban
-    3. zainstalować i skonfigurować system CMS (np. WordPress) lub generator stron statycznych (np. MkDocs / Hugo)
-    4. stworzyć i dostosować motyw witryny odpowiadający wymaganiom responsywności (RWD)
-    5. przygotować i zoptymalizować autorskie zasoby graficzne (logo, obrazy, ikony)
-    6. zorganizować nawigację i strukturę kategorii/wpisów w serwisie
-    7. zaimplementować formularz kontaktowy oraz elementy interaktywne
-    8. zadbać o optymalizację pod kątem wyszukiwarek (SEO) i szybkości ładowania
-    9. przeprowadzić audyt dostępności cyfrowej serwisu (WCAG / Lighthouse)
-    10. zaprezentować gotowy projekt i przeprowadzić wdrożenie na serwerze testowym
+    1. Wymienię cztery etapy realizacji projektu WWW i przygotuję w zespole makietę strony.
+    2. Rozdzielę w zespole role: projektant, programista, redaktor treści.
+    3. Zainstaluję i skonfiguruję system CMS albo generator stron i zbuduję menu, stopkę i strukturę kategorii.
+    4. Zadbam o opisy alternatywne obrazów, kontrast tekstu i metadane strony dla wyszukiwarek.
+    5. Uruchomię audyt Lighthouse, poprawię wykryte błędy dostępności i zaprezentuję działający serwis.
 
 ## Jak czytać tę stronę
 

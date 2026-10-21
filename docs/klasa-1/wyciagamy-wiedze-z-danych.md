@@ -7,20 +7,15 @@
 
     Samo zgromadzenie danych to za mało — kluczem jest ich właściwa analiza i prezentacja. Na tych zajęciach opanujesz tworzenie tabel przestawnych, grupowanie i filtrowanie danych, obliczenia sum częściowych oraz tworzenie dynamicznych wykresów przestawnych i pulpitów menedżerskich (dashboards).
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. budować tabele przestawne (Pivot Tables) z surowych zbiorów danych
-    2. konfigurować pola w tabeli przestawnej (wiersze, kolumny, wartości, filtry)
-    3. stosować różne funkcje podsumowujące (SUMA, ŚREDNIA, LICZBA, MAX, MIN)
-    4. pokazywać wartości jako procent sumy końcowej, procent sumy kolumny lub wiersza
-    5. grupować dane liczbowe oraz daty (rok, kwartał, miesiąc) w tabeli przestawnej
-    6. wstawiać i formatować fragmentatory (Slicers) oraz osie czasu (Timelines)
-    7. tworzyć wykresy przestawne powiązane z tabelami przestawnymi
-    8. używać funkcji narzędziowych: `SUMA.JEŻELI`, `LICZ.JEŻELI`, `ŚREDNIA.JEŻELI`
-    9. formatować warunkowo tabele danych i wykresy w celu wyróżnienia trendów i odchyleń
-    10. projektować interaktywne pulpity nawigacyjne (Dashboards) do prezentacji kluczowych wskaźników (KPI)
+    1. Zbuduję tabelę przestawną i rozmieszczę pola w wierszach, kolumnach, wartościach i filtrach.
+    2. Pogrupuję daty w tabeli przestawnej według miesięcy i kwartałów.
+    3. Pokażę wartości jako procent sumy końcowej.
+    4. Dodam fragmentator i wykres przestawny powiązany z tabelą.
+    5. Wyjaśnię, czym jest pulpit menedżerski (dashboard) i wskaźnik KPI.
 
 ## Jak czytać tę stronę
 

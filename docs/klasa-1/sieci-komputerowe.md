@@ -10,19 +10,17 @@
     drodze, jaki adres ma twój komputer, dokąd wysyła pakiety, gdy nie zna drogi,
     i którym poleceniem sprawdzisz, na którym odcinku połączenie się urywa.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tych zajęciach potrafisz:
+    Po tym temacie:
 
-    1. wyjaśnić pojęcia: sieć komputerowa, protokół, adres IP, adres MAC
-    2. rozróżnić sieci ze względu na zasięg (PAN, LAN, MAN, WAN) i opisać budowę sieci lokalnej
-    3. wskazać rolę karty sieciowej, przełącznika, routera, punktu dostępowego i modemu
-    4. odczytać konfigurację IP swojego komputera i rozpoznać, czy adres jest prywatny, publiczny czy APIPA
-    5. objaśnić rolę maski podsieci, bramy domyślnej, serwera DNS i usługi DHCP
-    6. wskazać usługi sieciowe i przypisać im protokoły oraz porty
-    7. skonfigurować podstawowe ustawienia sieci bezprzewodowej i ocenić ich bezpieczeństwo
-    8. zdiagnozować brak łączności poleceniami `ipconfig`, `ping`, `tracert` i `nslookup` oraz zinterpretować wynik testu prędkości
-    9. wyjaśnić działanie NAT i model warstwowy TCP/IP
+    1. Wyjaśnię pojęcia: sieć komputerowa, protokół, adres IP i adres MAC.
+    2. Rozróżnię sieci PAN, LAN, MAN i WAN i wskażę rolę przełącznika, routera, punktu dostępowego i modemu.
+    3. Odczytam konfigurację IP swojego komputera i rozpoznam, czy adres jest prywatny, publiczny czy APIPA.
+    4. Objaśnię rolę maski podsieci, bramy domyślnej, serwera DNS i usługi DHCP.
+    5. Przypiszę usługom sieciowym protokoły i porty i wyjaśnię różnicę między HTTP a HTTPS.
+    6. Zdiagnozuję brak łączności poleceniami `ipconfig`, `ping`, `tracert` i `nslookup` i poprawnie odczytam wynik testu prędkości.
+    7. Ocenię zabezpieczenia sieci bezprzewodowej i wyjaśnię, jak działa NAT.
 
 ## Jak czytać tę stronę
 

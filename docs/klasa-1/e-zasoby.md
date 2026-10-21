@@ -28,18 +28,17 @@
         2. `fe80::204:61ff:fe9d:f156` — adres **link-local** (zaczyna się od `fe80`).
         3. To **APIPA** — komputer nie dostał adresu z DHCP i nadał go sobie sam. Sprawdzasz kabel, port, router.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tych zajęciach potrafisz:
+    Po tym temacie:
 
-    1. wyjaśnić, czym jest informacja i co kryje się pod pojęciem e-zasobu
-    2. budować zapytania z operatorami wyszukiwarki i korzystać z więcej niż jednej wyszukiwarki
-    3. ocenić wiarygodność źródła — także wtedy, gdy odpowiedź wygenerowała sztuczna inteligencja
-    4. wyjaśnić, czym jest pozycjonowanie serwisów i dlaczego pierwszy wynik nie znaczy „najlepszy”
-    5. wskazać otwarte e-zasoby: biblioteki cyfrowe, platformy e-learningowe, encyklopedie
-    6. stosować przepisy o dozwolonym użytku, prawie cytatu i licencjach Creative Commons
-    7. pracować na wspólnym dokumencie w chmurze i stosować netykietę w komunikacji zdalnej
-    8. założyć i usunąć konto w środowisku aplikacji sieciowych
+    1. Wyjaśnię, czym różni się dana, informacja i wiedza i czym jest e-zasób.
+    2. Zbuduję zapytanie z operatorami wyszukiwarki i porównam wyniki z więcej niż jednej wyszukiwarki.
+    3. Ocenię wiarygodność źródła — także wtedy, gdy odpowiedź wygenerowała sztuczna inteligencja.
+    4. Wyjaśnię, dlaczego pierwszy wynik wyszukiwania nie znaczy „najlepszy”.
+    5. Znajdę materiał w otwartych e-zasobach i użyję go zgodnie z prawem cytatu i licencją Creative Commons.
+    6. Popracuję z innymi na wspólnym dokumencie w chmurze, stosując netykietę.
+    7. Przed założeniem konta w usłudze sieciowej sprawdzę, jakich danych chce i jak to konto potem usunąć.
 
 ## Jak czytać tę stronę
 

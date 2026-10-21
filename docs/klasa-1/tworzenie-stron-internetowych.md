@@ -7,20 +7,15 @@
 
     Tworzenie nowoczesnych stron internetowych opiera się na rozdziale struktury dokumentu (HTML5) od jego wyglądu i układu (CSS3). Na tych zajęciach poznasz język HTML, reguły stylów CSS, budowanie układów stron z wykorzystaniem modeli Flexbox i Grid oraz podstawy semantyki i dostępności cyfrowej.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. opisać podstawową strukturę dokumentu HTML5 i rolę znaczników nagłówkowych
-    2. stosować semantyczne znaczniki HTML5 do budowy czytelnej struktury strony
-    3. formatować tekst, wstawiać odnośniki, listy oraz obrazy w HTML
-    4. dodawać i podłączać kaskadowe arkusze stylów (CSS) do dokumentu HTML
-    5. stosować selektory CSS (elementów, klas, identyfikatorów i pseudoklas)
-    6. operować modelem pudełkowym (box model: margin, border, padding, content)
-    7. budować elastyczne układy stron z wykorzystaniem układu Flexbox
-    8. projektować dwuwymiarowe siatki elementów za pomocą CSS Grid
-    9. tworzyć podstawowe reguły zapytania o media (Media Queries) dla urządzeń mobilnych
-    10. stosować zasady dostępności cyfrowej (WCAG) i sprawdzić poprawność kodu w walidatorze W3C
+    1. Zbuduję szkielet dokumentu HTML5 z semantycznymi znacznikami `header`, `nav`, `main`, `article` i `footer`.
+    2. Dodam do strony menu z odnośnikami.
+    3. Podłączę do strony arkusz stylów CSS i nadam elementom style przez klasy.
+    4. Wyjaśnię model pudełkowy (`margin`, `border`, `padding`, treść) i sprawdzę go w narzędziach przeglądarki (F12).
+    5. Zbuduję poziomy pasek nawigacji z `display: flex` i powiem, kiedy wybrać Flexbox, a kiedy CSS Grid.
 
 ## Jak czytać tę stronę
 

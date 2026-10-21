@@ -7,20 +7,14 @@
 
     Praca z dużymi zbiorami danych w arkuszu kalkulacyjnym rozpoczyna się od ich prawidłowego importu i oczyszczenia. Na tych zajęciach nauczysz się pobierać dane z zewnętrznych plików tekstowych (CSV, TSV), baz danych, stron internetowych oraz interfejsów API, a także przygotowywać je do dalszej analizy.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. identyfikować podstawowe struktury plików wymiany danych (CSV, TSV, JSON, XML)
-    2. importować dane tekstowe z uwzględnieniem znaków podziału (separatory, kodowanie UTF-8)
-    3. stosować narzędzie „Tekst jako kolumny” do rozdzielania połączonych ciągów znaków
-    4. pobierać tabele danych bezpośrednio ze stron internetowych za pomocą zapytania WWW
-    5. oczyszczać dane z niepotrzebnych spacji, znaków specjalnych oraz duplikatów
-    6. konwertować typy danych (np. tekst na liczby lub daty) i zmieniać formaty liczbowe
-    7. ładować i przekształcać dane przy użyciu edytora Power Query
-    8. automatycznie odświeżać połączenia z zewnętrznymi źródłami danych
-    9. walidować poprawność wprowadzanych i importowanych danych (Reguły sprawdzania poprawności)
-    10. łączyć dane z wielu arkuszy i plików w jeden spójny zestaw tabelaryczny
+    1. Zaimportuję do arkusza plik CSV, dobierając separator i kodowanie UTF-8.
+    2. Oczyszczę dane funkcjami tekstowymi, np. `USUŃ.ZBĘDNE.SPACJE`, i zamienię tekst z kwotami na liczby.
+    3. Opiszę trzy kroki pracy w Power Query: pobieranie, przekształcanie i ładowanie danych.
+    4. Połączę arkusz z tabelą na stronie WWW, np. kursami walut NBP, i ustawię odświeżanie danych.
 
 ## Jak czytać tę stronę
 

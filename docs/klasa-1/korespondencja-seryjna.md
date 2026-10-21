@@ -7,20 +7,15 @@
 
     Korespondencja seryjna umożliwia automatyczne generowanie spersonalizowanych dokumentów (listów, dyplomów, zaświadczeń, etykiet) na podstawie szablonu oraz zewnętrznej bazy danych (np. tabeli z arkusza kalkulacyjnego). Na tych zajęciach opanujesz scalanie dokumentów i bezpieczną wysyłkę e-maili.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. wyjaśnić zasadę działania korespondencji seryjnej i jej zastosowania biznesowe
-    2. przygotować i oczyścić źródłową bazę adresową w arkuszu kalkulacyjnym
-    3. połączyć dokument główny w edytorze tekstu ze źródłem danych z arkusza
-    4. wstawiać pola scalania (Merge Fields) w odpowiednich miejscach szablonu
-    5. stosować reguły warunkowe w korespondencji seryjnej (np. `JEŻELI... TO... INACZEJ...`)
-    6. stosować odmianę zwrotów grzecznościowych w zależności od płci odbiorcy
-    7. podglądać i weryfikować scalone rekordy przed ostatecznym wygenerowaniem dokumentów
-    8. filtrować i sortować listę odbiorców bezpośrednio w procesie scalania
-    9. generować spersonalizowane pliki PDF oraz etykiety adresowe
-    10. opisać zasady bezpiecznego wysyłania masowej korespondencji e-mail (ochrona danych RODO, limity SMTP)
+    1. Wyjaśnię, z jakich dwóch składników powstaje korespondencja seryjna.
+    2. Przygotuję w arkuszu tabelę odbiorców z nagłówkami kolumn.
+    3. Połączę szablon dokumentu ze źródłem danych, wstawię pola scalania i sprawdzę podgląd.
+    4. Zastosuję regułę warunkową, która dobiera zwrot grzecznościowy do odbiorcy.
+    5. Wymienię sposoby zakończenia scalania: druk, osobne pliki PDF, wysyłka e-mail.
 
 ## Jak czytać tę stronę
 

@@ -10,19 +10,17 @@
     dotąd nikt cię nie pytał: jaki ma system plików, czy warto go defragmentować
     i co się stanie, gdy nie uruchomi się rano przed sprawdzianem.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. wymienić zadania systemu operacyjnego i wskazać, co robi on w tle, kiedy użytkownik go nie widzi
-    2. wyjaśnić rolę jądra systemu i różnicę między trybem użytkownika a trybem jądra
-    3. sprawdzić, jakiego systemu plików używa dysk, i dobrać system plików do przeznaczenia nośnika
-    4. ocenić, czy defragmentacja danego dysku ma sens, i uzasadnić odpowiedź
-    5. zarządzać kontami i uprawnieniami oraz wyjaśnić, po co pracuje się na koncie bez uprawnień administratora
-    6. ułożyć i sprawdzić hasło zgodne z aktualnymi zaleceniami
-    7. zainstalować i zaktualizować oprogramowanie oraz wykonać kopię zapasową danych
-    8. zdiagnozować komputer, który się nie uruchamia, i wskazać kolejność czynności naprawczych
-    9. wykonać podstawowe operacje w wierszu poleceń
+    1. Wymienię zadania systemu operacyjnego i wskażę, co robi on w tle, gdy go nie widzę.
+    2. Wyjaśnię, czym jest jądro systemu i czym różni się tryb użytkownika od trybu jądra.
+    3. Sprawdzę system plików dysku, dobiorę system plików do nośnika i ocenię, czy defragmentacja ma sens.
+    4. Wyjaśnię, po co pracuje się na koncie bez uprawnień administratora, i ułożę hasło zgodne z aktualnymi zaleceniami.
+    5. Zainstaluję i zaktualizuję program z bezpiecznego źródła i zaplanuję kopię zapasową według zasady 3-2-1.
+    6. Ułożę kolejność czynności, gdy komputer się nie uruchamia (tryb awaryjny, nośnik awaryjny).
+    7. Wykonam w wierszu poleceń podstawowe polecenia diagnostyczne, np. `ipconfig /all`, `sfc /scannow`, `chkdsk`.
 
 ## Jak czytać tę stronę
 

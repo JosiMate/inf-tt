@@ -7,20 +7,15 @@
 
     Animacja komputerowa polega na stwarzaniu złudzenia ruchu poprzez szybkie wyświetlanie serii obrazów. Na tych zajęciach poznasz zasady tworzenia animacji poklatkowej, kluczowej (keyframing), interpolacji klatek, wykorzystanie kości i szkieletów oraz animacje w CSS3 i skryptach sieciowych.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu — sprawdź się na koniec tematu"
 
-    Po tej lekcji potrafisz:
+    Po tym temacie:
 
-    1. wyjaśnić zasadę iluzji ruchu i pojęcie liczby klatek na sekundę (FPS)
-    2. odróżnić animację poklatkową (frame-by-frame) od animacji z interpolacją (tweening)
-    3. tworzyć klatki kluczowe (keyframes) i modyfikować ścieżki ruchu
-    4. stosować zasady interpolacji liniowej i krzywych przejścia (easing)
-    5. przygotowywać animacje poklatkowe w formacie GIF oraz APNG
-    6. projektować animacje wektorowe i przekształcenia kształtów (morphing)
-    7. opisać zasady riggingu (tworzenie szkieletu i kości dla postaci 2D/3D)
-    8. stosować regułę `@keyframes` oraz właściwości `animation` i `transition` w CSS3
-    9. sterować zdarzeniami animacji na stronie za pomocą języka JavaScript
-    10. optymalizować płynność animacji oraz rozmiary plików wyjściowych
+    1. Wyjaśnię, czym są klatki kluczowe i interpolacja ruchu.
+    2. Przygotuję animowany GIF poklatkowy z kilku rysunków i ustawię opóźnienie klatek.
+    3. Dodam do przycisku na stronie płynne przejście `transition` po najechaniu myszą.
+    4. Zapiszę animację w pętli regułą `@keyframes` i właściwością `animation`.
+    5. Wyjaśnię, czym jest rigging oraz kinematyka prosta i odwrotna.
 
 ## Jak czytać tę stronę
 
