@@ -7,22 +7,42 @@
  "zadania": [
   {
    "nr": 1,
-   "tytul": "Szyfry symetryczne – Szyfr Cezara",
+   "tytul": "Szyfr Cezara — szyfrowanie i łamanie",
    "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
-   "polecenie": "Zaszyfruj i odszyfruj podany tekst jawny przy użyciu szyfru Cezara z przesunięciem $k=3$.",
+   "polecenie": "Ćwiczenia 1 i 2. Sekcje 2–3 strony. Szyfruj bez komputera, wynik sprawdź w okienku.",
    "pola": [
     {
      "typ": "tabela",
      "wiersze": [
       [
        "z1_tekst",
-       "Tekst jawny: INFORMATYKA",
-       "Szyfrogram: "
+       "INFORMATYKA zaszyfrowane kluczem 3",
+       ""
       ],
       [
        "z1_k",
-       "Przesunięcie $k$",
-       "3"
+       "Klucz, którym zaszyfrowałeś INFORMATYKA",
+       ""
+      ],
+      [
+       "z1_technikum",
+       "TECHNIKUM zaszyfrowane kluczem 4",
+       ""
+      ],
+      [
+       "z1_nqf",
+       "NQF odszyfrowane (klucz 2)",
+       ""
+      ],
+      [
+       "z1_zlam_k",
+       "Klucz kryptogramu SDCAX TJACTXFTJ I BIHOAXF",
+       ""
+      ],
+      [
+       "z1_zlam_tekst",
+       "Tekst jawny tego kryptogramu",
+       ""
       ]
      ]
     }
@@ -30,29 +50,139 @@
   },
   {
    "nr": 2,
-   "tytul": "Kryptografia asymetryczna (RSA) i podpis cyfrowy",
+   "tytul": "Klucz publiczny, prywatny i podpis cyfrowy",
    "poziom": "wymagania rozszerzające · ocena 4",
-   "polecenie": "Wyjaśnij różnicę między kluczem prywatnym a kluczem publicznym w kryptografii asymetrycznej oraz opisz, który klucz służy do szyfrowania, a który do składania podpisu cyfrowego.",
+   "polecenie": "Ćwiczenie 4 — Ania, Bartek i klucze. Sekcje 5 i 7 strony.",
    "pola": [
     {
      "typ": "tekst",
      "id": "z2_rsa",
      "wiersze": 4,
-     "pytanie": "Opisz schemat szyfrowania wiadomości dla odbiorcy B przez nadawcę A oraz schemat weryfikacji podpisu cyfrowego:"
+     "pytanie": "Którym kluczem Ania szyfruje list do Bartka, a którym Bartek go odczyta? Którym kluczem Ania podpisuje umowę, a którym Bartek sprawdzi podpis?"
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_zmiana",
+     "wiersze": 3,
+     "pytanie": "Ktoś po drodze zmienił w umowie jedno słowo. Co pokaże sprawdzenie podpisu i dlaczego?"
     }
    ]
   },
   {
    "nr": 3,
-   "tytul": "Funkcje skrótu (Hash) i steganografia",
+   "tytul": "Funkcje skrótu",
    "poziom": "wymagania dopełniające · ocena 5",
-   "polecenie": "Wyjaśnij pojęcie funkcji skrótu (np. SHA-256) oraz zasadę działania steganografii (ukrywania wiadomości w pliku graficznym).",
+   "polecenie": "Ćwiczenie 5. Sekcja 6 strony.",
    "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z3_imie",
+       "Pierwsze 8 znaków skrótu SHA-256 twojego imienia i imienia z kropką",
+       ""
+      ],
+      [
+       "z3_plik",
+       "Ile znaków ma skrót pliku test.txt i co się zmieniło po zmianie jednej litery",
+       ""
+      ]
+     ]
+    },
     {
      "typ": "tekst",
      "id": "z3_hash",
      "wiersze": 3,
-     "pytanie": "Dlaczego funkcja skrótu jest jednokierunkowa i co oznacza zjawisko kolizji w kryptografii?"
+     "pytanie": "Dlaczego funkcja skrótu jest jednokierunkowa i co oznacza kolizja?"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Pojęcia i zasada Kerckhoffsa",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Ćwiczenie 3. Sekcje 1 i 8 strony.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z4_kryptologia",
+       "kryptologia —",
+       ""
+      ],
+      [
+       "z4_kryptografia",
+       "kryptografia —",
+       ""
+      ],
+      [
+       "z4_kryptoanaliza",
+       "kryptoanaliza —",
+       ""
+      ],
+      [
+       "z4_kryptogram",
+       "kryptogram —",
+       ""
+      ],
+      [
+       "z4_steganografia",
+       "steganografia —",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z4_kerckhoffs",
+     "wiersze": 3,
+     "pytanie": "Oceń zdanie kolegi: „Napisałem własny szyfr i nikomu nie pokażę, jak działa — dzięki temu jest bezpieczny”."
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Kryptoanaliza",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ćwiczenie 6. Sekcje 6 i 9 strony.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z5_sha1",
+     "wiersze": 3,
+     "pytanie": "Dlaczego znalezienie kolizji SHA-1 w 2017 roku sprawiło, że przestano jej używać w certyfikatach i podpisach?"
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_enigma",
+     "wiersze": 4,
+     "pytanie": "Co zrobili Rejewski, Różycki i Zygalski i dlaczego ich praca jest przykładem zasady Kerckhoffsa?"
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "tytul": "Samoocena",
+   "poziom": "",
+   "polecenie": "Krótko i szczerze — ta część nie jest oceniana na stopień.",
+   "pola": [
+    {
+     "typ": "wybor",
+     "id": "s_poziom",
+     "pytanie": "Wymagania, które według mnie spełniam w tym temacie",
+     "opcje": [
+      "konieczne (2)",
+      "podstawowe (3)",
+      "rozszerzające (4)",
+      "dopełniające (5)"
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "s_uwagi",
+     "wiersze": 2,
+     "pytanie": "Co w tym temacie było najtrudniejsze i jak sobie z tym poradziłeś?"
     }
    ]
   }

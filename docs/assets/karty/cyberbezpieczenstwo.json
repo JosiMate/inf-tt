@@ -7,57 +7,183 @@
  "zadania": [
   {
    "nr": 1,
-   "tytul": "Rozpoznawanie ataków socjotechnicznych",
+   "tytul": "Wiadomość od kuriera — phishing",
    "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
-   "polecenie": "Przeanalizuj podaną wiadomość e-mail/SMS i zidentyfikuj w niej wskaźniki ataku typu Phishing (czerwone flagi).",
+   "polecenie": "Ćwiczenie 1 — wiadomość od „Szybkiej Paczki”. Sekcja 1 strony.",
    "pola": [
     {
      "typ": "tabela",
      "wiersze": [
       [
        "z1_nadawca",
-       "Adres nadawcy",
-       "np. podrobiona domena"
+       "Adres nadawcy — co się w nim nie zgadza",
+       ""
       ],
       [
        "z1_presja",
-       "Element presji czasu",
-       "np. zablokowanie konta w 24h"
+       "Presja czasu i groźba",
+       ""
       ],
       [
        "z1_link",
-       "Podejrzany odnośnik",
-       "dokąd naprawdę prowadzi URL"
+       "Adres przycisku — na jaki serwer naprawdę prowadzi (domena)",
+       ""
+      ],
+      [
+       "z1_inne",
+       "Dwie inne czerwone flagi",
+       ""
       ]
      ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z1_reakcja",
+     "wiersze": 2,
+     "pytanie": "Co zrobisz z tą wiadomością?"
     }
    ]
   },
   {
    "nr": 2,
-   "tytul": "Inżynieria społeczna i złośliwe oprogramowanie",
-   "poziom": "wymagania rozszerzające · ocena 4",
-   "polecenie": "Opisz mechanizm działania oprogramowania szantażującego Ransomware oraz podaj zasady ochrony przed infekcją.",
+   "tytul": "Złośliwe oprogramowanie i kopie zapasowe",
+   "poziom": "wymagania podstawowe i rozszerzające · oceny 3–4",
+   "polecenie": "Ćwiczenie 2 — komputer w sekretariacie. Sekcja 2 strony.",
    "pola": [
     {
      "typ": "tekst",
+     "id": "z2_objawy",
+     "wiersze": 3,
+     "pytanie": "Objawy infekcji z opisu zgłoszenia — przy każdym napisz, co może oznaczać."
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_pierwszy",
+     "wiersze": 2,
+     "pytanie": "Co trzeba zrobić najpierw i kogo zawiadomić?"
+    },
+    {
+     "typ": "tekst",
      "id": "z2_ransomware",
-     "wiersze": 4,
-     "pytanie": "W jaki sposób Ransomware szyfruje pliki na dysku i dlaczego płacenie okupu atakującym nie gwarantuje odzyskania danych?"
+     "wiersze": 3,
+     "pytanie": "Jak działa ransomware i dlaczego zapłacenie okupu nie gwarantuje odzyskania danych?"
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_kopie",
+     "wiersze": 3,
+     "pytanie": "Plan kopii zapasowych dla sekretariatu według zasady 3-2-1 — co, gdzie i jak często."
     }
    ]
   },
   {
    "nr": 3,
-   "tytul": "Zasady bezpiecznego korzystania z sieci i reagowanie na incydenty",
-   "poziom": "wymagania dopełniające · ocena 5",
-   "polecenie": "Opisz procedurę zgłaszania incydentu bezpieczeństwa do zespołu CERT Polska (np. podejrzanego SMS-a na numer 8080) oraz podaj krok po kroku postępowanie po wycieku hasła.",
+   "tytul": "Hasła, wyciek danych i zgłaszanie",
+   "poziom": "wymagania podstawowe i rozszerzające · oceny 3–4",
+   "polecenie": "Ćwiczenia 3 i 4. Sekcje 3–4 strony. Nie wpisuj tu żadnych prawdziwych haseł.",
    "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_ranking",
+     "wiersze": 4,
+     "pytanie": "Hasła marta2009, Qwerty123!, 7#kP, trzy-zielone-kalosze-w-szafie — od najsłabszego do najsilniejszego, przy każdym jedno zdanie oceny."
+    },
+    {
+     "typ": "tekst",
+     "id": "z3_zasada",
+     "wiersze": 2,
+     "pytanie": "Jak ułożysz hasło do poczty, którego nie zapomnisz? Opisz zasadę, nie podawaj hasła."
+    },
+    {
+     "typ": "wybor",
+     "id": "z3_2fa",
+     "pytanie": "Czy na swoim koncie szkolnym albo prywatnej poczcie masz włączone 2FA?",
+     "opcje": [
+      "tak",
+      "nie — włączyłem je teraz",
+      "nie",
+      "nie wiem, jak to sprawdzić"
+     ]
+    },
     {
      "typ": "tekst",
      "id": "z3_cert",
      "wiersze": 4,
-     "pytanie": "Jakie kroki należy podjąć natychmiast po wykryciu wycieku danych z serwisu, w którym posiadałeś konto?"
+     "pytanie": "Wyciek ze sklepu, w którym masz to samo hasło co do poczty: co robisz krok po kroku?"
+    },
+    {
+     "typ": "tekst",
+     "id": "z3_sms",
+     "wiersze": 2,
+     "pytanie": "SMS o dopłacie 1,40 zł do paczki: co robisz i gdzie go zgłaszasz?"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Certyfikaty stron",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ćwiczenie 5, punkt 1. Sekcja 5 strony.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z4_bank",
+       "Strona banku: dla kogo wystawiony certyfikat, przez kogo, do kiedy ważny",
+       ""
+      ],
+      [
+       "z4_gov",
+       "gov.pl: dla kogo wystawiony certyfikat, przez kogo, do kiedy ważny",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "z4_typ",
+     "wiersze": 3,
+     "pytanie": "Który typ certyfikatu (DV czy OV/EV) ma każda z tych stron i po czym to poznałeś? Dlaczego oszust łatwo dostanie DV, a OV ani EV — nie?"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Infrastruktura krytyczna",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ćwiczenie 5, punkt 2. Sekcja 4 strony.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z5_ik",
+     "wiersze": 4,
+     "pytanie": "Wybrany rodzaj infrastruktury krytycznej w okolicy: co by się stało po skutecznym ataku i jak można się przed nim zabezpieczyć?"
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "tytul": "Samoocena",
+   "poziom": "",
+   "polecenie": "Krótko i szczerze — ta część nie jest oceniana na stopień.",
+   "pola": [
+    {
+     "typ": "wybor",
+     "id": "s_poziom",
+     "pytanie": "Wymagania, które według mnie spełniam w tym temacie",
+     "opcje": [
+      "konieczne (2)",
+      "podstawowe (3)",
+      "rozszerzające (4)",
+      "dopełniające (5)"
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "s_uwagi",
+     "wiersze": 2,
+     "pytanie": "Która czerwona flaga albo zasada z tego tematu przyda ci się najbardziej i dlaczego?"
     }
    ]
   }
