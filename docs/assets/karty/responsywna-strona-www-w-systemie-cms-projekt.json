@@ -7,67 +7,197 @@
  "zadania": [
   {
    "nr": 1,
-   "tytul": "Makieta i struktura serwisu CMS",
-   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
-   "polecenie": "Przygotuj strukturę witryny w systemie CMS (strony, kategoria wpisów, menu) zgodną z wcześniejszą makietą.",
+   "tytul": "Zespół, temat i role",
+   "poziom": "lekcja 1",
+   "polecenie": "Wypełnij na pierwszej lekcji — każdy w swojej karcie.",
    "pola": [
     {
      "typ": "tabela",
      "wiersze": [
       [
+       "z1_temat",
+       "Temat serwisu i dla kogo jest",
+       ""
+      ],
+      [
+       "z1_zespol",
+       "Skład zespołu — numery w dzienniku",
+       ""
+      ],
+      [
+       "z1_login",
+       "Mój login na GitHubie",
+       "bez nazwiska"
+      ],
+      [
+       "z1_rola",
+       "Moja rola główna",
+       "lider / projektant / redaktor / tester"
+      ],
+      [
        "z1_cms",
-       "Użyty system CMS / generator",
-       "np. WordPress / MkDocs / Hugo"
+       "Adres repozytorium zespołu",
+       "https://github.com/…"
       ],
       [
        "z1_podstrony",
-       "Utworzone podstrony i menu",
-       "np. Strona Główna, O nas, Oferta, Kontakt"
+       "Podstrony i menu serwisu",
+       "np. Start, Zajęcia, Galeria, Kontakt"
       ]
      ]
     },
     {
      "typ": "zrzut",
      "id": "z1_zrzut",
-     "opis": "Zrzut ekranu panelu administracyjnego z listą stron i menu"
+     "opis": "Zrzut listy zgłoszeń albo kamieni milowych zespołu (Issues → Milestones)"
     }
    ]
   },
   {
    "nr": 2,
-   "tytul": "Optymalizacja zasobów i RWD",
-   "poziom": "wymagania rozszerzające · ocena 4",
-   "polecenie": "Zoptymalizuj obrazy na stronie (format WebP) oraz upewnij się, że motyw jest w pełni responsywny na smartfonach.",
+   "tytul": "Moje zgłoszenia, pull requesty i przeglądy",
+   "poziom": "lekcje 2–4",
+   "polecenie": "Uzupełniaj przez cały projekt. Podawaj numery z GitHuba, np. #5.",
    "pola": [
     {
-     "typ": "tekst",
-     "id": "z2_rwd",
-     "wiersze": 3,
-     "pytanie": "Opisz kroki podjęte w celu optymalizacji czasów ładowania mediów na stronie:"
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "z2b_zgloszenia",
+       "Moje zgłoszenia — numer i tytuł",
+       "#3 Napisz podstronę Zajęcia"
+      ],
+      [
+       "z2b_pr",
+       "Moje pull requesty — numer i które zgłoszenie zamykają",
+       "#8 zamyka #3"
+      ],
+      [
+       "z2b_przeglad",
+       "Przejrzane przeze mnie pull requesty — numer i moja uwaga",
+       ""
+      ]
+     ]
     },
     {
      "typ": "zrzut",
-     "id": "z2_zrzut",
-     "opis": "Zrzut ekranu strony wyświetlanej na widoku mobilnym"
+     "id": "z2b_zrzut",
+     "opis": "Zrzut twojego scalonego pull requestu z przeglądem kolegi"
     }
    ]
   },
   {
    "nr": 3,
-   "tytul": "Audyt Lighthouse i WCAG",
-   "poziom": "wymagania dopełniające · ocena 5",
-   "polecenie": "Przeprowadź audyt Google Lighthouse dla opublikowanego serwisu i uzyskaj wyniki powyżej 90/100 w Dostępności i SEO.",
+   "tytul": "Obrazy i telefon",
+   "poziom": "lekcja 3 · wymagania rozszerzające · ocena 4",
+   "polecenie": "Przygotuj obrazy na stronę i sprawdź serwis na telefonie albo w trybie urządzenia (F12).",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_rwd",
+     "wiersze": 3,
+     "pytanie": "Co zrobiłem z obrazami (format, wymiary, rozmiar przed i po) i jakie problemy znalazłem na telefonie?"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Zrzut serwisu w widoku telefonu"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Audyt Lighthouse",
+   "poziom": "lekcja 4 · wymagania rozszerzające · ocena 4",
+   "polecenie": "Zapisz wyniki audytu opublikowanego serwisu (tryb Mobile) przed poprawkami i po nich.",
    "pola": [
     {
      "typ": "tekst",
      "id": "z3_lighthouse",
      "wiersze": 3,
-     "pytanie": "Przedstaw wyniki audytu Lighthouse i opis usuniętych uwag dotyczących dostępności:"
+     "pytanie": "Wyniki w czterech kategoriach przed i po (Performance, Accessibility, Best Practices, SEO) oraz co poprawiliśmy — z numerami zgłoszeń:"
     },
     {
      "typ": "zrzut",
      "id": "z3_zrzut",
-     "opis": "Zrzut ekranu raportu Google Lighthouse"
+     "opis": "Zrzut raportu Lighthouse po poprawkach"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Role, moduły i szablon",
+   "poziom": "wymagania rozszerzające i dopełniające · oceny 4–5",
+   "polecenie": "Wypełnij to, co dotyczy ciebie.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z5_role",
+     "wiersze": 2,
+     "pytanie": "Jakie role pełniłem i od kiedy? Co robiłem w drugiej roli?"
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_lider",
+     "wiersze": 3,
+     "pytanie": "Tylko lider: jak przydzielałem zadania i pilnowałem terminów, co poszło dobrze, z czym był problem?"
+    },
+    {
+     "typ": "tekst",
+     "id": "z5_modul",
+     "wiersze": 3,
+     "pytanie": "Jaki moduł włączyłem albo jak dostosowałem szablon (numery pull requestów)?"
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "tytul": "Wystąpienie",
+   "poziom": "lekcja 4",
+   "polecenie": "Wypełnij po wystąpieniu zespołu.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z6_mowie",
+     "wiersze": 2,
+     "pytanie": "O czym mówiłem na wystąpieniu?"
+    },
+    {
+     "typ": "tekst",
+     "id": "z6_pytanie",
+     "wiersze": 2,
+     "pytanie": "Jakie pytanie padło i jak odpowiedzieliśmy?"
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "tytul": "Samoocena",
+   "poziom": "",
+   "polecenie": "Oceń swoją pracę według tabeli poziomów na stronie projektu.",
+   "pola": [
+    {
+     "typ": "wybor",
+     "id": "s_poziom",
+     "pytanie": "Poziom, który według mnie osiągnąłem w projekcie",
+     "opcje": [
+      "K (2)",
+      "P (3)",
+      "R (4)",
+      "D (5)"
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "s_uzasadnienie",
+     "pytanie": "Uzasadnij — powołaj się na numery zgłoszeń i pull requestów z tej karty.",
+     "wiersze": 3
+    },
+    {
+     "typ": "tekst",
+     "id": "s_inaczej",
+     "pytanie": "Co zrobiłbym inaczej w następnym projekcie zespołowym?",
+     "wiersze": 2
     }
    ]
   }
