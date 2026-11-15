@@ -7,67 +7,234 @@
  "zadania": [
   {
    "nr": 1,
-   "tytul": "Projekt przepływu danych i integracja OLE",
-   "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
-   "polecenie": "Osadź dynamiczny wykres z arkusza kalkulacyjnego w dokumencie edytora tekstu poprzez łącze OLE.",
+   "tytul": "Zespół, pytanie i dane",
+   "poziom": "lekcja 1",
+   "polecenie": "Wypełnij na pierwszej lekcji — każdy w swojej karcie.",
    "pola": [
     {
      "typ": "tabela",
      "wiersze": [
       [
-       "z1_aplikacje",
-       "Połączone aplikacje",
-       "np. Excel + Word / Calc + Writer"
+       "zw1_zespol",
+       "Skład zespołu — numery w dzienniku",
+       ""
       ],
       [
+       "zw1_rola",
+       "Moja rola główna",
+       "lider / analityk / redaktor / prelegent"
+      ],
+      [
+       "zw1_dane",
+       "Nasza droga i pytanie zespołu",
+       "np. zbiór C: które działy biblioteki są najpopularniejsze?"
+      ],
+      [
+       "z1_aplikacje",
+       "Aplikacje w naszym przepływie danych — po kolei",
+       "np. Arkusze Google → Excel → Word, PowerPoint"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Moja analiza",
+   "poziom": "lekcja 1",
+   "polecenie": "Zakładka z twoim numerem w arkuszu zespołu.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "zw2_pytanie",
+       "Moje pytanie cząstkowe",
+       ""
+      ],
+      [
+       "zw2_funkcje",
+       "Użyte funkcje — z przykładową formułą",
+       "=COUNTIF(Dane!F:F;\"fantastyka\")"
+      ],
+      [
+       "zw2_wniosek",
+       "Wniosek jednym zdaniem — z liczbą",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "zw2_zrzut",
+     "opis": "Zrzut twojej zakładki: tabela przestawna i wykres"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Test łącza",
+   "poziom": "lekcja 2",
+   "polecenie": "Ćwiczenie 3 — każdy sam, na kopii dane.xlsx.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
        "z1_ole_test",
-       "Czy zmiana danych w arkuszu zmienia wykres?",
-       "Tak / Nie"
+       "Czy po zmianie danych i Odśwież dane wykres z łączem się zmienił?",
+       "tak / nie — co zmieniłem"
+      ],
+      [
+       "zw3_obraz",
+       "Co się stało z wykresem wklejonym jako obraz i dlaczego?",
+       ""
+      ],
+      [
+       "zw3_sciezka",
+       "Ścieżka pliku źródłowego z okna Edytuj łącza do plików",
+       ""
       ]
      ]
     },
     {
      "typ": "zrzut",
      "id": "z1_zrzut",
-     "opis": "Zrzut ekranu połączonych okien aplikacji z widocznym wykresem OLE"
+     "opis": "Zrzut: oba wykresy w Wordzie i okno Excela ze zmienioną liczbą"
     }
    ]
   },
   {
-   "nr": 2,
-   "tytul": "Współpraca w chmurze i integracja JSON/CSV",
-   "poziom": "wymagania rozszerzające · ocena 4",
-   "polecenie": "Skonfiguruj automatyczne pobieranie danych z pliku JSON/CSV udostępnionego w chmurze do modelu w arkuszu.",
+   "nr": 4,
+   "tytul": "Przepływ danych i folder zespołu",
+   "poziom": "lekcja 2 · wymagania rozszerzające · ocena 4",
+   "polecenie": "Opisz, jak dane przeszły od źródła do raportu, prezentacji i korespondencji.",
    "pola": [
     {
      "typ": "tekst",
      "id": "z2_chmura",
-     "wiersze": 3,
-     "pytanie": "Opisz jak zorganizowano przepływ i odświeżanie danych w modelu chmurowym:"
+     "wiersze": 4,
+     "pytanie": "Skąd przyszły dane, co robiliśmy w Arkuszach Google, kiedy i kto pobrał plik .xlsx, gdzie jest folder zespołu — i dlaczego każdą czynność robiliśmy w tej aplikacji:"
     },
     {
      "typ": "zrzut",
      "id": "z2_zrzut",
-     "opis": "Zrzut ekranu widoku edycji chmurowej z podłączonym źródłem danych"
+     "opis": "Zrzut zakładki Przepływ albo Plan z arkusza zespołu"
     }
    ]
   },
   {
-   "nr": 3,
-   "tytul": "Automatyczny generator sprawozdań i e-mail",
+   "nr": 5,
+   "tytul": "Korespondencja seryjna",
+   "poziom": "lekcja 2 · wymagania rozszerzające · ocena 4",
+   "polecenie": "Wypełnij, jeśli przygotowywałeś źródło albo przeprowadzałeś scalanie.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "zw5_zrodlo",
+       "Źródło danych: arkusz i kolumny",
+       "Do scalania: Imię, Nazwisko, Płeć, …"
+      ],
+      [
+       "zw5_regula",
+       "Reguła Jeżeli: pole, warunek, oba teksty",
+       ""
+      ],
+      [
+       "zw5_liczba",
+       "Ile dokumentów powstało i co w nich poprawiłem przed zapisem do PDF",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "zrzut",
+     "id": "zw5_zrzut",
+     "opis": "Zrzut podglądu wyników korespondencji seryjnej"
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "tytul": "Rozwiązanie z kilku aplikacji albo rola lidera",
    "poziom": "wymagania dopełniające · ocena 5",
-   "polecenie": "Stwórz zintegrowany proces automatycznie wyliczający wskaźniki i generujący raport końcowy w formacie PDF.",
+   "polecenie": "Wypełnij to, co dotyczy ciebie.",
    "pola": [
     {
      "typ": "tekst",
      "id": "z3_automatyzacja",
+     "wiersze": 4,
+     "pytanie": "Quiz albo inne rozwiązanie (sekcja 8): przez jakie aplikacje przechodzą dane, co dzieje się samo, a co robisz ręcznie, ile pracy to oszczędza?"
+    },
+    {
+     "typ": "tekst",
+     "id": "zw6_lider",
      "wiersze": 3,
-     "pytanie": "Podsumuj uzyskane oszczędności czasowe dzięki automatyzacji sprawozdawczości:"
+     "pytanie": "Tylko lider: jak przydzielałem zadania i pilnowałem terminów, co poszło dobrze, z czym był problem?"
     },
     {
      "typ": "zrzut",
      "id": "z3_zrzut",
-     "opis": "Zrzut ekranu wygenerowanego raportu ze wskaźnikami KPI"
+     "opis": "Zrzut rozwiązania (np. quiz z kluczem odpowiedzi i wynik scalania) albo zakładki Plan"
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "tytul": "Role i wystąpienie",
+   "poziom": "lekcja 3",
+   "polecenie": "Wypełnij po wystąpieniu zespołu.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "zw7_role",
+     "wiersze": 2,
+     "pytanie": "Jakie role pełniłem i co robiłem w każdej?"
+    },
+    {
+     "typ": "tekst",
+     "id": "zw7_mowie",
+     "wiersze": 2,
+     "pytanie": "O czym mówiłem na wystąpieniu?"
+    },
+    {
+     "typ": "tekst",
+     "id": "zw7_pytanie",
+     "wiersze": 2,
+     "pytanie": "Jakie pytanie padło i jak odpowiedzieliśmy?"
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "tytul": "Samoocena",
+   "poziom": "",
+   "polecenie": "Oceń swoją pracę według tabeli poziomów na stronie projektu.",
+   "pola": [
+    {
+     "typ": "wybor",
+     "id": "s_poziom",
+     "pytanie": "Poziom, który według mnie osiągnąłem w projekcie",
+     "opcje": [
+      "K (2)",
+      "P (3)",
+      "R (4)",
+      "D (5)"
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "s_uzasadnienie",
+     "pytanie": "Uzasadnij — powołaj się na konkretne rzeczy z tej karty i ze swojej zakładki.",
+     "wiersze": 3
+    },
+    {
+     "typ": "tekst",
+     "id": "s_inaczej",
+     "pytanie": "Co zrobiłbym inaczej w następnym projekcie zespołowym?",
+     "wiersze": 2
     }
    ]
   }
