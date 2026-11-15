@@ -88,13 +88,13 @@
   "Dział IV. Strony WWW i grafika komputerowa": [
     {
       "ozn": "A",
-      "tytul": "Kompletny portal internetowy z własnym motywem i optymalizacją RWD/WCAG",
+      "tytul": "Kompletny portal internetowy z własnym motywem, responsywnością i dostępnością",
       "wymaga": "po temacie „Tworzenie stron internetowych”",
       "opis": [
-        "Zaprojektuj i zakoduj od zera wielostronicowy serwis internetowy w czystym HTML5/CSS3 z wykorzystaniem układów Flexbox i Grid.",
-        "Zapewnij pełną responsywność (RWD) dla minimum trzech rozdzielczości ekranu oraz przeprowadź audyt dostępności cyfrowej WCAG, uzyskując wynik 100/100 w teście Google Lighthouse."
+        "Zaprojektuj i zakoduj od zera wielostronicowy serwis internetowy w czystym HTML5/CSS3 z wykorzystaniem układów Flexbox i Grid. Opublikuj go w internecie.",
+        "Zapewnij poprawny wygląd na trzech szerokościach ekranu (telefon, tablet, komputer) i przeprowadź audyt dostępności: automatyczny test Lighthouse (zakładka Accessibility) oraz własną listę kontrolną zasad WCAG, których Lighthouse nie sprawdza (sens tekstów alternatywnych, zrozumiałe opisy odnośników, obsługa klawiaturą). Popraw znalezione błędy."
       ],
-      "oddajesz": "kod źródłowy serwisu, pliki graficzne oraz raport z audytu Lighthouse w formacie PDF"
+      "oddajesz": "adres opublikowanego serwisu, kod źródłowy, pliki graficzne oraz raport z audytu (wynik Lighthouse przed poprawkami i po nich, lista kontrolna z uwagami) w formacie PDF"
     },
     {
       "ozn": "B",

@@ -7,9 +7,9 @@
  "zadania": [
   {
    "nr": 1,
-   "tytul": "Struktura HTML5 i semantyka",
+   "tytul": "Szkielet HTML5, lista, odnośniki i obraz",
    "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
-   "polecenie": "Przygotuj plik HTML5 ze strukturalnymi znacznikami semantycznymi (header, nav, main, article, footer) oraz menu z odnośnikami.",
+   "polecenie": "Ćwiczenia 1–2: przygotuj stronę index.html ze znacznikami semantycznymi (header, nav, main, footer), menu z odnośnikami, listą punktowaną i numerowaną oraz obrazem z tekstem alternatywnym. Sprawdź plik walidatorem W3C.",
    "pola": [
     {
      "typ": "tabela",
@@ -20,54 +20,132 @@
        "np. header, nav, main, article, footer"
       ],
       [
+       "z1_lista_obraz",
+       "Znaczniki listy i obrazu, których użyłeś, i tekst alt twojego obrazu",
+       "np. ul, ol, li; img alt=\"…\""
+      ],
+      [
        "z1_walidacja",
-       "Wynik walidacji W3C Validator",
-       "Brak błędów / Opis poprawek"
+       "Wynik walidacji W3C",
+       "Brak błędów / jakie błędy były i jak je poprawiłeś"
       ]
      ]
     },
     {
      "typ": "zrzut",
      "id": "z1_zrzut",
-     "opis": "Zrzut ekranu widoku strony w przeglądarce oraz kodu HTML"
+     "opis": "Zrzut ekranu strony w przeglądarce oraz fragmentu kodu HTML"
     }
    ]
   },
   {
    "nr": 2,
-   "tytul": "Arkusze stylów i Box Model",
-   "poziom": "wymagania rozszerzające · ocena 4",
-   "polecenie": "Podłącz zewnętrzny plik CSS. Zdefiniuj obramowania, marginesy (margin) i odstępy wewnętrzne (padding) dla elementów zgodnie z modelem pudełkowym.",
+   "tytul": "Arkusz stylów i selektory",
+   "poziom": "wymagania podstawowe · ocena 3",
+   "polecenie": "Ćwiczenie 3: podłącz plik style.css, ustaw krój pisma, kolory tekstu i tła, wygląd odnośników w menu i klasę wyrozniony.",
    "pola": [
     {
-     "typ": "tekst",
-     "id": "z2_box_model",
-     "wiersze": 3,
-     "pytanie": "Opisz jak właściwość box-sizing: border-box wpływa na wyliczanie szerokości elementów:"
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "zcss_link",
+       "Wiersz, którym podłączyłeś arkusz stylów",
+       "<link rel=\"stylesheet\" href=\"…\">"
+      ],
+      [
+       "zcss_element",
+       "Twoja reguła z selektorem elementu",
+       "np. body { … }"
+      ],
+      [
+       "zcss_klasa",
+       "Twoja reguła z selektorem klasy",
+       "np. .wyrozniony { … }"
+      ]
+     ]
     },
     {
      "typ": "zrzut",
-     "id": "z2_zrzut",
-     "opis": "Zrzut ekranu przedstawiający podgląd Box Model z narzędzi deweloperskich (F12)"
+     "id": "zcss_zrzut",
+     "opis": "Zrzut ekranu strony po dodaniu stylów"
     }
    ]
   },
   {
    "nr": 3,
-   "tytul": "Elastyczny układ Flexbox / Grid",
-   "poziom": "wymagania dopełniające · ocena 5",
-   "polecenie": "Zbuduj responsywne menu nawigacyjne lub siatkę kart z wykorzystaniem właściwości display: flex lub display: grid.",
+   "tytul": "Podstrona, tabela i publikacja w internecie",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Ćwiczenia 2 i 6: dodaj tabelę z wierszem nagłówków i podstronę połączoną menu, a potem opublikuj stronę w GitHub Pages i otwórz ją na telefonie. Jeśli nie możesz założyć konta, opisz kroki publikacji i pokaż stronę nauczycielowi na swoim komputerze.",
    "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "zroz_podstrona",
+       "Nazwa pliku podstrony i co pokazuje twoja tabela",
+       "np. galeria.html; tabela: plan lekcji z poniedziałku"
+      ],
+      [
+       "zpub_adres",
+       "Adres opublikowanej strony",
+       "https://twój-login.github.io/moja-strona/"
+      ],
+      [
+       "zpub_roznica",
+       "Co po publikacji działało inaczej niż na twoim komputerze?",
+       "albo: wszystko działało tak samo"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Model pudełkowy",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Ćwiczenie 4: ustaw dla klasy wyrozniony width, padding, border i margin, oblicz widoczną szerokość akapitu i sprawdź ją w narzędziach przeglądarki (F12).",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z2_szerokosc",
+     "wiersze": 3,
+     "pytanie": "Oblicz widoczną szerokość akapitu przy content-box i przy border-box. Pokaż obliczenia:"
+    },
+    {
+     "typ": "tekst",
+     "id": "z2_box_model",
+     "wiersze": 3,
+     "pytanie": "Opisz, jak właściwość box-sizing: border-box wpływa na wyliczanie szerokości elementów:"
+    },
+    {
+     "typ": "zrzut",
+     "id": "z2_zrzut",
+     "opis": "Zrzut ekranu schematu modelu pudełkowego z narzędzi deweloperskich (F12)"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Menu Flexbox, siatka Grid i strona na telefonie",
+   "poziom": "wymagania rozszerzające (menu) i dopełniające (siatka, @media) · oceny 4–5",
+   "polecenie": "Ćwiczenie 5: ułóż menu z display: flex, karty w siatkę display: grid z trzema kolumnami i dopisz regułę @media, po której na ekranie węższym niż 600 px karty są w jednej kolumnie.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "z3_media",
+     "wiersze": 3,
+     "pytanie": "Wpisz swoją regułę @media i napisz, od jakiej szerokości ekranu zaczyna działać:"
+    },
     {
      "typ": "tekst",
      "id": "z3_grid_flex",
      "wiersze": 3,
-     "pytanie": "Wyjaśnij kiedy lepiej zastosować układ Flexbox, a kiedy CSS Grid:"
+     "pytanie": "Wyjaśnij, kiedy lepiej zastosować układ Flexbox, a kiedy CSS Grid:"
     },
     {
      "typ": "zrzut",
      "id": "z3_zrzut",
-     "opis": "Widok elastycznego układu na szerokim i wąskim ekranie"
+     "opis": "Zrzuty strony na szerokim i na wąskim ekranie"
     }
    ]
   }

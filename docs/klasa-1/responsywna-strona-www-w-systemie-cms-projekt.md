@@ -3,7 +3,7 @@
 !!! abstract "O tym temacie"
 
     **4 godziny lekcyjne** · Dział IV. Strony WWW i grafika komputerowa
-    · podstawa programowa **I.1, I.2, III.1, III.2, III.3**
+    · podstawa programowa **II.3f**, **II.4**, **III.2**
 
     W ramach tego projektu zespołowego zaprojektujesz i wdrożysz kompletną, responsywną witrynę internetową. Wykorzystasz nowoczesny system zarządzania treścią (CMS) lub generator stron statycznych, przygotujesz autorskie materiały graficzne oraz zadbasz o dostępność i optymalizację SEO.
 

@@ -1402,3 +1402,46 @@
   .tb-tresc { padding-top: .6rem; }
   .tb-qz-pasek { padding-top: .3rem; }
 }
+
+/* ───────────── podgląd HTML i CSS na żywo (html-podglad.js) ───────────── */
+.html-podglad {
+  margin: 1em 0 1.4em;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .4rem;
+  padding: .6rem;
+  background: var(--md-code-bg-color);
+}
+.hp-edytory { display: grid; gap: .6rem; }
+.hp-edytory.hp-2 { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+@media screen and (max-width: 760px) { .hp-edytory.hp-2 { grid-template-columns: minmax(0, 1fr); } }
+.hp-pole { display: flex; flex-direction: column; gap: .2rem; min-width: 0; }
+.hp-etyk { font-size: .7rem; font-weight: 700; letter-spacing: .05em; color: var(--md-default-fg-color--light); }
+.html-podglad textarea {
+  width: 100%;
+  min-height: 80px;
+  resize: vertical;
+  font: .78rem/1.5 var(--md-code-font-family, monospace);
+  padding: .5rem .6rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .3rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  tab-size: 2;
+  white-space: pre;
+  overflow: auto;
+}
+.html-podglad textarea:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 1px; }
+.hp-pasek { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .4rem; margin: .6rem 0 .3rem; }
+.hp-przyciski { display: flex; flex-wrap: wrap; gap: .3rem; }
+.md-typeset .html-podglad .md-button { font-size: .68rem; padding: .25em .8em; margin: 0; }
+.md-typeset .html-podglad .md-button.hp-wyb { background: var(--md-primary-fg-color); border-color: var(--md-primary-fg-color); color: var(--md-primary-bg-color); }
+.hp-ramka-wrap { overflow-x: auto; }
+.hp-ramka {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .3rem;
+  background: #fff;            /* podgląd strony zawsze na białym tle, jak w przeglądarce */
+  transition: width .2s;
+}

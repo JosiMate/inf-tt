@@ -3,7 +3,7 @@
 !!! abstract "O tym temacie"
 
     **4 godziny lekcyjne** · Dział IV. Strony WWW i grafika komputerowa
-    · podstawa programowa **I.1, I.2, III.3**
+    · podstawa programowa **R II.3a**
 
     Animacja komputerowa polega na stwarzaniu złudzenia ruchu poprzez szybkie wyświetlanie serii obrazów. Na tych zajęciach poznasz zasady tworzenia animacji poklatkowej, kluczowej (keyframing), interpolacji klatek, wykorzystanie kości i szkieletów oraz animacje w CSS3 i skryptach sieciowych.
 

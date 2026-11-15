@@ -3,7 +3,7 @@
 !!! abstract "O tym sprawdzianie"
 
     **1 godzina lekcyjna** · Dział IV. Strony WWW i grafika komputerowa
-    · podstawa programowa **I.1, I.2, III.1–III.3**
+    · podstawa programowa **II.3a**, **II.3f**, **R II.3a**
 
     Termin: **wtorek 15 grudnia 2026 r.**, na lekcji informatyki.
     Forma: **praca praktyczna przy komputerze**.
@@ -51,22 +51,26 @@ Ocenę wyznacza **najwyższy poziom, który zaliczysz w całości — razem ze w
 
 ### Tworzenie stron internetowych (HTML5 & CSS3)
 
-- **Semantyka:** Używaj `<header>`, `<nav>`, `<main>`, `<article>`, `<aside>`, `<footer>`.
-- **Box Model:** `width` + `padding` + `border` + `margin`. Domyślnie `box-sizing: content-box;`, zalecane `border-box`.
-- **Flexbox:** `display: flex; justify-content: center; align-items: center;`.
-- **CSS Grid:** `display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;`.
+- **Szkielet i semantyka:** `<!DOCTYPE html>`, `<html lang="pl">`, `<meta charset="UTF-8">`, `<meta name="viewport" …>`; treść w `<header>`, `<nav>`, `<main>`, `<article>`, `<aside>`, `<footer>`. Poprawność sprawdza walidator W3C.
+- **Treść:** nagłówki `h1`–`h6` po kolei, listy `ul`/`ol` z `li`, tabela `table` z `tr`, `th`, `td`, odnośnik `<a href>`, obraz `<img src alt>` — zawsze z tekstem alternatywnym.
+- **CSS:** arkusz podłącza `<link rel="stylesheet" href="style.css">`; selektory elementu (`p`), klasy (`.uwaga`), identyfikatora (`#kontakt`); mocniejszy selektor wygrywa, przy równej mocy — późniejsza reguła.
+- **Model pudełkowy:** widoczna szerokość = `width` + 2 × `padding` + 2 × `border`; `margin` to odstęp na zewnątrz. Przy `box-sizing: border-box;` szerokość to dokładnie `width`.
+- **Flexbox:** `display: flex; justify-content: space-between; align-items: center;` — elementy w jednym rzędzie (menu).
+- **CSS Grid:** `display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;` — siatka wierszy i kolumn.
+- **Telefon:** `@media (max-width: 600px) { … }` zmienia układ na wąskim ekranie.
+- **Publikacja:** strona główna to `index.html`; serwer rozróżnia wielkość liter w nazwach plików.
 
 ### Grafika 2D i 3D
 
-- **Rastra:** Piksele, strata jakości przy skalowaniu. Formaty: JPEG (zdjęcia), PNG (przezroczystość), WebP (nowoczesny skompresowany format).
-- **Wektor:** Krzywe matematyczne, bezstratne skalowanie. Formaty: SVG.
+- **Grafika rastrowa:** piksele, strata jakości przy skalowaniu. Formaty: JPEG (zdjęcia), PNG (przezroczystość), WebP (nowoczesny skompresowany format).
+- **Grafika wektorowa:** krzywe matematyczne, bezstratne skalowanie. Formaty: SVG.
 - **Barwy:** RGB (dla ekranów), CMYK (dla druku).
 - **3D:** Siatka (mesh) -> Tekstura -> Światło -> Render.
 
 ### Animacja komputerowa
 
 - **Klatki kluczowe:** Stany początkowe i końcowe z interpolacją pośrednią (tweening).
-- **CSS Transitions:** `@keyframes` oraz właściwości `transition`, `animation`.
+- **Animacje w CSS:** przejście między dwoma stanami — `transition`; animacja z klatkami kluczowymi — `@keyframes` i właściwość `animation`.
 
 ---
 
@@ -145,6 +149,10 @@ Ocenę wyznacza **najwyższy poziom, który zaliczysz w całości — razem ze w
 
 - [ ] Tworzę strukturalne i semantyczne pliki HTML5
 - [ ] Podłączam arkusze stylów CSS i operuję selektorami
+- [ ] Dodaję listy, tabele i obrazy z tekstem alternatywnym
+- [ ] Obliczam szerokość elementu z modelu pudełkowego
+- [ ] Dopasowuję stronę do telefonu regułą @media
+- [ ] Publikuję stronę w internecie
 - [ ] Znam różnice między grafiką rastrową a wektorową
 - [ ] Potrafię wyeksportować obraz do formatu WebP / SVG
 - [ ] Znam działanie układów Flexbox i Grid

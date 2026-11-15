@@ -212,15 +212,15 @@ je wykonać. Pełne zasady opisuje strona [wymagań edukacyjnych](wymagania-i-bh
 
 ??? example "Dział IV. Strony WWW i grafika komputerowa — 3 zadania do wyboru"
 
-    **A. Kompletny portal internetowy z własnym motywem i optymalizacją RWD/WCAG**
+    **A. Kompletny portal internetowy z własnym motywem, responsywnością i dostępnością**
 
     *Do wykonania po temacie „Tworzenie stron internetowych”.*
 
-    Zaprojektuj i zakoduj od zera wielostronicowy serwis internetowy w czystym HTML5/CSS3 z wykorzystaniem układów Flexbox i Grid.
+    Zaprojektuj i zakoduj od zera wielostronicowy serwis internetowy w czystym HTML5/CSS3 z wykorzystaniem układów Flexbox i Grid. Opublikuj go w internecie.
 
-    Zapewnij pełną responsywność (RWD) dla minimum trzech rozdzielczości ekranu oraz przeprowadź audyt dostępności cyfrowej WCAG, uzyskując wynik 100/100 w teście Google Lighthouse.
+    Zapewnij poprawny wygląd na trzech szerokościach ekranu (telefon, tablet, komputer) i przeprowadź audyt dostępności: automatyczny test Lighthouse (zakładka Accessibility) oraz własną listę kontrolną zasad WCAG, których Lighthouse nie sprawdza (sens tekstów alternatywnych, zrozumiałe opisy odnośników, obsługa klawiaturą). Popraw znalezione błędy.
 
-    **Oddajesz:** kod źródłowy serwisu, pliki graficzne oraz raport z audytu Lighthouse w formacie PDF
+    **Oddajesz:** adres opublikowanego serwisu, kod źródłowy, pliki graficzne oraz raport z audytu (wynik Lighthouse przed poprawkami i po nich, lista kontrolna z uwagami) w formacie PDF
 
     ---
 

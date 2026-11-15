@@ -90,6 +90,8 @@ extra_javascript:
   - assets/js/podpowiedzi.js
   # Tryb prezentacji (slajd po slajdzie ze strony tematu).
   - assets/js/slajdy.js
+  # Podgląd HTML i CSS na żywo (temat „Tworzenie stron internetowych”).
+  - assets/js/html-podglad.js
 
 markdown_extensions:
   - abbr

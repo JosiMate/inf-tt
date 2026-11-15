@@ -3,7 +3,7 @@
 !!! abstract "O tym temacie"
 
     **4 godziny lekcyjne** · Dział IV. Strony WWW i grafika komputerowa
-    · podstawa programowa **I.1, I.2, III.3**
+    · podstawa programowa **II.3a**, **II.3f**
 
     Komputerowe przetwarzanie obrazu to kluczowy element współczesnych mediów. Na tych zajęciach dowiesz się, czym różni się grafika rastrowa od wektorowej, poznasz modele barw (RGB, CMYK), podstawy edycji obrazów w programach graficznych oraz zasady modelowania i renderowania obiektów w przestrzeni trójwymiarowej (3D).
 
