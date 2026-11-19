@@ -30,7 +30,7 @@ wspólnego z ocenami.
 | **[Znajdowanie drogi wyjścia z labiryntu](labirynt.md)** | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | **[Wykorzystanie list w rozwiązywaniu problemów](listy.md)** | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | **[Grafy. Znajdowanie najkrótszej drogi](grafy.md)** | 6 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| *Wiesz, umiesz, zdasz* | 4 | — |
+| *[Wiesz, umiesz, zdasz](wiesz-umiesz-zdasz-2.md)* | 4 | :material-clipboard-text-clock:{ title="Zakres sprawdzianu i powtórka" } zakres i powtórka |
 
 ### Dział III. Algorytmy numeryczne
 
